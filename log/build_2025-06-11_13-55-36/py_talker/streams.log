@@ -1,0 +1,25 @@
+[3.871s] Invoking command in '/home/foka/ros2_humble2/src/py_talker': PYTHONPATH=/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/foka/ros2_humble2/build/py_talker/build install --record /home/foka/ros2_humble2/build/py_talker/install.log --single-version-externally-managed install_data
+[5.078s] running egg_info
+[5.082s] writing ../../build/py_talker/py_talker.egg-info/PKG-INFO
+[5.083s] writing dependency_links to ../../build/py_talker/py_talker.egg-info/dependency_links.txt
+[5.084s] writing entry points to ../../build/py_talker/py_talker.egg-info/entry_points.txt
+[5.086s] writing requirements to ../../build/py_talker/py_talker.egg-info/requires.txt
+[5.087s] writing top-level names to ../../build/py_talker/py_talker.egg-info/top_level.txt
+[5.096s] reading manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'
+[5.100s] writing manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'
+[5.101s] running build
+[5.101s] running build_py
+[5.102s] copying py_talker/talker.py -> /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker
+[5.104s] running install
+[5.106s] running install_lib
+[5.114s] copying /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker/talker.py -> /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker
+[5.115s] byte-compiling /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker/talker.py to talker.cpython-310.pyc
+[5.118s] running install_data
+[5.130s] running install_egg_info
+[5.135s] removing '/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info' (and everything under it)
+[5.140s] Copying ../../build/py_talker/py_talker.egg-info to /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info
+[5.145s] running install_scripts
+[5.247s] Installing listener script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker
+[5.249s] Installing talker script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker
+[5.250s] writing list of installed files to '/home/foka/ros2_humble2/build/py_talker/install.log'
+[5.398s] Invoked command in '/home/foka/ros2_humble2/src/py_talker' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/foka/ros2_humble2/build/py_talker/build install --record /home/foka/ros2_humble2/build/py_talker/install.log --single-version-externally-managed install_data

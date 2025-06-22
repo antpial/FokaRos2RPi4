@@ -1,0 +1,3 @@
+[console_scripts]
+aggregator = aggregator.aggregator:main
+

@@ -1,0 +1,37 @@
+[3.401s] Invoking command in '/home/foka/ros2_humble2/src/sensor_thermometer': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_thermometer build --build-base /home/foka/ros2_humble2/build/sensor_thermometer/build install --record /home/foka/ros2_humble2/build/sensor_thermometer/install.log --single-version-externally-managed install_data
+[4.522s] running egg_info
+[4.525s] creating ../../build/sensor_thermometer/sensor_thermometer.egg-info
+[4.526s] writing ../../build/sensor_thermometer/sensor_thermometer.egg-info/PKG-INFO
+[4.527s] writing dependency_links to ../../build/sensor_thermometer/sensor_thermometer.egg-info/dependency_links.txt
+[4.527s] writing entry points to ../../build/sensor_thermometer/sensor_thermometer.egg-info/entry_points.txt
+[4.528s] writing requirements to ../../build/sensor_thermometer/sensor_thermometer.egg-info/requires.txt
+[4.529s] writing top-level names to ../../build/sensor_thermometer/sensor_thermometer.egg-info/top_level.txt
+[4.530s] writing manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'
+[4.536s] reading manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'
+[4.540s] writing manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'
+[4.540s] running build
+[4.541s] running build_py
+[4.541s] creating /home/foka/ros2_humble2/build/sensor_thermometer/build
+[4.542s] creating /home/foka/ros2_humble2/build/sensor_thermometer/build/lib
+[4.542s] creating /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+[4.543s] copying sensor_thermometer/__init__.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+[4.543s] copying sensor_thermometer/sensor_thermometer.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+[4.544s] running install
+[4.545s] running install_lib
+[4.548s] creating /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+[4.548s] copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/__init__.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+[4.549s] copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/sensor_thermometer.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+[4.552s] byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/__init__.py to __init__.cpython-310.pyc
+[4.553s] byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/sensor_thermometer.py to sensor_thermometer.cpython-310.pyc
+[4.556s] running install_data
+[4.557s] creating /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index
+[4.557s] creating /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index
+[4.558s] creating /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index/packages
+[4.558s] copying resource/sensor_thermometer -> /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index/packages
+[4.559s] copying package.xml -> /home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer
+[4.559s] running install_egg_info
+[4.566s] Copying ../../build/sensor_thermometer/sensor_thermometer.egg-info to /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer-0.0.0-py3.10.egg-info
+[4.571s] running install_scripts
+[4.651s] Installing sensor_thermometer script to /home/foka/ros2_humble2/install/sensor_thermometer/lib/sensor_thermometer
+[4.653s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_thermometer/install.log'
+[4.795s] Invoked command in '/home/foka/ros2_humble2/src/sensor_thermometer' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_thermometer build --build-base /home/foka/ros2_humble2/build/sensor_thermometer/build install --record /home/foka/ros2_humble2/build/sensor_thermometer/install.log --single-version-externally-managed install_data

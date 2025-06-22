@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_thermometer = sensor_thermometer.sensor_thermometer:main
+

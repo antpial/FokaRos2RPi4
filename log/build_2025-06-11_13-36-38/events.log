@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001584] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.001713] (py_talker) JobQueued: {'identifier': 'py_talker', 'dependencies': OrderedDict()}
+[0.001797] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.039782] (py_talker) JobStarted: {'identifier': 'py_talker'}
+[0.080821] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.083489] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/foka/ros2_humble2/src/msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces'], 'cwd': '/home/foka/ros2_humble2/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foka'), ('SSH_CLIENT', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/foka'), ('OLDPWD', '/home/foka/ros2_humble2/src/msg_interfaces'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-98c269f6-37ba-405f-8eaf-a93f7aac29f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/foka/ros2_humble2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'foka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-450270d9c0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/foka/ros2_humble2/build/msg_interfaces'), ('SSH_CONNECTION', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 fe80::da3a:ddff:fe9e:3ae6%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble')]), 'shell': False}
+[0.099245] (-) TimerEvent: {}
+[0.200478] (-) TimerEvent: {}
+[0.301259] (-) TimerEvent: {}
+[0.401958] (-) TimerEvent: {}
+[0.502591] (-) TimerEvent: {}
+[0.603245] (-) TimerEvent: {}
+[0.703902] (-) TimerEvent: {}
+[0.804521] (-) TimerEvent: {}
+[0.905202] (-) TimerEvent: {}
+[0.918301] (msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.005365] (-) TimerEvent: {}
+[1.106499] (-) TimerEvent: {}
+[1.207220] (-) TimerEvent: {}
+[1.308132] (-) TimerEvent: {}
+[1.409791] (-) TimerEvent: {}
+[1.511865] (-) TimerEvent: {}
+[1.612532] (-) TimerEvent: {}
+[1.691798] (msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.712684] (-) TimerEvent: {}
+[1.813312] (-) TimerEvent: {}
+[1.871207] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.913471] (-) TimerEvent: {}
+[2.014132] (-) TimerEvent: {}
+[2.114815] (-) TimerEvent: {}
+[2.204233] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.214993] (-) TimerEvent: {}
+[2.229579] (msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.232094] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.234686] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.249013] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.315199] (-) TimerEvent: {}
+[2.416112] (-) TimerEvent: {}
+[2.516897] (-) TimerEvent: {}
+[2.601167] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.617063] (-) TimerEvent: {}
+[2.628038] (msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.629086] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.630709] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.668962] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.717306] (-) TimerEvent: {}
+[2.818090] (-) TimerEvent: {}
+[2.918893] (-) TimerEvent: {}
+[3.019827] (-) TimerEvent: {}
+[3.120605] (-) TimerEvent: {}
+[3.221370] (-) TimerEvent: {}
+[3.322140] (-) TimerEvent: {}
+[3.422922] (-) TimerEvent: {}
+[3.461999] (msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.523110] (-) TimerEvent: {}
+[3.623981] (-) TimerEvent: {}
+[3.724787] (-) TimerEvent: {}
+[3.805601] (py_talker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_talker', 'build', '--build-base', '/home/foka/ros2_humble2/build/py_talker/build', 'install', '--record', '/home/foka/ros2_humble2/build/py_talker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/foka/ros2_humble2/src/py_talker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foka', 'SSH_CLIENT': 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/foka', 'OLDPWD': '/home/foka/ros2_humble2/src/msg_interfaces', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-98c269f6-37ba-405f-8eaf-a93f7aac29f0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/foka/ros2_humble2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'foka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-450270d9c0.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/foka/ros2_humble2/build/py_talker', 'SSH_CONNECTION': 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 fe80::da3a:ddff:fe9e:3ae6%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.825124] (-) TimerEvent: {}
+[3.927251] (-) TimerEvent: {}
+[4.028024] (-) TimerEvent: {}
+[4.122383] (msg_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.128211] (-) TimerEvent: {}
+[4.228952] (-) TimerEvent: {}
+[4.329683] (-) TimerEvent: {}
+[4.422695] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.429861] (-) TimerEvent: {}
+[4.468198] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.530016] (-) TimerEvent: {}
+[4.532943] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.621969] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.630250] (-) TimerEvent: {}
+[4.730958] (-) TimerEvent: {}
+[4.736849] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.831148] (-) TimerEvent: {}
+[4.913187] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.931312] (-) TimerEvent: {}
+[4.969967] (py_talker) StdoutLine: {'line': b'running egg_info\n'}
+[4.972796] (py_talker) StdoutLine: {'line': b'writing ../../build/py_talker/py_talker.egg-info/PKG-INFO\n'}
+[4.973979] (py_talker) StdoutLine: {'line': b'writing dependency_links to ../../build/py_talker/py_talker.egg-info/dependency_links.txt\n'}
+[4.975058] (py_talker) StdoutLine: {'line': b'writing entry points to ../../build/py_talker/py_talker.egg-info/entry_points.txt\n'}
+[4.976002] (py_talker) StdoutLine: {'line': b'writing requirements to ../../build/py_talker/py_talker.egg-info/requires.txt\n'}
+[4.976888] (py_talker) StdoutLine: {'line': b'writing top-level names to ../../build/py_talker/py_talker.egg-info/top_level.txt\n'}
+[4.985493] (py_talker) StdoutLine: {'line': b"reading manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'\n"}
+[4.989077] (py_talker) StdoutLine: {'line': b"writing manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'\n"}
+[4.989697] (py_talker) StdoutLine: {'line': b'running build\n'}
+[4.990081] (py_talker) StdoutLine: {'line': b'running build_py\n'}
+[4.991529] (py_talker) StdoutLine: {'line': b'running install\n'}
+[4.992972] (py_talker) StdoutLine: {'line': b'running install_lib\n'}
+[4.999059] (py_talker) StdoutLine: {'line': b'running install_data\n'}
+[4.999939] (py_talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.008087] (py_talker) StdoutLine: {'line': b"removing '/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.009716] (py_talker) StdoutLine: {'line': b'Copying ../../build/py_talker/py_talker.egg-info to /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info\n'}
+[5.014947] (py_talker) StdoutLine: {'line': b'running install_scripts\n'}
+[5.031541] (-) TimerEvent: {}
+[5.101841] (py_talker) StdoutLine: {'line': b'Installing listener script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker\n'}
+[5.102801] (py_talker) StdoutLine: {'line': b'Installing talker script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker\n'}
+[5.104723] (py_talker) StdoutLine: {'line': b"writing list of installed files to '/home/foka/ros2_humble2/build/py_talker/install.log'\n"}
+[5.131755] (-) TimerEvent: {}
+[5.234845] (-) TimerEvent: {}
+[5.252545] (py_talker) CommandEnded: {'returncode': 0}
+[5.325590] (py_talker) JobEnded: {'identifier': 'py_talker', 'rc': 0}
+[5.334967] (-) TimerEvent: {}
+[5.435676] (-) TimerEvent: {}
+[5.536308] (-) TimerEvent: {}
+[5.636921] (-) TimerEvent: {}
+[5.737509] (-) TimerEvent: {}
+[5.838280] (-) TimerEvent: {}
+[5.855136] (msg_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):\n'}
+[5.855952] (msg_interfaces) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[5.856349] (msg_interfaces) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[5.856645] (msg_interfaces) StderrLine: {'line': b'  package.xml\n'}
+[5.856925] (msg_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.857200] (msg_interfaces) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[5.857466] (msg_interfaces) StderrLine: {'line': b'\n'}
+[5.857734] (msg_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[5.857999] (msg_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.858295] (msg_interfaces) StdoutLine: {'line': b'See also "/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[5.876113] (msg_interfaces) CommandEnded: {'returncode': 1}
+[5.938406] (-) TimerEvent: {}
+[5.940396] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 1}
+[5.952406] (-) EventReactorShutdown: {}

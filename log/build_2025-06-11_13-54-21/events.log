@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.001637] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.002221] (py_talker) JobQueued: {'identifier': 'py_talker', 'dependencies': OrderedDict()}
+[0.002703] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.028102] (py_talker) JobStarted: {'identifier': 'py_talker'}
+[0.060704] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.063734] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[0.066736] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/foka/ros2_humble2/build/msg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/foka/ros2_humble2/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foka'), ('SSH_CLIENT', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/foka'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-308994d7-2e6b-4af9-a180-d3b2e02c63b5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/foka/ros2_humble2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'foka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-43d38d7e62f34ef9.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a35ee8a50b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/foka/ros2_humble2/build/msg_interfaces'), ('SSH_CONNECTION', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 fe80::da3a:ddff:fe9e:3ae6%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble')]), 'shell': False}
+[0.099035] (-) TimerEvent: {}
+[0.200490] (-) TimerEvent: {}
+[0.259553] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.300730] (-) TimerEvent: {}
+[0.319051] (msg_interfaces) StdoutLine: {'line': b'[ 12%] Built target msg_interfaces__rosidl_generator_c\n'}
+[0.321578] (msg_interfaces) StdoutLine: {'line': b'[ 12%] Built target msg_interfaces__cpp\n'}
+[0.354823] (msg_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[0.376450] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.400982] (-) TimerEvent: {}
+[0.404656] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.409445] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.461996] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.500936] (msg_interfaces) StdoutLine: {'line': b'[ 22%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.501637] (-) TimerEvent: {}
+[0.532054] (msg_interfaces) StdoutLine: {'line': b'[ 32%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.545697] (msg_interfaces) StdoutLine: {'line': b'[ 41%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[0.589227] (msg_interfaces) StdoutLine: {'line': b'[ 51%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.601858] (-) TimerEvent: {}
+[0.617093] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.625659] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.700933] (msg_interfaces) StdoutLine: {'line': b'[ 61%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[0.702558] (-) TimerEvent: {}
+[0.749845] (msg_interfaces) StdoutLine: {'line': b'[ 70%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.804529] (-) TimerEvent: {}
+[0.870099] (msg_interfaces) StdoutLine: {'line': b'[ 70%] Built target msg_interfaces\n'}
+[0.904781] (-) TimerEvent: {}
+[1.009330] (-) TimerEvent: {}
+[1.111510] (-) TimerEvent: {}
+[1.141841] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces__py\n'}
+[1.196049] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.212605] (-) TimerEvent: {}
+[1.265893] (msg_interfaces) StdoutLine: {'line': b'[ 80%] Built target msg_interfaces__rosidl_generator_py\n'}
+[1.312800] (-) TimerEvent: {}
+[1.367888] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.413010] (-) TimerEvent: {}
+[1.416401] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.452859] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.513229] (-) TimerEvent: {}
+[1.564738] (msg_interfaces) StdoutLine: {'line': b'[ 87%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.606661] (msg_interfaces) StdoutLine: {'line': b'[ 93%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.613413] (-) TimerEvent: {}
+[1.650787] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.713619] (-) TimerEvent: {}
+[1.816026] (-) TimerEvent: {}
+[1.917417] (-) TimerEvent: {}
+[2.020542] (-) TimerEvent: {}
+[2.123523] (-) TimerEvent: {}
+[2.225450] (-) TimerEvent: {}
+[2.326900] (-) TimerEvent: {}
+[2.428768] (-) TimerEvent: {}
+[2.531003] (-) TimerEvent: {}
+[2.632673] (-) TimerEvent: {}
+[2.645267] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.650472] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[2.652266] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[2.654000] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[2.670700] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.674459] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.732983] (-) TimerEvent: {}
+[2.835290] (-) TimerEvent: {}
+[2.880240] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[2.935501] (-) TimerEvent: {}
+[2.965570] (msg_interfaces) CommandEnded: {'returncode': 0}
+[2.982094] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'install'}
+[3.033016] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/foka/ros2_humble2/build/msg_interfaces'], 'cwd': '/home/foka/ros2_humble2/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foka'), ('SSH_CLIENT', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/foka'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-308994d7-2e6b-4af9-a180-d3b2e02c63b5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/foka/ros2_humble2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'foka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-43d38d7e62f34ef9.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a35ee8a50b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/foka/ros2_humble2/build/msg_interfaces'), ('SSH_CONNECTION', 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 fe80::da3a:ddff:fe9e:3ae6%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble')]), 'shell': False}
+[3.036380] (-) TimerEvent: {}
+[3.077283] (msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.079211] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces\n'}
+[3.079965] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.081410] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.085578] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/sensor_data.h\n'}
+[3.086712] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.091031] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.093202] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__functions.h\n'}
+[3.093895] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__functions.c\n'}
+[3.098422] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__struct.h\n'}
+[3.101449] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.h\n'}
+[3.103700] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh\n'}
+[3.134408] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv\n'}
+[3.156071] (-) TimerEvent: {}
+[3.156697] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so\n'}
+[3.157409] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.157931] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.158464] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.158999] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.159508] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.165640] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.166228] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.166791] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.167402] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/sensor_data.hpp\n'}
+[3.168154] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.168830] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__builder.hpp\n'}
+[3.169602] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__struct.hpp\n'}
+[3.170201] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.hpp\n'}
+[3.170773] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__traits.hpp\n'}
+[3.171354] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.192232] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.193077] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.193841] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.194532] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.195186] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps\n'}
+[3.200421] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.201249] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.201923] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.202539] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.203181] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.204116] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[3.204645] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.c\n'}
+[3.205103] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.205557] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.206005] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so\n'}
+[3.206426] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[3.206845] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[3.207378] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[3.222712] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.223637] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.cpp\n'}
+[3.232492] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.232990] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.233427] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh\n'}
+[3.233872] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv\n'}
+[3.234378] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.234926] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.235418] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.256072] (-) TimerEvent: {}
+[3.268496] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.269246] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.269726] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces\n'}
+[3.270209] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py\n'}
+[3.270702] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.271170] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\n'}
+[3.271667] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.272378] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.273163] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.274045] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg\n'}
+[3.274827] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_sensor_data.py\n'}
+[3.275491] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py\n'}
+[3.300481] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_sensor_data_s.c\n'}
+[3.301007] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.301518] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.356279] (-) TimerEvent: {}
+[3.448841] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...\n"}
+[3.449527] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...\n"}
+[3.456640] (-) TimerEvent: {}
+[3.492099] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.494240] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.500613] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.506731] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so\n'}
+[3.511106] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/msg/SensorData.idl\n'}
+[3.514022] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/msg/SensorData.msg\n'}
+[3.517120] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces\n'}
+[3.520427] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces\n'}
+[3.529856] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh\n'}
+[3.537916] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.541096] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/path.sh\n'}
+[3.544210] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/path.dsv\n'}
+[3.547922] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.bash\n'}
+[3.550894] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.sh\n'}
+[3.553721] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.zsh\n'}
+[3.556811] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.dsv\n'}
+[3.557609] (-) TimerEvent: {}
+[3.561403] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv\n'}
+[3.569615] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces\n'}
+[3.573118] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.575675] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.580021] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.582962] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.586510] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.590825] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.594159] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.597166] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.598632] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.600335] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.601509] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.602733] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.610402] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.615410] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.620125] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.624373] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.628413] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.632737] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.635995] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.645639] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.649570] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.653825] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.657067] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.658175] (-) TimerEvent: {}
+[3.662087] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.666891] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake\n'}
+[3.671001] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake\n'}
+[3.672849] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.xml\n'}
+[3.692156] (msg_interfaces) CommandEnded: {'returncode': 0}
+[3.759725] (-) TimerEvent: {}
+[3.863364] (-) TimerEvent: {}
+[3.907279] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 0}
+[3.963592] (-) TimerEvent: {}
+[4.065426] (-) TimerEvent: {}
+[4.168388] (-) TimerEvent: {}
+[4.270351] (-) TimerEvent: {}
+[4.371727] (-) TimerEvent: {}
+[4.473463] (-) TimerEvent: {}
+[4.574983] (-) TimerEvent: {}
+[4.676483] (-) TimerEvent: {}
+[4.777911] (-) TimerEvent: {}
+[4.879258] (-) TimerEvent: {}
+[4.980919] (-) TimerEvent: {}
+[5.084342] (-) TimerEvent: {}
+[5.186860] (-) TimerEvent: {}
+[5.283348] (py_talker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_talker', 'build', '--build-base', '/home/foka/ros2_humble2/build/py_talker/build', 'install', '--record', '/home/foka/ros2_humble2/build/py_talker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/foka/ros2_humble2/src/py_talker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foka', 'SSH_CLIENT': 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/foka', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-308994d7-2e6b-4af9-a180-d3b2e02c63b5.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/foka/ros2_humble2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'foka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/foka/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-43d38d7e62f34ef9.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a35ee8a50b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/foka/ros2_humble2/build/py_talker', 'SSH_CONNECTION': 'fe80::c83:c54f:fd6e:b55b%wlan0 60906 fe80::da3a:ddff:fe9e:3ae6%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/foka/ros2_humble2/install/msg_interfaces'}, 'shell': False}
+[5.287738] (-) TimerEvent: {}
+[5.400179] (-) TimerEvent: {}
+[5.501015] (-) TimerEvent: {}
+[5.601861] (-) TimerEvent: {}
+[5.703263] (-) TimerEvent: {}
+[5.804792] (-) TimerEvent: {}
+[5.906627] (-) TimerEvent: {}
+[6.009138] (-) TimerEvent: {}
+[6.110537] (-) TimerEvent: {}
+[6.211352] (-) TimerEvent: {}
+[6.312147] (-) TimerEvent: {}
+[6.413023] (-) TimerEvent: {}
+[6.514069] (-) TimerEvent: {}
+[6.615160] (-) TimerEvent: {}
+[6.716125] (-) TimerEvent: {}
+[6.817149] (-) TimerEvent: {}
+[6.919186] (-) TimerEvent: {}
+[7.016475] (py_talker) StdoutLine: {'line': b'running egg_info\n'}
+[7.019475] (-) TimerEvent: {}
+[7.027330] (py_talker) StdoutLine: {'line': b'writing ../../build/py_talker/py_talker.egg-info/PKG-INFO\n'}
+[7.030666] (py_talker) StdoutLine: {'line': b'writing dependency_links to ../../build/py_talker/py_talker.egg-info/dependency_links.txt\n'}
+[7.033417] (py_talker) StdoutLine: {'line': b'writing entry points to ../../build/py_talker/py_talker.egg-info/entry_points.txt\n'}
+[7.036314] (py_talker) StdoutLine: {'line': b'writing requirements to ../../build/py_talker/py_talker.egg-info/requires.txt\n'}
+[7.039309] (py_talker) StdoutLine: {'line': b'writing top-level names to ../../build/py_talker/py_talker.egg-info/top_level.txt\n'}
+[7.053851] (py_talker) StdoutLine: {'line': b"reading manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'\n"}
+[7.059324] (py_talker) StdoutLine: {'line': b"writing manifest file '../../build/py_talker/py_talker.egg-info/SOURCES.txt'\n"}
+[7.060995] (py_talker) StdoutLine: {'line': b'running build\n'}
+[7.062187] (py_talker) StdoutLine: {'line': b'running build_py\n'}
+[7.064260] (py_talker) StdoutLine: {'line': b'copying py_talker/talker.py -> /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker\n'}
+[7.066128] (py_talker) StdoutLine: {'line': b'copying py_talker/listener.py -> /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker\n'}
+[7.067721] (py_talker) StdoutLine: {'line': b'running install\n'}
+[7.069322] (py_talker) StdoutLine: {'line': b'running install_lib\n'}
+[7.073530] (py_talker) StdoutLine: {'line': b'copying /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker/talker.py -> /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker\n'}
+[7.074860] (py_talker) StdoutLine: {'line': b'copying /home/foka/ros2_humble2/build/py_talker/build/lib/py_talker/listener.py -> /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker\n'}
+[7.081912] (py_talker) StdoutLine: {'line': b'byte-compiling /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker/talker.py to talker.cpython-310.pyc\n'}
+[7.085120] (py_talker) StdoutLine: {'line': b'byte-compiling /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker/listener.py to listener.cpython-310.pyc\n'}
+[7.087872] (py_talker) StdoutLine: {'line': b'running install_data\n'}
+[7.088835] (py_talker) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.098018] (py_talker) StdoutLine: {'line': b"removing '/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.108744] (py_talker) StdoutLine: {'line': b'Copying ../../build/py_talker/py_talker.egg-info to /home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages/py_talker-0.0.0-py3.10.egg-info\n'}
+[7.111186] (py_talker) StdoutLine: {'line': b'running install_scripts\n'}
+[7.119976] (-) TimerEvent: {}
+[7.221847] (-) TimerEvent: {}
+[7.248590] (py_talker) StdoutLine: {'line': b'Installing listener script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker\n'}
+[7.249780] (py_talker) StdoutLine: {'line': b'Installing talker script to /home/foka/ros2_humble2/install/py_talker/lib/py_talker\n'}
+[7.252493] (py_talker) StdoutLine: {'line': b"writing list of installed files to '/home/foka/ros2_humble2/build/py_talker/install.log'\n"}
+[7.322260] (-) TimerEvent: {}
+[7.423481] (-) TimerEvent: {}
+[7.432594] (py_talker) CommandEnded: {'returncode': 0}
+[7.481734] (py_talker) JobEnded: {'identifier': 'py_talker', 'rc': 0}
+[7.485998] (-) EventReactorShutdown: {}

@@ -1,0 +1,214 @@
+[0.062s] Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake /home/foka/ros2_humble2/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces
+[0.116s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.732s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.868s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.879s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.905s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.999s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.102s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.318s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.536s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.647s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.648s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.648s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.699s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.759s] -- Added test 'lint_cmake' to check CMake code style
+[4.772s] -- Added test 'xmllint' to check XML markup files
+[4.785s] -- Configuring done
+[5.013s] -- Generating done
+[5.063s] -- Build files have been written to: /home/foka/ros2_humble2/build/msg_interfaces
+[5.088s] Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake /home/foka/ros2_humble2/src/msg_interfaces -DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces
+[5.097s] Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[5.255s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.297s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.333s] [  6%] Built target ament_cmake_python_copy_msg_interfaces
+[6.622s] [  6%] Built target msg_interfaces__cpp
+[6.650s] [  9%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o[0m
+[6.670s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.672s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.840s] running egg_info
+[6.845s] creating msg_interfaces.egg-info
+[6.847s] writing msg_interfaces.egg-info/PKG-INFO
+[6.849s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[6.852s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[6.855s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[6.870s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[6.875s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[7.065s] [ 16%] Built target ament_cmake_python_build_msg_interfaces_egg
+[7.087s] [ 19%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so[0m
+[7.117s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.281s] [ 22%] Built target msg_interfaces__rosidl_generator_c
+[7.333s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.139s] [ 29%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/sensor_data__type_support.cpp.o[0m
+[8.163s] [ 32%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o[0m
+[8.416s] [ 35%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/sensor_data__type_support.cpp.o[0m
+[8.744s] [ 38%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/sensor_data__type_support.c.o[0m
+[8.964s] [ 41%] [32m[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.127s] [ 41%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[9.184s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.201s] [ 48%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so[0m
+[10.412s] [ 48%] Built target msg_interfaces__rosidl_typesupport_cpp
+[10.465s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.670s] [ 54%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/sensor_data__type_support.cpp.o[0m
+[10.850s] [ 58%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.854s] [ 61%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so[0m
+[10.907s] [ 64%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.082s] [ 64%] Built target msg_interfaces__rosidl_typesupport_c
+[11.205s] [ 64%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[11.314s] [ 64%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.777s] [ 67%] [32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/sensor_data__type_support_c.cpp.o[0m
+[13.199s] [ 70%] [32m[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.519s] [ 70%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[13.606s] [ 70%] Built target msg_interfaces
+[13.696s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.959s] [ 74%] Built target msg_interfaces__py
+[15.041s] [ 77%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c.o[0m
+[15.618s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so[0m
+[15.796s] [ 80%] Built target msg_interfaces__rosidl_generator_py
+[15.882s] [ 83%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.885s] [ 87%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.887s] [ 90%] [32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.398s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.399s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.419s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.603s] [100%] Built target msg_interfaces__rosidl_typesupport_c__pyext
+[16.607s] [100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.625s] [100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.664s] Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[16.702s] Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces
+[16.727s] -- Install configuration: ""
+[16.728s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces
+[16.730s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.730s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.731s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/sensor_data.h
+[16.732s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.733s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.734s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__functions.h
+[16.735s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__functions.c
+[16.736s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__struct.h
+[16.737s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.h
+[16.739s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh
+[16.740s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv
+[16.742s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so
+[16.744s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""
+[16.744s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.745s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.745s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.746s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.747s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[16.748s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.751s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.751s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.751s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.752s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/sensor_data.hpp
+[16.753s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.753s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__builder.hpp
+[16.754s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__struct.hpp
+[16.755s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.hpp
+[16.757s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__traits.hpp
+[16.758s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.759s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.760s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.760s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.761s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.762s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps
+[16.763s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[16.764s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.767s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.767s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.767s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.768s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.768s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[16.769s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.c
+[16.771s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.772s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so
+[16.775s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.775s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so
+[16.777s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""
+[16.778s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces
+[16.778s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg
+[16.778s] -- Up-to-date: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail
+[16.779s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[16.780s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/sensor_data__type_support.cpp
+[16.781s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.784s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.784s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so
+[16.786s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.787s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh
+[16.788s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv
+[16.789s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info
+[16.790s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.791s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[16.792s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.793s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.794s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces
+[16.795s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py
+[16.796s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.797s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so
+[16.799s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
+[16.800s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.801s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[16.802s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg
+[16.803s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_sensor_data.py
+[16.804s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py
+[16.805s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_sensor_data_s.c
+[16.806s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.808s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.966s] Listing '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...
+[16.967s] Compiling '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...
+[16.968s] Listing '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...
+[16.969s] Compiling '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...
+[16.970s] Compiling '/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_sensor_data.py'...
+[16.992s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.995s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[16.996s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.999s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.000s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.003s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.003s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so
+[17.006s] -- Set runtime path of "/home/foka/ros2_humble2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""
+[17.007s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/msg/SensorData.idl
+[17.008s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/msg/SensorData.msg
+[17.009s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces
+[17.011s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces
+[17.012s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh
+[17.013s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv
+[17.014s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/path.sh
+[17.016s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/environment/path.dsv
+[17.017s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.bash
+[17.018s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.sh
+[17.019s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.zsh
+[17.020s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/local_setup.dsv
+[17.021s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv
+[17.022s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces
+[17.024s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake
+[17.025s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.027s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.028s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.030s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake
+[17.031s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.032s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.034s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.035s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.037s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake
+[17.039s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.040s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.041s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.043s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake
+[17.044s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.046s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake
+[17.047s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.048s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.050s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.051s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.052s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.054s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.055s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.056s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.058s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake
+[17.059s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake
+[17.060s] -- Installing: /home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.xml
+[17.068s] Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces

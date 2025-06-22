@@ -1,0 +1,6 @@
+{
+  "package_name": "msg_interfaces",
+  "non_idl_tuples": [
+    "/home/foka/ros2_humble2/src/msg_interfaces:msg/SensorData.msg"
+  ]
+}

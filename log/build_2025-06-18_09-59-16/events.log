@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001500] (-) JobUnselected: {'identifier': 'msg_interfaces'}
+[0.001808] (-) JobUnselected: {'identifier': 'py_talker'}
+[0.001920] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.002246] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
+[0.002741] (-) EventReactorShutdown: {}

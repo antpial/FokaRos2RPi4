@@ -1,0 +1,201 @@
+[0.423s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.424s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb3aef040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3c284f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3c284f0>>)
+[1.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/foka/ros2_humble2'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore_ament_install'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_meta']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_meta'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ros']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ros'
+[1.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_interfaces' with type 'ros.ament_cmake' and name 'msg_interfaces'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extensions ['ignore', 'ignore_ament_install']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extension 'ignore'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extension 'ignore_ament_install'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extensions ['colcon_pkg']
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extension 'colcon_pkg'
+[1.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extensions ['colcon_meta']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extension 'colcon_meta'
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extensions ['ros']
+[1.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_talker) by extension 'ros'
+[1.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_talker' with type 'ros.ament_python' and name 'py_talker'
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/foka/ros2_humble2/install
+[1.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[1.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.520s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.521s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.522s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.522s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.522s] DEBUG:colcon.colcon_core.verb:Building package 'msg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/msg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/msg_interfaces', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/msg_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.523s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_args' from command line to 'None'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_target' from command line to 'None'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_clean_cache' from command line to 'False'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_clean_first' from command line to 'False'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'cmake_force_configure' from command line to 'False'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'ament_cmake_args' from command line to 'None'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'catkin_cmake_args' from command line to 'None'
+[1.524s] Level 5:colcon.colcon_core.verb:set package 'py_talker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.525s] DEBUG:colcon.colcon_core.verb:Building package 'py_talker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/py_talker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/py_talker', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/py_talker', 'symlink_install': False, 'test_result_base': None}
+[1.525s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foka/ros2_humble2/src/msg_interfaces' with build type 'ament_cmake'
+[1.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foka/ros2_humble2/src/msg_interfaces'
+[1.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.556s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/py_talker' with build type 'ament_python'
+[1.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_talker', 'ament_prefix_path')
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/ament_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/ament_prefix_path.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/ament_prefix_path.sh'
+[1.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[3.383s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/py_talker'
+[3.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[3.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces
+[4.210s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[4.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/py_talker:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces
+[4.239s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake module files
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake config files
+[4.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib'
+[4.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[4.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[4.276s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[4.277s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[4.278s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/python3.10/site-packages'
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[4.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[4.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.sh'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.bash'
+[4.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[4.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[4.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake module files
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake config files
+[4.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[4.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[4.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[4.343s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib'
+[4.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[4.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[4.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[4.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[4.358s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[4.359s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/python3.10/site-packages'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[4.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[4.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[4.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.sh'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.bash'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[4.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/src/py_talker': PYTHONPATH=/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/foka/ros2_humble2/build/py_talker/build install --record /home/foka/ros2_humble2/build/py_talker/install.log --single-version-externally-managed install_data
+[6.955s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker' for CMake module files
+[6.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/src/py_talker' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/py_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_talker build --build-base /home/foka/ros2_humble2/build/py_talker/build install --record /home/foka/ros2_humble2/build/py_talker/install.log --single-version-externally-managed install_data
+[6.959s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker' for CMake config files
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker/lib'
+[6.964s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker/bin'
+[6.965s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker/lib/pkgconfig/py_talker.pc'
+[6.966s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages'
+[6.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_talker', 'pythonpath')
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/pythonpath.ps1'
+[6.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/pythonpath.dsv'
+[6.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/py_talker/share/py_talker/hook/pythonpath.sh'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/py_talker/bin'
+[6.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_talker)
+[6.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/py_talker/share/py_talker/package.ps1'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/py_talker/share/py_talker/package.dsv'
+[6.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/py_talker/share/py_talker/package.sh'
+[6.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/py_talker/share/py_talker/package.bash'
+[6.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/py_talker/share/py_talker/package.zsh'
+[6.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/py_talker/share/colcon-core/packages/py_talker)
+[6.997s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[7.027s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.028s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.029s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.032s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.033s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.ps1'
+[7.040s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_ps1.py'
+[7.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.ps1'
+[7.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.sh'
+[7.054s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_sh.py'
+[7.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.sh'
+[7.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.bash'
+[7.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.bash'
+[7.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.zsh'
+[7.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.zsh'
