@@ -1,0 +1,17 @@
+sensor_ph:
+  ros__parameters:
+    publish_frequency: 2.0
+    topic_name: "sensor_ph"
+    driver:
+      baudrate: 9600
+      gpio_pin: 17
+      timeout: 2.0
+
+sensor_thermometer:
+  ros__parameters:
+    publish_frequency: 2.0
+    topic_name: "sensor_thermometer"
+    driver:
+      baudrate: 9600
+      gpio_pin: 17
+      timeout: 2.0
