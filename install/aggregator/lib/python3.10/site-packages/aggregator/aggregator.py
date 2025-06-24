@@ -11,7 +11,7 @@ class AggregatorNode(Node):
         self.latest_data = {
             'temperature': None,
             'ph': None,
-            # 'turbidity': None,
+            'turbidity': None,
         }
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
@@ -50,7 +50,7 @@ class AggregatorNode(Node):
         data = {
             'temperature': self.latest_data['temperature'],
             'ph': self.latest_data['ph'],
-            # 'turbidity': self.latest_data['turbidity'],
+            'turbidity': self.latest_data['turbidity'],
             'timestamp': self.get_clock().now().to_msg().sec
 
         }

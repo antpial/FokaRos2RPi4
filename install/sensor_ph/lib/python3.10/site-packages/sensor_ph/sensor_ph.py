@@ -2,13 +2,17 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
 from sensor_ph.sensor_ph_driver import sensor_ph_driver
+from system_launcher.log_helper import setup_logger
+
 
 class sensor_ph_node(Node):
     def __init__(self):
         super().__init__('sensor_ph')
 
-        # Inicjalizacja sterownika senosra pH
+        # Inicjalizacja sterownika senosra pH i loggera 
         self.driver_ph = sensor_ph_driver()
+        self.log = setup_logger(self)
+        self.log("Sensor pH node initialized.")
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
         self.declare_parameter('publish_frequency', 1.0)    #in Hz

@@ -1,5 +1,7 @@
 /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/__init__.py
+/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/log_helper.py
 /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/__pycache__/__init__.cpython-310.pyc
+/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/__pycache__/log_helper.cpython-310.pyc
 /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index/packages/system_launcher
 /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.xml
 /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/launch/launch_all.py

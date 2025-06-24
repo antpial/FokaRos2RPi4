@@ -1,0 +1,23 @@
+[3.058s] Invoking command in '/home/foka/ros2_humble2/src/system_launcher': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_launcher build --build-base /home/foka/ros2_humble2/build/system_launcher/build install --record /home/foka/ros2_humble2/build/system_launcher/install.log --single-version-externally-managed install_data
+[4.195s] running egg_info
+[4.197s] writing ../../build/system_launcher/system_launcher.egg-info/PKG-INFO
+[4.198s] writing dependency_links to ../../build/system_launcher/system_launcher.egg-info/dependency_links.txt
+[4.199s] writing entry points to ../../build/system_launcher/system_launcher.egg-info/entry_points.txt
+[4.200s] writing requirements to ../../build/system_launcher/system_launcher.egg-info/requires.txt
+[4.201s] writing top-level names to ../../build/system_launcher/system_launcher.egg-info/top_level.txt
+[4.209s] reading manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+[4.213s] writing manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+[4.214s] running build
+[4.214s] running build_py
+[4.215s] copying system_launcher/log_helper.py -> /home/foka/ros2_humble2/build/system_launcher/build/lib/system_launcher
+[4.216s] running install
+[4.217s] running install_lib
+[4.221s] copying /home/foka/ros2_humble2/build/system_launcher/build/lib/system_launcher/log_helper.py -> /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher
+[4.224s] byte-compiling /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/log_helper.py to log_helper.cpython-310.pyc
+[4.225s] running install_data
+[4.227s] running install_egg_info
+[4.234s] removing '/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher-0.0.0-py3.10.egg-info' (and everything under it)
+[4.236s] Copying ../../build/system_launcher/system_launcher.egg-info to /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher-0.0.0-py3.10.egg-info
+[4.242s] running install_scripts
+[4.325s] writing list of installed files to '/home/foka/ros2_humble2/build/system_launcher/install.log'
+[4.446s] Invoked command in '/home/foka/ros2_humble2/src/system_launcher' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/system_launcher build --build-base /home/foka/ros2_humble2/build/system_launcher/build install --record /home/foka/ros2_humble2/build/system_launcher/install.log --single-version-externally-managed install_data

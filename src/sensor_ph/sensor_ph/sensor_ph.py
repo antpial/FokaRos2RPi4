@@ -1,14 +1,20 @@
-import rclpy
-from rclpy.node import Node
-from std_msgs.msg import Float32
-from sensor_ph.sensor_ph_driver import sensor_ph_driver
+import rclpy    # Standard ROS 2 library for Python
+from rclpy.node import Node # Base class for ROS 2 nodes
+from std_msgs.msg import Float32 # Sensor Ph bedzie podawal dane w formacie Float32
+from sensor_ph.sensor_ph_driver import sensor_ph_driver # Importuje moj wlasny sterownik (plik obok)
+from system_launcher.log_helper import setup_logger # Samemu stworzony logger, taki sam w kazdym module
+
 
 class sensor_ph_node(Node):
     def __init__(self):
         super().__init__('sensor_ph')
 
-        # Inicjalizacja sterownika senosra pH
-        self.driver_ph = sensor_ph_driver()
+        # Inicjalizacja sterownika senosra pH i loggera 
+        self.log = setup_logger(self)
+        try:
+            self.driver_ph = sensor_ph_driver()
+        except Exception as e:
+            self.log("sensor_ph, error w czasie inicjalizacji sterownika: " + str(e))
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
         self.declare_parameter('publish_frequency', 1.0)    #in Hz
@@ -26,7 +32,11 @@ class sensor_ph_node(Node):
     # Publikowanie topicu z danymi pH dla aggregatora
     def publish_ph(self):
         msg = Float32()
-        msg = self.driver_ph.read_data_example_Float32()
+        try:
+            msg = self.driver_ph.read_data_example_Float32()
+        except Exception as e:
+            self.log("sensor_ph, error w czasie odczytu danych ze sterownika: " + str(e))
+            return
         self.publisher.publish(msg)
         self.get_logger().info(f'Published ph: {msg.data:.2f} w skali ph')
 
