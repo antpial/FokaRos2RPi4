@@ -1,17 +1,17 @@
 sensor_ph:
   ros__parameters:
-    publish_frequency: 2.0
-    topic_name: "sensor_ph"
-    driver:
-      baudrate: 9600
-      gpio_pin: 17
-      timeout: 2.0
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 2.0 # Must be NOT faster than the aggregator!!!
+    ##################################################################
 
 sensor_thermometer:
   ros__parameters:
-    publish_frequency: 2.0
-    topic_name: "sensor_thermometer"
-    driver:
-      baudrate: 9600
-      gpio_pin: 17
-      timeout: 2.0
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 2.0 # Must be NOT faster than the aggregator!!!
+    ##################################################################  
+
+aggregator:
+  ros__parameters:
+    ############################### BE CAREFULL ##############################
+    publish_frequency: 2.0 # Must be at least as fast as the fastest sensor!!!
+    ##########################################################################

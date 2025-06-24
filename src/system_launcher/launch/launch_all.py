@@ -12,16 +12,17 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        # Node(
-        #     package='aggregator',
-        #     executable='aggregator', 
-        #     name='aggregator'
-        # ),
-        # Node(
-        #     package='saver',
-        #     executable='saver',
-        #     name='saver'
-        # ),
+        Node(
+            package='aggregator',
+            executable='aggregator', 
+            name='aggregator',
+            parameters=[config_path]
+        ),
+        Node(
+            package='saver',
+            executable='saver',
+            name='saver'
+        ),
         Node(
             package='sensor_ph',
             executable='sensor_ph',

@@ -14,9 +14,11 @@ class AggregatorNode(Node):
             # 'turbidity': None,
         }
 
-        # Parametr: częstotliwość publikacji
-        self.declare_parameter('publish_rate', 1.0)
-        self.rate = self.get_parameter('publish_rate').value
+        # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
+        self.declare_parameter('publish_frequency', 1.0)
+
+        # Pobranie wartosci parametrow z pliku configuracyjnego
+        self.publish_frequency = self.get_parameter('publish_frequency').get_parameter_value().double_value
 
         # Subskrypcje z czujników
         self.create_subscription(Float32, '/sensor_thermometer', self.temp_callback, 10)
@@ -27,7 +29,12 @@ class AggregatorNode(Node):
         self.publisher = self.create_publisher(String, '/aggregated/data', 10)
 
         # Timer do publikowania
-        self.create_timer(1.0 / self.rate, self.publish_aggregated_data)
+        self.create_timer(1.0 / self.publish_frequency, self.publish_aggregated_data)
+
+    # Metoda do czyszczenia ostatnich danych z czujnika
+    def clear_data(self):
+        for sensor in self.latest_data:
+            self.latest_data[sensor] = None
 
     def temp_callback(self, msg):
         self.latest_data['temperature'] = msg.data
@@ -45,7 +52,9 @@ class AggregatorNode(Node):
             'ph': self.latest_data['ph'],
             # 'turbidity': self.latest_data['turbidity'],
             'timestamp': self.get_clock().now().to_msg().sec
+
         }
+        self.clear_data()  # Czyścimy dane po publikacji
 
         msg = String()
         msg.data = json.dumps(data)
