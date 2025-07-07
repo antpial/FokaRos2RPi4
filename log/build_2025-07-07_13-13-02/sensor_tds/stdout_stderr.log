@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating sensor_tds.egg-info
+writing sensor_tds.egg-info/PKG-INFO
+writing dependency_links to sensor_tds.egg-info/dependency_links.txt
+writing entry points to sensor_tds.egg-info/entry_points.txt
+writing requirements to sensor_tds.egg-info/requires.txt
+writing top-level names to sensor_tds.egg-info/top_level.txt
+writing manifest file 'sensor_tds.egg-info/SOURCES.txt'
+reading manifest file 'sensor_tds.egg-info/SOURCES.txt'
+writing manifest file 'sensor_tds.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor-tds.egg-link (link to .)
+Installing sensor_tds script to /home/foka/ros2_humble2/install/sensor_tds/lib/sensor_tds
+
+Installed /home/foka/ros2_humble2/build/sensor_tds
+running symlink_data
+creating /home/foka/ros2_humble2/install/sensor_tds/share/ament_index
+creating /home/foka/ros2_humble2/install/sensor_tds/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/sensor_tds/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_tds/resource/sensor_tds -> /home/foka/ros2_humble2/install/sensor_tds/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_tds/package.xml -> /home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds

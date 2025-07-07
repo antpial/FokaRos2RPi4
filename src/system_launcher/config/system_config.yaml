@@ -10,8 +10,16 @@ sensor_thermometer:
     publish_frequency: 2.0 # Must be NOT faster than the aggregator!!!
     ##################################################################  
 
+sensor_tds:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 2.0 # Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 0 # 0, 1, 2 or 3 ADC 12b ADS1015
+    
 aggregator:
   ros__parameters:
     ############################### BE CAREFULL ##############################
     publish_frequency: 2.0 # Must be at least as fast as the fastest sensor!!!
     ##########################################################################
+

@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_tds = sensor_tds.sensor_tds:main
+

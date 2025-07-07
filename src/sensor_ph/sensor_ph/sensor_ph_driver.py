@@ -12,4 +12,5 @@ class sensor_ph_driver:
 
     def read_data_Float32(self):
         # I'll add a method to read data from the sensor
+        
         return self.data

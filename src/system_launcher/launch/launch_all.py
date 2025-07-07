@@ -12,27 +12,33 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        # Node(
+        #     package='aggregator',
+        #     executable='aggregator', 
+        #     name='aggregator',
+        #     parameters=[config_path]
+        # ),
+        # Node(
+        #     package='saver',
+        #     executable='saver',
+        #     name='saver'
+        # ),
+        # Node(
+        #     package='sensor_ph',
+        #     executable='sensor_ph',
+        #     name='sensor_ph',
+        #     parameters=[config_path]
+        # ),
+        # Node(
+        #     package='sensor_thermometer',
+        #     executable='sensor_thermometer',
+        #     name='sensor_thermometer',
+        #     parameters=[config_path]
+        # ),                  
         Node(
-            package='aggregator',
-            executable='aggregator', 
-            name='aggregator',
-            parameters=[config_path]
-        ),
-        Node(
-            package='saver',
-            executable='saver',
-            name='saver'
-        ),
-        Node(
-            package='sensor_ph',
-            executable='sensor_ph',
-            name='sensor_ph',
-            parameters=[config_path]
-        ),
-        Node(
-            package='sensor_thermometer',
-            executable='sensor_thermometer',
-            name='sensor_thermometer',
+            package='sensor_tds',
+            executable='sensor_tds',
+            name='sensor_tds',
             parameters=[config_path]
         ),
         # Node(
