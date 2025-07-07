@@ -35,12 +35,12 @@ def generate_launch_description():
         #     name='sensor_thermometer',
         #     parameters=[config_path]
         # ),                  
-        Node(
-            package='sensor_tds',
-            executable='sensor_tds',
-            name='sensor_tds',
-            parameters=[config_path]
-        ),
+        # Node(
+        #     package='sensor_tds',
+        #     executable='sensor_tds',
+        #     name='sensor_tds',
+        #     parameters=[config_path]
+        # ),
         Node(
             package='sensor_voltage',
             executable='sensor_voltage',

@@ -24,7 +24,7 @@ class SaverNode(Node):
         self.get_logger().info(f'Saving data to: {self.filename}')
 
         self.file = open(self.filename, mode='w', newline='')
-        self.writer = csv.DictWriter(self.file, fieldnames=['timestamp', 'temperature', 'ph', 'turbidity', 'tds'])
+        self.writer = csv.DictWriter(self.file, fieldnames=['timestamp', 'temperature', 'ph', 'turbidity', 'tds', 'voltage'])
         self.writer.writeheader()
 
     def listener_callback(self, msg):
@@ -35,7 +35,8 @@ class SaverNode(Node):
                 'temperature': data.get('temperature'),
                 'ph': data.get('ph'),
                 'turbidity': data.get('turbidity'),
-                'tds': data.get('tds')
+                'tds': data.get('tds'),
+                'voltage': data.get('voltage')
             })
         except Exception as e:
             self.get_logger().error(f"Failed to parse or write data: {e}")

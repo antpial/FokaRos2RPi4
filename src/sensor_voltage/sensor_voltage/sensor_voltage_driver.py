@@ -31,16 +31,11 @@ class sensor_voltage_driver:
     def read_data_Float32(self):
         # I'll add a method to read data from the sensor
         voltage = self.chan.voltage
-        ppm = self._voltage_to_ppm(voltage)
-        print(f"Napięcie: {voltage:.3f} V, Bateria: {ppm:.1f} V")
-        return Float32(data=ppm)
+        v = self._scale_voltage(voltage)
+        print(f"Napięcie: {voltage:.3f} V, Bateria: {v:.1f} V")
+        return Float32(data=v)
     
-    # Funkcja do przeliczenia napięcia na ppm (0V = 0ppm, 2.3V = 1000ppm)
+    # Skalowanie napięcia z ADC (0–5V) na rzeczywiste (0–25V)
     @staticmethod
-    def _voltage_to_ppm(voltage, v_max=2.3, ppm_max=1000):
-        # Zabezpieczenie przed przekroczeniem zakresu
-        if voltage < 0:
-            return 0
-        elif voltage > v_max:
-            return ppm_max
-        return (voltage / v_max) * ppm_max
+    def _scale_voltage(voltage_adc, scale_factor=5):
+        return voltage_adc * scale_factor

@@ -13,6 +13,7 @@ class AggregatorNode(Node):
             'ph': None,
             'turbidity': None,
             'tds': None,
+            'voltage': None,
         }
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
@@ -26,6 +27,7 @@ class AggregatorNode(Node):
         self.create_subscription(Float32, '/sensor_ph', self.ph_callback, 10)
         self.create_subscription(Float32, '/sensor_turbidity', self.turb_callback, 10)
         self.create_subscription(Float32, '/sensor_tds', self.tds_callback, 10)
+        self.create_subscription(Float32, '/sensor_voltage', self.voltage_callback, 10)
 
         # Jeden wspólny publisher
         self.publisher = self.create_publisher(String, '/aggregated/data', 10)
@@ -50,6 +52,9 @@ class AggregatorNode(Node):
     def tds_callback(self, msg):
         self.latest_data['tds'] = msg.data
 
+    def voltage_callback(self, msg):
+        self.latest_data['voltage'] = msg.data
+
     def publish_aggregated_data(self):
         # Tworzymy pakiet danych z aktualnymi wartościami (None jeśli brak)
         data = {
@@ -57,6 +62,7 @@ class AggregatorNode(Node):
             'ph': self.latest_data['ph'],
             'turbidity': self.latest_data['turbidity'],
             'tds': self.latest_data['tds'],
+            'voltage': self.latest_data['voltage'],
             'timestamp': self.get_clock().now().to_msg().sec
 
         }
