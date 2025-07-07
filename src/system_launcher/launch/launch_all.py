@@ -23,12 +23,12 @@ def generate_launch_description():
             executable='saver',
             name='saver'
         ),
-        # Node(
-        #     package='sensor_ph',
-        #     executable='sensor_ph',
-        #     name='sensor_ph',
-        #     parameters=[config_path]
-        # ),
+        Node(
+            package='sensor_ph',
+            executable='sensor_ph',
+            name='sensor_ph',
+            parameters=[config_path]
+        ),
         # Node(
         #     package='sensor_thermometer',
         #     executable='sensor_thermometer',
@@ -41,12 +41,12 @@ def generate_launch_description():
         #     name='sensor_tds',
         #     parameters=[config_path]
         # ),
-        Node(
-            package='sensor_voltage',
-            executable='sensor_voltage',
-            name='sensor_voltage',
-            parameters=[config_path]
-        ),
+        # Node(
+        #     package='sensor_voltage',
+        #     executable='sensor_voltage',
+        #     name='sensor_voltage',
+        #     parameters=[config_path]
+        # ),
         # Node(
         #     package='telemetry',
         #     executable='telemetry',

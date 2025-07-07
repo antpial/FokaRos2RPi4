@@ -9,20 +9,23 @@ class sensor_ph_node(Node):
     def __init__(self):
         super().__init__('sensor_ph')
 
-        # Inicjalizacja sterownika senosra pH i loggera 
-        self.log = setup_logger(self)
-        try:
-            self.driver_ph = sensor_ph_driver()
-        except Exception as e:
-            self.log("sensor_ph, error w czasie inicjalizacji sterownika: " + str(e))
-
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
         self.declare_parameter('publish_frequency', 1.0)    #in Hz
         self.declare_parameter('topic_name', 'sensor_ph')
+        self.declare_parameter('adc_channel', -1)   # -1 oznacza, ze nie podano w pliku konfiguracyjnym, wtedy wyskoczy blad
 
         # Pobranie wartosci parametrow z pliku configuracyjnego
         frequency = self.get_parameter('publish_frequency').get_parameter_value().double_value
         topic_name = self.get_parameter('topic_name').get_parameter_value().string_value
+        adc_channel = self.get_parameter('adc_channel').get_parameter_value().integer_value 
+
+        # Inicjalizacja sterownika senosra pH i loggera 
+        self.log = setup_logger(self)
+        try:
+            self.driver_ph = sensor_ph_driver(adc_channel=adc_channel)
+        except Exception as e:
+            self.log("sensor_ph, error w czasie inicjalizacji sterownika: " + str(e))
+            self.get_logger().error(f'Error initializing sensor_ph driver: {e}')
 
         # Utworzenie publishera na dane z czujnika pH
         self.publisher = self.create_publisher(Float32, topic_name, 10)
@@ -33,9 +36,11 @@ class sensor_ph_node(Node):
     def publish_ph(self):
         msg = Float32()
         try:
-            msg = self.driver_ph.read_data_example_Float32()
+            # msg = self.driver_ph.read_data_example_Float32()
+            msg = self.driver_ph.read_data_Float32()
         except Exception as e:
             self.log("sensor_ph, error w czasie odczytu danych ze sterownika: " + str(e))
+            self.get_logger().error(f'Error reading data from sensor_ph driver: {e}')
             return
         self.publisher.publish(msg)
         self.get_logger().info(f'Published ph: {msg.data:.2f} w skali ph')

@@ -3,6 +3,7 @@ sensor_ph:
     ########################### BE CAREFULL ##########################
     publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
     ##################################################################
+    adc_channel: 2 # 0, 1, 2 or 3 ADC 12b ADS1015
 
 sensor_thermometer:
   ros__parameters:
