@@ -1,13 +1,13 @@
 sensor_ph:
   ros__parameters:
     ########################### BE CAREFULL ##########################
-    publish_frequency: 0.5 # Must be NOT faster than the aggregator!!!
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
     ##################################################################
 
 sensor_thermometer:
   ros__parameters:
     ########################### BE CAREFULL ##########################
-    publish_frequency: 0.5 # Must be NOT faster than the aggregator!!!
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
     ##################################################################  
 
 sensor_tds:
@@ -16,6 +16,13 @@ sensor_tds:
     publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
     ##################################################################
     adc_channel: 0 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+sensor_voltage:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 1 # 0, 1, 2 or 3 ADC 12b ADS1015
     
 aggregator:
   ros__parameters:
