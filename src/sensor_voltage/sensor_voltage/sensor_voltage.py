@@ -27,12 +27,12 @@ class sensor_voltage_node(Node):
             self.log("sensor_voltage, error w czasie inicjalizacji sterownika: " + str(e))
             self.get_logger().error(f'Error initializing sensor_voltage driver: {e}')
 
-        # Utworzenie publishera na dane z czujnika pH
+        # Utworzenie publishera na dane z czujnika napięcia
         self.publisher = self.create_publisher(Float32, topic_name, 10)
         self.timer = self.create_timer(1.0 / frequency, self.publish_voltage)
         self.get_logger().info(f'Tds node started, publishing every {1.0 / frequency:.2f} seconds.')
 
-    # Publikowanie topicu z danymi pH dla aggregatora
+    # Publikowanie topicu z danymi napięcia na baterii dla aggregatora
     def publish_voltage(self):
         msg = Float32()
         try:
