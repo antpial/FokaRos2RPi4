@@ -1,1 +1,1 @@
-from msg_interfaces.msg._sensor_data import SensorData  # noqa: F401
+/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/__init__.py

@@ -25,6 +25,7 @@ class sensor_tds_node(Node):
             self.driver_tds = sensor_tds_driver(adc_channel=adc_channel)
         except Exception as e:
             self.log("sensor_tds, error w czasie inicjalizacji sterownika: " + str(e))
+            self.get_logger().error(f'Error initializing sensor_tds driver: {e}')
 
         # Utworzenie publishera na dane z czujnika pH
         self.publisher = self.create_publisher(Float32, topic_name, 10)

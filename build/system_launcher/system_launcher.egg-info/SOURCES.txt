@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/system_launcher/system_launcher.egg-info/PKG-INFO
-../../build/system_launcher/system_launcher.egg-info/SOURCES.txt
-../../build/system_launcher/system_launcher.egg-info/dependency_links.txt
-../../build/system_launcher/system_launcher.egg-info/entry_points.txt
-../../build/system_launcher/system_launcher.egg-info/requires.txt
-../../build/system_launcher/system_launcher.egg-info/top_level.txt
-../../build/system_launcher/system_launcher.egg-info/zip-safe
 config/system_config.yaml
 launch/launch_all.py
 resource/system_launcher

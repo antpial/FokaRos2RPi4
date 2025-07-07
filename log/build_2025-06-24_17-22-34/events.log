@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001332] (-) JobUnselected: {'identifier': 'aggregator'}
-[0.001649] (-) JobUnselected: {'identifier': 'msg_interfaces'}
-[0.001757] (-) JobUnselected: {'identifier': 'saver'}
-[0.002087] (-) JobUnselected: {'identifier': 'sensor_ph'}
-[0.002336] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
-[0.002613] (-) JobUnselected: {'identifier': 'system_launcher'}
-[0.002756] (-) JobUnselected: {'identifier': 'telemetry'}
-[0.002832] (-) EventReactorShutdown: {}

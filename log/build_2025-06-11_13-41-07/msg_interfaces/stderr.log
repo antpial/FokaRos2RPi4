@@ -1,7 +1,0 @@
-[31mCMake Error at /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):
-  find_package(ament_lint_auto) must be called before ament_package()
-Call Stack (most recent call first):
-  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:41 (include)
-  CMakeLists.txt:26 (find_package)
-
-[0m

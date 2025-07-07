@@ -1,0 +1,24 @@
+[9.068s] Invoking command in '/home/foka/ros2_humble2/build/sensor_ph': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/py_talker:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_ph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_ph/build --no-deps symlink_data
+[12.175s] running develop
+[13.506s] running egg_info
+[13.508s] creating sensor_ph.egg-info
+[13.510s] writing sensor_ph.egg-info/PKG-INFO
+[13.512s] writing dependency_links to sensor_ph.egg-info/dependency_links.txt
+[13.512s] writing entry points to sensor_ph.egg-info/entry_points.txt
+[13.513s] writing requirements to sensor_ph.egg-info/requires.txt
+[13.514s] writing top-level names to sensor_ph.egg-info/top_level.txt
+[13.515s] writing manifest file 'sensor_ph.egg-info/SOURCES.txt'
+[13.522s] reading manifest file 'sensor_ph.egg-info/SOURCES.txt'
+[13.526s] writing manifest file 'sensor_ph.egg-info/SOURCES.txt'
+[13.533s] running build_ext
+[13.534s] Creating /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor-ph.egg-link (link to .)
+[13.541s] Installing sensor_ph script to /home/foka/ros2_humble2/install/sensor_ph/lib/sensor_ph
+[13.546s] 
+[13.548s] Installed /home/foka/ros2_humble2/build/sensor_ph
+[13.549s] running symlink_data
+[13.555s] creating /home/foka/ros2_humble2/install/sensor_ph/share/ament_index
+[13.579s] creating /home/foka/ros2_humble2/install/sensor_ph/share/ament_index/resource_index
+[13.580s] creating /home/foka/ros2_humble2/install/sensor_ph/share/ament_index/resource_index/packages
+[13.581s] symbolically linking /home/foka/ros2_humble2/build/sensor_ph/resource/sensor_ph -> /home/foka/ros2_humble2/install/sensor_ph/share/ament_index/resource_index/packages
+[13.603s] symbolically linking /home/foka/ros2_humble2/build/sensor_ph/package.xml -> /home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph
+[17.557s] Invoked command in '/home/foka/ros2_humble2/build/sensor_ph' returned '0': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/py_talker:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_ph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/py_talker/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_ph/build --no-deps symlink_data

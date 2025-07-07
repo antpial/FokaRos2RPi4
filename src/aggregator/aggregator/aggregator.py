@@ -12,6 +12,7 @@ class AggregatorNode(Node):
             'temperature': None,
             'ph': None,
             'turbidity': None,
+            'tds': None,
         }
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
@@ -23,6 +24,7 @@ class AggregatorNode(Node):
         # Subskrypcje z czujników
         self.create_subscription(Float32, '/sensor_thermometer', self.temp_callback, 10)
         self.create_subscription(Float32, '/sensor_ph', self.ph_callback, 10)
+        self.create_subscription(Float32, '/sensor_tds', self.turb_callback, 10)
         # self.create_subscription(Float32, '/turbidity', self.turb_callback, 10)
 
         # Jeden wspólny publisher
@@ -45,12 +47,16 @@ class AggregatorNode(Node):
     def turb_callback(self, msg):
         self.latest_data['turbidity'] = msg.data
 
+    def tds_callback(self, msg):
+        self.latest_data['tds'] = msg.data
+
     def publish_aggregated_data(self):
         # Tworzymy pakiet danych z aktualnymi wartościami (None jeśli brak)
         data = {
             'temperature': self.latest_data['temperature'],
             'ph': self.latest_data['ph'],
             'turbidity': self.latest_data['turbidity'],
+            'tds': self.latest_data['tds'],
             'timestamp': self.get_clock().now().to_msg().sec
 
         }

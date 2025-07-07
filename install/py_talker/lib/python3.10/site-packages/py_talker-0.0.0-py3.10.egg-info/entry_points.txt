@@ -1,4 +1,0 @@
-[console_scripts]
-listener = py_talker.listener:main
-talker = py_talker.talker:main
-
