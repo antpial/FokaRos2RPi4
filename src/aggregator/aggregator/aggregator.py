@@ -24,8 +24,8 @@ class AggregatorNode(Node):
         # Subskrypcje z czujników
         self.create_subscription(Float32, '/sensor_thermometer', self.temp_callback, 10)
         self.create_subscription(Float32, '/sensor_ph', self.ph_callback, 10)
-        self.create_subscription(Float32, '/sensor_tds', self.turb_callback, 10)
-        # self.create_subscription(Float32, '/turbidity', self.turb_callback, 10)
+        self.create_subscription(Float32, '/sensor_turbidity', self.turb_callback, 10)
+        self.create_subscription(Float32, '/sensor_tds', self.tds_callback, 10)
 
         # Jeden wspólny publisher
         self.publisher = self.create_publisher(String, '/aggregated/data', 10)
