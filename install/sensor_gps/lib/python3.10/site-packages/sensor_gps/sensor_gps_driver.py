@@ -1,7 +1,9 @@
 import random
 from std_msgs.msg import Float32
 from msg_interfaces.msg import GpsData
+from sensor_gps import L76X
 import time
+import math
 import board
 import busio
 import adafruit_ads1x15.ads1015 as ADS
@@ -12,17 +14,18 @@ import RPi.GPIO as GPIO
 class sensor_gps_driver:
     def __init__(self,*, adc_channel):
         self.data = GpsData()
-        # Inicjalizacja magistrali I2C
-        # i2c = busio.I2C(board.SCL, board.SDA)
-        # # Inicjalizacja ADS1015
-        # ads = ADS.ADS1015(i2c)
-        # # Ustawienie kanału ADC
-        # if adc_channel < 0 or adc_channel > 3:
-        #     raise ValueError("adc_channel must be between 0 and 3 ")
-        # # Assign the channel based on adc_channel parameter
-        # channels = [ADS.P0, ADS.P1, ADS.P2, ADS.P3]
-        # self.chan = AnalogIn(ads, channels[adc_channel])
+        self.x = L76X.L76X()
+        self.x.L76X_Set_Baudrate(115200)
+        #x.L76X_Send_Command(x.SET_NMEA_BAUDRATE_115200)
+        #time.sleep(2)
+        #x.L76X_Set_Baudrate(115200)
 
+        self.x.L76X_Send_Command(self.x.SET_POS_FIX_400MS);
+
+        #Set output message
+        self.x.L76X_Send_Command(self.x.SET_NMEA_OUTPUT);
+
+        self.x.L76X_Exit_BackupMode();
 
     def read_data_example_Float32(self):
         # Simulate reading data from the sensor
@@ -34,11 +37,18 @@ class sensor_gps_driver:
         return self.data
 
     def read_data_Float32(self):
-        # I'll add a method to read data from the sensor
-        voltage = self.chan.voltage
-        ph = self._voltage_to_ph(voltage)
-        print(f"Napięcie: {voltage:.3f} V, Ph: {ph:.1f} Ph")
-        return Float32(data=ph)
+        self.x.L76X_Gat_GNRMC()
+        if(self.x.Status == 1):
+            print('Already positioned')
+        else:
+            print('No positioning')
+            raise Exception("GPS not positioned")
+        self.data.latitude = self.x.Lat
+        self.data.longitude = self.x.Lon
+        self.data.velocity = self.x.SpeedMh # m/s
+        self.data.acceleration = self.x.HDOP  
+        self.data.satelites = float(self.x.Satellites)  
+        return self.data
     
     # Funkcja do przeliczenia napięcia na ppm (0V = 0ppm, 2.3V = 1000ppm)
     @staticmethod

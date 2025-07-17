@@ -37,8 +37,8 @@ class sensor_gps_node(Node):
     def publish_gps(self):
         msg = GpsData()
         try:
-            msg = self.driver_gps.read_data_example_Float32()
-            # msg = self.driver_gps.read_data_Float32()
+            # msg = self.driver_gps.read_data_example_Float32()
+            msg = self.driver_gps.read_data_Float32()
         except Exception as e:
             self.log("sensor_gps, error w czasie odczytu danych ze sterownika: " + str(e))
             self.get_logger().error(f'Error reading data from sensor_gps driver: {e}')

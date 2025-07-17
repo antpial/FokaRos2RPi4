@@ -1,4 +1,4 @@
 ** TODO **
-- Dodaj plik konfiguracyjny z ktorego kazda paczka bedzie czerpala
-- Popraw telemetry tak zeby wysyłała paczke w poprawnym formacie
-- Dodaj try except i logi tam gdzie to potrzebsne
+- Dodaj w pliku config zeby sprawdzal czy symulowac
+- Ddodaj do sterownika GPS funkcje czytajace prawdziwe dane
+- Dodaj telemetrie

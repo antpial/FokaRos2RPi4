@@ -9,7 +9,10 @@ setup.py
 ../../build/sensor_gps/sensor_gps.egg-info/top_level.txt
 ../../build/sensor_gps/sensor_gps.egg-info/zip-safe
 resource/sensor_gps
+sensor_gps/L76X.py
 sensor_gps/__init__.py
+sensor_gps/config.py
+sensor_gps/main.py
 sensor_gps/sensor_gps.py
 sensor_gps/sensor_gps_driver.py
 test/test_copyright.py

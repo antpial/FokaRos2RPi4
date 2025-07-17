@@ -1,7 +1,7 @@
 import random
 from std_msgs.msg import Float32
 from msg_interfaces.msg import GpsData
-import L76X
+from sensor_gps import L76X
 import time
 import math
 import board
@@ -14,16 +14,16 @@ import RPi.GPIO as GPIO
 class sensor_gps_driver:
     def __init__(self,*, adc_channel):
         self.data = GpsData()
-        self.x=L76X.L76X()
+        self.x = L76X.L76X()
         self.x.L76X_Set_Baudrate(115200)
         #x.L76X_Send_Command(x.SET_NMEA_BAUDRATE_115200)
         #time.sleep(2)
         #x.L76X_Set_Baudrate(115200)
 
-        self.x.L76X_Send_Command(x.SET_POS_FIX_400MS);
+        self.x.L76X_Send_Command(self.x.SET_POS_FIX_400MS);
 
         #Set output message
-        self.x.L76X_Send_Command(x.SET_NMEA_OUTPUT);
+        self.x.L76X_Send_Command(self.x.SET_NMEA_OUTPUT);
 
         self.x.L76X_Exit_BackupMode();
 
@@ -42,11 +42,12 @@ class sensor_gps_driver:
             print('Already positioned')
         else:
             print('No positioning')
+            raise Exception("GPS not positioned")
         self.data.latitude = self.x.Lat
         self.data.longitude = self.x.Lon
-        self.data.velocity = 0.0  # Placeholder, as L76X does not
-        self.data.acceleration = 0.0  # Placeholder, as L76X does
-        self.data.satelites = 0.0  # Placeholder, as L76X does not provide this data
+        self.data.velocity = self.x.SpeedMh # m/s
+        self.data.acceleration = self.x.HDOP  
+        self.data.satelites = float(self.x.Satellites)  
         return self.data
     
     # Funkcja do przeliczenia napięcia na ppm (0V = 0ppm, 2.3V = 1000ppm)
