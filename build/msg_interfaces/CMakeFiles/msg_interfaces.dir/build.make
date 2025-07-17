@@ -67,6 +67,7 @@ include CMakeFiles/msg_interfaces.dir/compiler_depend.make
 include CMakeFiles/msg_interfaces.dir/progress.make
 
 CMakeFiles/msg_interfaces: /home/foka/ros2_humble2/src/msg_interfaces/msg/SensorData.msg
+CMakeFiles/msg_interfaces: /home/foka/ros2_humble2/src/msg_interfaces/msg/GpsData.msg
 CMakeFiles/msg_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/msg_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 

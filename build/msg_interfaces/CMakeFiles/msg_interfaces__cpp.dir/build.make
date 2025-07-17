@@ -71,6 +71,11 @@ CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/s
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__struct.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__traits.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__type_support.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/gps_data.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__builder.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__struct.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__traits.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__type_support.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/share/r
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: rosidl_adapter/msg_interfaces/msg/SensorData.idl
+rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: rosidl_adapter/msg_interfaces/msg/GpsData.idl
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
@@ -106,11 +112,31 @@ rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__traits.hpp: rosidl_g
 rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__type_support.hpp
 
+rosidl_generator_cpp/msg_interfaces/msg/gps_data.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/gps_data.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__builder.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__struct.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__traits.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__type_support.hpp
+
 msg_interfaces__cpp: CMakeFiles/msg_interfaces__cpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__builder.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__struct.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__traits.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__type_support.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__builder.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__struct.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__traits.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__type_support.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/gps_data.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp
 msg_interfaces__cpp: CMakeFiles/msg_interfaces__cpp.dir/build.make
 .PHONY : msg_interfaces__cpp

@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/gps_data__type_support.cpp.o"
+  "CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/gps_data__type_support.cpp.o.d"
   "CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/sensor_data__type_support.cpp.o"
   "CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/sensor_data__type_support.cpp.o.d"
   "libmsg_interfaces__rosidl_typesupport_c.pdb"
   "libmsg_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/msg_interfaces/msg/gps_data__type_support.cpp"
   "rosidl_typesupport_c/msg_interfaces/msg/sensor_data__type_support.cpp"
 )
 

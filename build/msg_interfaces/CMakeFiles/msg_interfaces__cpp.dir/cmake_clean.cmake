@@ -1,9 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/msg_interfaces__cpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__builder.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__struct.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__traits.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/gps_data__type_support.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__builder.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__struct.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__traits.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/sensor_data__type_support.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/gps_data.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/sensor_data.hpp"
 )
 

@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 # generate the message
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SensorData.msg"
+  "msg/GpsData.msg"
   DEPENDENCIES builtin_interfaces
 )
 

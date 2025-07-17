@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.001570] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.002195] (-) JobUnselected: {'identifier': 'saver'}
+[0.002854] (-) JobUnselected: {'identifier': 'sensor_gps'}
+[0.003146] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.003493] (-) JobUnselected: {'identifier': 'sensor_tds'}
+[0.003660] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
+[0.003757] (-) JobUnselected: {'identifier': 'sensor_turbidity'}
+[0.003849] (-) JobUnselected: {'identifier': 'sensor_voltage'}
+[0.003962] (-) JobUnselected: {'identifier': 'system_launcher'}
+[0.004055] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.004158] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.004251] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.057276] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.063527] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/foka/ros2_humble2/src/msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces'], 'cwd': '/home/foka/ros2_humble2/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'foka'), ('SSH_CLIENT', 'fe80::c83:c54f:fd6e:b55b%wlan0 56454 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/foka/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/foka/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/foka'), ('OLDPWD', '/home/foka/ros2_humble2/src'), ('TERM_PROGRAM_VERSION', '1.101.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3e5cfa2-187c-4eab-ab93-b9fab5fb9562.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/foka/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/foka/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/foka/ros2_humble2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'foka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/foka/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-43d38d7e62f34ef9.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a35ee8a50b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/foka/ros2_humble2/build/msg_interfaces'), ('SSH_CONNECTION', 'fe80::c83:c54f:fd6e:b55b%wlan0 56454 fe80::da3a:ddff:fe9e:3ae6%wlan0 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble')]), 'shell': False}
+[0.099013] (-) TimerEvent: {}
+[0.172305] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199202] (-) TimerEvent: {}
+[0.299981] (-) TimerEvent: {}
+[0.400701] (-) TimerEvent: {}
+[0.501344] (-) TimerEvent: {}
+[0.602000] (-) TimerEvent: {}
+[0.702686] (-) TimerEvent: {}
+[0.803370] (-) TimerEvent: {}
+[0.904083] (-) TimerEvent: {}
+[0.906908] (msg_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.983375] (msg_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.004275] (-) TimerEvent: {}
+[1.105074] (-) TimerEvent: {}
+[1.169994] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.187183] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.205232] (-) TimerEvent: {}
+[1.226658] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.285159] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.305417] (-) TimerEvent: {}
+[1.359040] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.405589] (-) TimerEvent: {}
+[1.506352] (-) TimerEvent: {}
+[1.534961] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.606556] (-) TimerEvent: {}
+[1.707248] (-) TimerEvent: {}
+[1.807975] (-) TimerEvent: {}
+[1.908783] (-) TimerEvent: {}
+[2.009450] (-) TimerEvent: {}
+[2.110145] (-) TimerEvent: {}
+[2.210886] (-) TimerEvent: {}
+[2.311733] (-) TimerEvent: {}
+[2.412377] (-) TimerEvent: {}
+[2.513102] (-) TimerEvent: {}
+[2.613798] (-) TimerEvent: {}
+[2.714546] (-) TimerEvent: {}
+[2.815301] (-) TimerEvent: {}
+[2.916219] (-) TimerEvent: {}
+[3.017346] (-) TimerEvent: {}
+[3.070521] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.117588] (-) TimerEvent: {}
+[3.218493] (-) TimerEvent: {}
+[3.319252] (-) TimerEvent: {}
+[3.420754] (-) TimerEvent: {}
+[3.522071] (-) TimerEvent: {}
+[3.622787] (-) TimerEvent: {}
+[3.723698] (-) TimerEvent: {}
+[3.824489] (-) TimerEvent: {}
+[3.925227] (-) TimerEvent: {}
+[4.025942] (-) TimerEvent: {}
+[4.127111] (-) TimerEvent: {}
+[4.228062] (-) TimerEvent: {}
+[4.328770] (-) TimerEvent: {}
+[4.429451] (-) TimerEvent: {}
+[4.530197] (-) TimerEvent: {}
+[4.630974] (-) TimerEvent: {}
+[4.731741] (-) TimerEvent: {}
+[4.832424] (-) TimerEvent: {}
+[4.833133] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.932566] (-) TimerEvent: {}
+[5.033306] (-) TimerEvent: {}
+[5.134396] (-) TimerEvent: {}
+[5.235063] (-) TimerEvent: {}
+[5.335728] (-) TimerEvent: {}
+[5.436410] (-) TimerEvent: {}
+[5.525486] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.536609] (-) TimerEvent: {}
+[5.637273] (-) TimerEvent: {}
+[5.667933] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.737442] (-) TimerEvent: {}
+[5.810721] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.811777] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.812437] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.837704] (-) TimerEvent: {}
+[5.938417] (-) TimerEvent: {}
+[6.039088] (-) TimerEvent: {}
+[6.139787] (-) TimerEvent: {}
+[6.240757] (-) TimerEvent: {}
+[6.342241] (-) TimerEvent: {}
+[6.442949] (-) TimerEvent: {}
+[6.543677] (-) TimerEvent: {}
+[6.644435] (-) TimerEvent: {}
+[6.745151] (-) TimerEvent: {}
+[6.845912] (-) TimerEvent: {}
+[6.856735] (msg_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[6.857743] (msg_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[6.858227] (msg_interfaces) StderrLine: {'line': b'  msg_interfaces --arguments-file\n'}
+[6.858738] (msg_interfaces) StderrLine: {'line': b'  /home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter__arguments__msg_interfaces.json\n'}
+[6.859147] (msg_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[6.859485] (msg_interfaces) StderrLine: {'line': b'  /home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces\n'}
+[6.859829] (msg_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[6.860160] (msg_interfaces) StderrLine: {'line': b'  /home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces.idls)\n'}
+[6.860524] (msg_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[6.860839] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.861137] (msg_interfaces) StderrLine: {'line': b"  Error processing 'int satelites' of 'msg_interfaces/gpsData': ''int' is an\n"}
+[6.861449] (msg_interfaces) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[6.861767] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.862261] (msg_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[6.862767] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.863241] (msg_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[6.863831] (msg_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[6.864690] (msg_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[6.865195] (msg_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[6.865664] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[6.866284] (msg_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[6.866870] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[6.867745] (msg_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[6.868399] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[6.869023] (msg_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[6.869551] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[6.870195] (msg_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[6.870889] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[6.872428] (msg_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[6.873724] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[6.875280] (msg_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[6.876977] (msg_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[6.878361] (msg_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[6.879206] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.879938] (msg_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[6.880797] (msg_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[6.882478] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.884349] (msg_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.885273] (msg_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[6.885747] (msg_interfaces) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[6.886343] (msg_interfaces) StderrLine: {'line': b'\n'}
+[6.886972] (msg_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.887415] (msg_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.887832] (msg_interfaces) StdoutLine: {'line': b'See also "/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[6.890991] (msg_interfaces) CommandEnded: {'returncode': 1}
+[6.946856] (-) TimerEvent: {}
+[6.974283] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 1}
+[6.986673] (-) EventReactorShutdown: {}

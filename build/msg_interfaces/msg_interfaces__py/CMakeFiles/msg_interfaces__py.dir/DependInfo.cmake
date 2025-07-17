@@ -15,6 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/__init__.py" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_gps_data.py" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_gps_data_s.c" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_sensor_data.py" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c" "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )

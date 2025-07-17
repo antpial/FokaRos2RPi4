@@ -361,8 +361,14 @@ include("/home/foka/ros2_humble2/build/msg_interfaces/ament_cmake_symlink_instal
 # install(FILES "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/SensorData.idl" "DESTINATION" "share/msg_interfaces/msg")
 ament_cmake_symlink_install_files("/home/foka/ros2_humble2/src/msg_interfaces" FILES "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/SensorData.idl" "DESTINATION" "share/msg_interfaces/msg")
 
+# install(FILES "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/GpsData.idl" "DESTINATION" "share/msg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/foka/ros2_humble2/src/msg_interfaces" FILES "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/GpsData.idl" "DESTINATION" "share/msg_interfaces/msg")
+
 # install(FILES "/home/foka/ros2_humble2/src/msg_interfaces/msg/SensorData.msg" "DESTINATION" "share/msg_interfaces/msg")
 ament_cmake_symlink_install_files("/home/foka/ros2_humble2/src/msg_interfaces" FILES "/home/foka/ros2_humble2/src/msg_interfaces/msg/SensorData.msg" "DESTINATION" "share/msg_interfaces/msg")
+
+# install(FILES "/home/foka/ros2_humble2/src/msg_interfaces/msg/GpsData.msg" "DESTINATION" "share/msg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/foka/ros2_humble2/src/msg_interfaces" FILES "/home/foka/ros2_humble2/src/msg_interfaces/msg/GpsData.msg" "DESTINATION" "share/msg_interfaces/msg")
 
 # install(FILES "/home/foka/ros2_humble2/build/msg_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/msg_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/foka/ros2_humble2/src/msg_interfaces" FILES "/home/foka/ros2_humble2/build/msg_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/msg_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

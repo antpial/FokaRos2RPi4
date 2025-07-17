@@ -83,6 +83,7 @@ rosidl_generator_c/msg_interfaces/msg/sensor_data.h: /opt/ros/humble/share/rosid
 rosidl_generator_c/msg_interfaces/msg/sensor_data.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/msg_interfaces/msg/sensor_data.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/msg_interfaces/msg/sensor_data.h: rosidl_adapter/msg_interfaces/msg/SensorData.idl
+rosidl_generator_c/msg_interfaces/msg/sensor_data.h: rosidl_adapter/msg_interfaces/msg/GpsData.idl
 rosidl_generator_c/msg_interfaces/msg/sensor_data.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/msg_interfaces/msg/sensor_data.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
@@ -97,8 +98,23 @@ rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__struct.h: rosidl_gener
 rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__type_support.h: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__type_support.h
 
+rosidl_generator_c/msg_interfaces/msg/gps_data.h: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/gps_data.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.h: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/gps_data__struct.h: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/gps_data__struct.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/gps_data__type_support.h: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/gps_data__type_support.h
+
 rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c
+
+rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c
 
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o: rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c
@@ -114,20 +130,36 @@ CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfa
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.s
 
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o: rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o -MF CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o.d -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o -c /home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c
+
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c > CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.i
+
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.s
+
 # Object files for target msg_interfaces__rosidl_generator_c
 msg_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o"
+"CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o" \
+"CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o"
 
 # External object files for target msg_interfaces__rosidl_generator_c
 msg_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c.o
+libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c.o
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/build.make
 libmsg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmsg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmsg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmsg_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmsg_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,10 +170,15 @@ CMakeFiles/msg_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/msg_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/msg_interfaces__rosidl_generator_c.dir/clean
 
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.c
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/gps_data__functions.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/gps_data__struct.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/gps_data__type_support.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.c
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__functions.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__struct.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__type_support.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/gps_data.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/sensor_data.h
 	cd /home/foka/ros2_humble2/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/foka/ros2_humble2/src/msg_interfaces /home/foka/ros2_humble2/src/msg_interfaces /home/foka/ros2_humble2/build/msg_interfaces /home/foka/ros2_humble2/build/msg_interfaces /home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles/msg_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend

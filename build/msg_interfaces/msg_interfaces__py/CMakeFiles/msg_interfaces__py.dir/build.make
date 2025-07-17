@@ -70,8 +70,10 @@ msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interf
 msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
 msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_sensor_data.py
+msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_gps_data.py
 msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/__init__.py
 msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c
+msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_gps_data_s.c
 
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +89,7 @@ rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_interfaces/msg/SensorData.idl
+rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_interfaces/msg/GpsData.idl
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/foka/ros2_humble2/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
@@ -101,17 +104,25 @@ rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c: 
 rosidl_generator_py/msg_interfaces/msg/_sensor_data.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_sensor_data.py
 
+rosidl_generator_py/msg_interfaces/msg/_gps_data.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_gps_data.py
+
 rosidl_generator_py/msg_interfaces/msg/__init__.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/__init__.py
 
 rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c
 
+rosidl_generator_py/msg_interfaces/msg/_gps_data_s.c: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_gps_data_s.c
+
 msg_interfaces__py: msg_interfaces__py/CMakeFiles/msg_interfaces__py
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/__init__.py
+msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_gps_data.py
+msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_gps_data_s.c
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_sensor_data.py
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_sensor_data_s.c
 msg_interfaces__py: msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/build.make

@@ -3,7 +3,8 @@
   "output_dir": "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/SensorData.idl"
+    "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/SensorData.idl",
+    "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/GpsData.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -24,6 +25,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/SensorData.idl",
+    "/home/foka/ros2_humble2/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/GpsData.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]
