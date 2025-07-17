@@ -48,11 +48,17 @@ def generate_launch_description():
         #     parameters=[config_path]
         # ),
         Node(
-            package='sensor_turbidity',
-            executable='sensor_turbidity',
-            name='sensor_turbidity',
+            package='sensor_gps',
+            executable='sensor_gps',
+            name='sensor_gps',
             parameters=[config_path]
         ),
+        # Node(
+        #     package='sensor_turbidity',
+        #     executable='sensor_turbidity',
+        #     name='sensor_turbidity',
+        #     parameters=[config_path]
+        # ),
         # Node(
         #     package='telemetry',
         #     executable='telemetry',

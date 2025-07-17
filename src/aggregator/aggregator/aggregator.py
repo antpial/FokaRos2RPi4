@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32, String
+from msg_interfaces.msg import GpsData
 import json
 
 class AggregatorNode(Node):
@@ -9,6 +10,7 @@ class AggregatorNode(Node):
 
         # Bufor na dane (może być None, jeśli nie przyszły)
         self.latest_data = {
+            'gps': None,
             'temperature': None,
             'ph': None,
             'turbidity': None,
@@ -23,6 +25,7 @@ class AggregatorNode(Node):
         self.publish_frequency = self.get_parameter('publish_frequency').get_parameter_value().double_value
 
         # Subskrypcje z czujników
+        self.create_subscription(GpsData, '/sensor_gps', self.gps_callback, 10)
         self.create_subscription(Float32, '/sensor_thermometer', self.temp_callback, 10)
         self.create_subscription(Float32, '/sensor_ph', self.ph_callback, 10)
         self.create_subscription(Float32, '/sensor_turbidity', self.turb_callback, 10)
@@ -39,6 +42,9 @@ class AggregatorNode(Node):
     def clear_data(self):
         for sensor in self.latest_data:
             self.latest_data[sensor] = None
+
+    def gps_callback(self, msg):
+        self.latest_data['gps'] = msg
 
     def temp_callback(self, msg):
         self.latest_data['temperature'] = msg.data
@@ -57,7 +63,20 @@ class AggregatorNode(Node):
 
     def publish_aggregated_data(self):
         # Tworzymy pakiet danych z aktualnymi wartościami (None jeśli brak)
+        gps_msg = self.latest_data['gps']
+        if gps_msg is not None:
+            gps_data = {
+                'latitude': gps_msg.latitude,
+                'longitude': gps_msg.longitude,
+                'velocity': gps_msg.velocity,
+                'satelites': gps_msg.satelites,
+                'acceleration': gps_msg.acceleration
+            }
+        else:
+            gps_data = None
+
         data = {
+            'gps': gps_data,
             'temperature': self.latest_data['temperature'],
             'ph': self.latest_data['ph'],
             'turbidity': self.latest_data['turbidity'],

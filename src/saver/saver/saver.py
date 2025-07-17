@@ -24,14 +24,32 @@ class SaverNode(Node):
         self.get_logger().info(f'Saving data to: {self.filename}')
 
         self.file = open(self.filename, mode='w', newline='')
-        self.writer = csv.DictWriter(self.file, fieldnames=['timestamp', 'temperature', 'ph', 'turbidity', 'tds', 'voltage'])
+        self.writer = csv.DictWriter(self.file, fieldnames=[
+            'timestamp', 
+            'latitude', 
+            'longitude', 
+            'satelites', 
+            'velocity', 
+            'acceleration', 
+            'temperature', 
+            'ph', 
+            'turbidity', 
+            'tds', 
+            'voltage'])
         self.writer.writeheader()
 
     def listener_callback(self, msg):
         try:
             data = json.loads(msg.data)
+            gps = data.get('gps') or {}
+
             self.writer.writerow({
                 'timestamp': data.get('timestamp'),
+                'latitude': gps.get('latitude'),
+                'longitude': gps.get('longitude'),
+                'satelites': gps.get('satelites'),
+                'velocity': gps.get('velocity'),
+                'acceleration': gps.get('acceleration'),
                 'temperature': data.get('temperature'),
                 'ph': data.get('ph'),
                 'turbidity': data.get('turbidity'),

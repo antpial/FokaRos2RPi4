@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.001214] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.001489] (-) JobUnselected: {'identifier': 'msg_interfaces'}
+[0.001621] (-) JobUnselected: {'identifier': 'saver'}
+[0.001948] (-) JobUnselected: {'identifier': 'sensor_gps'}
+[0.002221] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.002554] (-) JobUnselected: {'identifier': 'sensor_tds'}
+[0.002704] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
+[0.002784] (-) JobUnselected: {'identifier': 'sensor_turbidity'}
+[0.002858] (-) JobUnselected: {'identifier': 'sensor_voltage'}
+[0.002931] (-) JobUnselected: {'identifier': 'system_launcher'}
+[0.003007] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.003083] (-) EventReactorShutdown: {}
