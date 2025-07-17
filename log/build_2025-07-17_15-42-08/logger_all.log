@@ -1,0 +1,719 @@
+[0.666s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.667s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9404b100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff94208f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff94208f70>>)
+[2.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.114s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/foka/ros2_humble2'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ignore'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ignore_ament_install'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['colcon_pkg']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'colcon_meta'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['ros']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ros'
+[2.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aggregator' with type 'ros.ament_python' and name 'aggregator'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore_ament_install'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_pkg']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_pkg'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_meta']
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_meta'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ros']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ros'
+[2.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_interfaces' with type 'ros.ament_cmake' and name 'msg_interfaces'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['ignore', 'ignore_ament_install']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ignore_ament_install'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['colcon_pkg']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'colcon_pkg'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['colcon_meta']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'colcon_meta'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['ros']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ros'
+[2.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/saver' with type 'ros.ament_python' and name 'saver'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['ignore', 'ignore_ament_install']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ignore'
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ignore_ament_install'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['colcon_pkg']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'colcon_pkg'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['colcon_meta']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'colcon_meta'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['ros']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ros'
+[2.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_gps' with type 'ros.ament_python' and name 'sensor_gps'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['ignore', 'ignore_ament_install']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ignore'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ignore_ament_install'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['colcon_pkg']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'colcon_pkg'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['colcon_meta']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'colcon_meta'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['ros']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ros'
+[2.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_ph' with type 'ros.ament_python' and name 'sensor_ph'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['ignore', 'ignore_ament_install']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ignore'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ignore_ament_install'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['colcon_pkg']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'colcon_pkg'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['colcon_meta']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'colcon_meta'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['ros']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ros'
+[2.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_tds' with type 'ros.ament_python' and name 'sensor_tds'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['ignore', 'ignore_ament_install']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ignore_ament_install'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['colcon_pkg']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'colcon_pkg'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['colcon_meta']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'colcon_meta'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['ros']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ros'
+[2.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_thermometer' with type 'ros.ament_python' and name 'sensor_thermometer'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['ignore', 'ignore_ament_install']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ignore'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ignore_ament_install'
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['colcon_pkg']
+[2.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'colcon_pkg'
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['colcon_meta']
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'colcon_meta'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['ros']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ros'
+[2.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_turbidity' with type 'ros.ament_python' and name 'sensor_turbidity'
+[2.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['ignore', 'ignore_ament_install']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ignore'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ignore_ament_install'
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['colcon_pkg']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'colcon_pkg'
+[2.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['colcon_meta']
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'colcon_meta'
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['ros']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ros'
+[2.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_voltage' with type 'ros.ament_python' and name 'sensor_voltage'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['ignore', 'ignore_ament_install']
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ignore'
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ignore_ament_install'
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['colcon_pkg']
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'colcon_pkg'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['colcon_meta']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'colcon_meta'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['ros']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ros'
+[2.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/system_launcher' with type 'ros.ament_python' and name 'system_launcher'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['ignore', 'ignore_ament_install']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ignore'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ignore_ament_install'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['colcon_pkg']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'colcon_pkg'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['colcon_meta']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'colcon_meta'
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['ros']
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ros'
+[2.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/telemetry' with type 'ros.ament_python' and name 'telemetry'
+[2.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.512s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_gps' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.513s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/telemetry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.514s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_voltage' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.515s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_turbidity' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.516s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_tds' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.517s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_ph' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.518s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/system_launcher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.519s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/sensor_thermometer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/saver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.521s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/msg_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.522s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/foka/ros2_humble2/install/aggregator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.523s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/foka/ros2_humble2/install/msg_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.528s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/foka/ros2_humble2/install
+[2.537s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[2.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_args' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_target' from command line to 'None'
+[2.782s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.783s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_clean_cache' from command line to 'False'
+[2.784s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_clean_first' from command line to 'False'
+[2.784s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'cmake_force_configure' from command line to 'False'
+[2.785s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'ament_cmake_args' from command line to 'None'
+[2.786s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'catkin_cmake_args' from command line to 'None'
+[2.786s] Level 5:colcon.colcon_core.verb:set package 'aggregator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.787s] DEBUG:colcon.colcon_core.verb:Building package 'aggregator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/aggregator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/aggregator', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/aggregator', 'symlink_install': True, 'test_result_base': None}
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.792s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.792s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.793s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.794s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.795s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.795s] Level 5:colcon.colcon_core.verb:set package 'msg_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.796s] DEBUG:colcon.colcon_core.verb:Building package 'msg_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/msg_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/msg_interfaces', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/msg_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.798s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_args' from command line to 'None'
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_target' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_clean_first' from command line to 'False'
+[2.802s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'cmake_force_configure' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'ament_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.804s] Level 5:colcon.colcon_core.verb:set package 'saver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.805s] DEBUG:colcon.colcon_core.verb:Building package 'saver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/saver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/saver', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/saver', 'symlink_install': True, 'test_result_base': None}
+[2.808s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_args' from command line to 'None'
+[2.808s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_target' from command line to 'None'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_clean_first' from command line to 'False'
+[2.811s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'cmake_force_configure' from command line to 'False'
+[2.812s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'ament_cmake_args' from command line to 'None'
+[2.813s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[2.813s] Level 5:colcon.colcon_core.verb:set package 'sensor_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.814s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_gps', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_gps', 'symlink_install': True, 'test_result_base': None}
+[2.817s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_args' from command line to 'None'
+[2.817s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_target' from command line to 'None'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_clean_cache' from command line to 'False'
+[2.820s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_clean_first' from command line to 'False'
+[2.821s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'cmake_force_configure' from command line to 'False'
+[2.821s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'ament_cmake_args' from command line to 'None'
+[2.822s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'catkin_cmake_args' from command line to 'None'
+[2.823s] Level 5:colcon.colcon_core.verb:set package 'sensor_thermometer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.824s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_thermometer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_thermometer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_thermometer', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_thermometer', 'symlink_install': True, 'test_result_base': None}
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_args' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_target' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_clean_cache' from command line to 'False'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_clean_first' from command line to 'False'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'cmake_force_configure' from command line to 'False'
+[2.829s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'ament_cmake_args' from command line to 'None'
+[2.830s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'catkin_cmake_args' from command line to 'None'
+[2.831s] Level 5:colcon.colcon_core.verb:set package 'system_launcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.831s] DEBUG:colcon.colcon_core.verb:Building package 'system_launcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/system_launcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/system_launcher', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/system_launcher', 'symlink_install': True, 'test_result_base': None}
+[2.834s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_target' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_clean_cache' from command line to 'False'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_clean_first' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'cmake_force_configure' from command line to 'False'
+[2.838s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'ament_cmake_args' from command line to 'None'
+[2.839s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'catkin_cmake_args' from command line to 'None'
+[2.840s] Level 5:colcon.colcon_core.verb:set package 'telemetry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.841s] DEBUG:colcon.colcon_core.verb:Building package 'telemetry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/telemetry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/telemetry', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/telemetry', 'symlink_install': True, 'test_result_base': None}
+[2.844s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_args' from command line to 'None'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_target' from command line to 'None'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.846s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_clean_cache' from command line to 'False'
+[2.847s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_clean_first' from command line to 'False'
+[2.847s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'cmake_force_configure' from command line to 'False'
+[2.848s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'ament_cmake_args' from command line to 'None'
+[2.849s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'catkin_cmake_args' from command line to 'None'
+[2.850s] Level 5:colcon.colcon_core.verb:set package 'sensor_ph' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.851s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_ph' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_ph', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_ph', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_ph', 'symlink_install': True, 'test_result_base': None}
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_args' from command line to 'None'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_target' from command line to 'None'
+[2.855s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.855s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_clean_cache' from command line to 'False'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_clean_first' from command line to 'False'
+[2.857s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'cmake_force_configure' from command line to 'False'
+[2.857s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'ament_cmake_args' from command line to 'None'
+[2.858s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'catkin_cmake_args' from command line to 'None'
+[2.859s] Level 5:colcon.colcon_core.verb:set package 'sensor_tds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.860s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_tds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_tds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_tds', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_tds', 'symlink_install': True, 'test_result_base': None}
+[2.862s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_args' from command line to 'None'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_target' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.865s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_clean_cache' from command line to 'False'
+[2.866s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_clean_first' from command line to 'False'
+[2.867s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'cmake_force_configure' from command line to 'False'
+[2.867s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'ament_cmake_args' from command line to 'None'
+[2.868s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'catkin_cmake_args' from command line to 'None'
+[2.869s] Level 5:colcon.colcon_core.verb:set package 'sensor_turbidity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.870s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_turbidity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_turbidity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_turbidity', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_turbidity', 'symlink_install': True, 'test_result_base': None}
+[2.874s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_args' from command line to 'None'
+[2.875s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_target' from command line to 'None'
+[2.876s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.877s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_clean_cache' from command line to 'False'
+[2.878s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_clean_first' from command line to 'False'
+[2.879s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'cmake_force_configure' from command line to 'False'
+[2.880s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'ament_cmake_args' from command line to 'None'
+[2.881s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'catkin_cmake_args' from command line to 'None'
+[2.881s] Level 5:colcon.colcon_core.verb:set package 'sensor_voltage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.882s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_voltage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_voltage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_voltage', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_voltage', 'symlink_install': True, 'test_result_base': None}
+[2.884s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.899s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/system_launcher' with build type 'ament_python'
+[2.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_launcher', 'ament_prefix_path')
+[2.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/ament_prefix_path.ps1'
+[2.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/ament_prefix_path.dsv'
+[2.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/ament_prefix_path.sh'
+[2.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.966s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/aggregator' with build type 'ament_python'
+[2.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('aggregator', 'ament_prefix_path')
+[2.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/ament_prefix_path.ps1'
+[2.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/ament_prefix_path.dsv'
+[2.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/ament_prefix_path.sh'
+[2.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.010s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/foka/ros2_humble2/src/msg_interfaces' with build type 'ament_cmake'
+[3.011s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/foka/ros2_humble2/src/msg_interfaces'
+[3.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.035s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/saver' with build type 'ament_python'
+[3.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('saver', 'ament_prefix_path')
+[3.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/saver/share/saver/hook/ament_prefix_path.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/saver/share/saver/hook/ament_prefix_path.dsv'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/saver/share/saver/hook/ament_prefix_path.sh'
+[3.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.270s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/system_launcher'
+[5.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.101s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/aggregator'
+[7.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake /home/foka/ros2_humble2/src/msg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces
+[9.406s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/saver'
+[9.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/saver': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/saver/build --no-deps symlink_data
+[13.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/system_launcher': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/system_launcher/build --no-deps symlink_data
+[13.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/aggregator': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build --no-deps symlink_data
+[17.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('saver', 'pythonpath_develop')
+[17.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/saver/share/saver/hook/pythonpath_develop.ps1'
+[17.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/saver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/saver/build --no-deps symlink_data
+[17.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/saver/share/saver/hook/pythonpath_develop.dsv'
+[17.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/saver/share/saver/hook/pythonpath_develop.sh'
+[17.469s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver' for CMake module files
+[17.472s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver' for CMake config files
+[17.477s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver/lib'
+[17.479s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver/bin'
+[17.481s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver/lib/pkgconfig/saver.pc'
+[17.482s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages'
+[17.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('saver', 'pythonpath')
+[17.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/saver/share/saver/hook/pythonpath.ps1'
+[17.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/saver/share/saver/hook/pythonpath.dsv'
+[17.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/saver/share/saver/hook/pythonpath.sh'
+[17.492s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/saver/bin'
+[17.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saver)
+[17.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/saver/share/saver/package.ps1'
+[17.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/saver/share/saver/package.dsv'
+[17.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/saver/share/saver/package.sh'
+[17.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/saver/share/saver/package.bash'
+[17.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/saver/share/saver/package.zsh'
+[17.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/saver/share/colcon-core/packages/saver)
+[17.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_gps' with build type 'ament_python'
+[17.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_gps', 'ament_prefix_path')
+[17.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/ament_prefix_path.ps1'
+[17.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/ament_prefix_path.dsv'
+[17.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/ament_prefix_path.sh'
+[17.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_gps'
+[20.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_launcher', 'pythonpath_develop')
+[20.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/system_launcher' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/system_launcher/build --no-deps symlink_data
+[20.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/system_launcher/share/system_launcher/hook/pythonpath_develop.ps1'
+[20.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/system_launcher/share/system_launcher/hook/pythonpath_develop.dsv'
+[20.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/system_launcher/share/system_launcher/hook/pythonpath_develop.sh'
+[20.175s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher' for CMake module files
+[20.178s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher' for CMake config files
+[20.183s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher/lib'
+[20.185s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher/bin'
+[20.185s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher/lib/pkgconfig/system_launcher.pc'
+[20.192s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages'
+[20.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('system_launcher', 'pythonpath')
+[20.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/pythonpath.ps1'
+[20.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/pythonpath.dsv'
+[20.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/hook/pythonpath.sh'
+[20.207s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/system_launcher/bin'
+[20.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(system_launcher)
+[20.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.ps1'
+[20.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.dsv'
+[20.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.sh'
+[20.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.bash'
+[20.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/system_launcher/share/system_launcher/package.zsh'
+[20.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/system_launcher/share/colcon-core/packages/system_launcher)
+[20.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('aggregator', 'pythonpath_develop')
+[20.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/aggregator' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build --no-deps symlink_data
+[20.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/aggregator/share/aggregator/hook/pythonpath_develop.ps1'
+[20.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/aggregator/share/aggregator/hook/pythonpath_develop.dsv'
+[20.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/aggregator/share/aggregator/hook/pythonpath_develop.sh'
+[20.270s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator' for CMake module files
+[20.278s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator' for CMake config files
+[20.283s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator/lib'
+[20.284s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator/bin'
+[20.285s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator/lib/pkgconfig/aggregator.pc'
+[20.287s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages'
+[20.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('aggregator', 'pythonpath')
+[20.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/pythonpath.ps1'
+[20.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/pythonpath.dsv'
+[20.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/aggregator/share/aggregator/hook/pythonpath.sh'
+[20.302s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/aggregator/bin'
+[20.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aggregator)
+[20.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/aggregator/share/aggregator/package.ps1'
+[20.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/aggregator/share/aggregator/package.dsv'
+[20.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/aggregator/share/aggregator/package.sh'
+[20.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/aggregator/share/aggregator/package.bash'
+[20.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/aggregator/share/aggregator/package.zsh'
+[20.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/aggregator/share/colcon-core/packages/aggregator)
+[20.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_thermometer' with build type 'ament_python'
+[20.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_thermometer', 'ament_prefix_path')
+[20.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/ament_prefix_path.ps1'
+[20.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/ament_prefix_path.dsv'
+[20.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/ament_prefix_path.sh'
+[20.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/telemetry' with build type 'ament_python'
+[20.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('telemetry', 'ament_prefix_path')
+[20.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/ament_prefix_path.ps1'
+[20.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/ament_prefix_path.dsv'
+[20.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/ament_prefix_path.sh'
+[20.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_thermometer'
+[22.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.605s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/telemetry'
+[25.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data
+[25.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake /home/foka/ros2_humble2/src/msg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/foka/ros2_humble2/install/msg_interfaces
+[25.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[32.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_thermometer': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_thermometer/build --no-deps symlink_data
+[32.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/telemetry': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build --no-deps symlink_data
+[34.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_gps', 'pythonpath_develop')
+[34.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_gps/share/sensor_gps/hook/pythonpath_develop.ps1'
+[34.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data
+[34.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_gps/share/sensor_gps/hook/pythonpath_develop.dsv'
+[34.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_gps/share/sensor_gps/hook/pythonpath_develop.sh'
+[34.812s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps' for CMake module files
+[34.816s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps' for CMake config files
+[34.860s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps/lib'
+[34.877s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps/bin'
+[34.880s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps/lib/pkgconfig/sensor_gps.pc'
+[34.881s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages'
+[34.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_gps', 'pythonpath')
+[34.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/pythonpath.ps1'
+[34.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/pythonpath.dsv'
+[34.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/hook/pythonpath.sh'
+[34.931s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_gps/bin'
+[34.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_gps)
+[34.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/package.ps1'
+[34.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/package.dsv'
+[34.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/package.sh'
+[34.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/package.bash'
+[34.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps/package.zsh'
+[34.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_gps/share/colcon-core/packages/sensor_gps)
+[34.993s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_ph' with build type 'ament_python'
+[34.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_ph', 'ament_prefix_path')
+[35.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/ament_prefix_path.ps1'
+[35.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/ament_prefix_path.dsv'
+[35.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/ament_prefix_path.sh'
+[35.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.241s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_ph'
+[37.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[42.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_thermometer', 'pythonpath_develop')
+[42.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_thermometer/share/sensor_thermometer/hook/pythonpath_develop.ps1'
+[42.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_thermometer/share/sensor_thermometer/hook/pythonpath_develop.dsv'
+[42.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_thermometer' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_thermometer/build --no-deps symlink_data
+[42.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_thermometer/share/sensor_thermometer/hook/pythonpath_develop.sh'
+[42.242s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer' for CMake module files
+[42.249s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer' for CMake config files
+[42.268s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer/lib'
+[42.279s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer/bin'
+[42.280s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer/lib/pkgconfig/sensor_thermometer.pc'
+[42.281s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages'
+[42.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_thermometer', 'pythonpath')
+[42.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/pythonpath.ps1'
+[42.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/pythonpath.dsv'
+[42.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/hook/pythonpath.sh'
+[42.308s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_thermometer/bin'
+[42.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_thermometer)
+[42.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/package.ps1'
+[42.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/package.dsv'
+[42.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/package.sh'
+[42.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/package.bash'
+[42.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer/package.zsh'
+[42.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_thermometer/share/colcon-core/packages/sensor_thermometer)
+[42.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_tds' with build type 'ament_python'
+[42.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_tds', 'ament_prefix_path')
+[42.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/ament_prefix_path.ps1'
+[42.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/ament_prefix_path.dsv'
+[42.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/ament_prefix_path.sh'
+[42.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[42.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.894s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_tds'
+[46.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_ph': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_ph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_ph/build --no-deps symlink_data
+[46.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('telemetry', 'pythonpath_develop')
+[46.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/telemetry/share/telemetry/hook/pythonpath_develop.ps1'
+[46.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/telemetry' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build --no-deps symlink_data
+[47.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/telemetry/share/telemetry/hook/pythonpath_develop.dsv'
+[47.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/telemetry/share/telemetry/hook/pythonpath_develop.sh'
+[47.019s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry' for CMake module files
+[47.023s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry' for CMake config files
+[47.028s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry/lib'
+[47.039s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry/bin'
+[47.039s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry/lib/pkgconfig/telemetry.pc'
+[47.041s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages'
+[47.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('telemetry', 'pythonpath')
+[47.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/pythonpath.ps1'
+[47.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/pythonpath.dsv'
+[47.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/telemetry/share/telemetry/hook/pythonpath.sh'
+[47.065s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/telemetry/bin'
+[47.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(telemetry)
+[47.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/telemetry/share/telemetry/package.ps1'
+[47.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/telemetry/share/telemetry/package.dsv'
+[47.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/telemetry/share/telemetry/package.sh'
+[47.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/telemetry/share/telemetry/package.bash'
+[47.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/telemetry/share/telemetry/package.zsh'
+[47.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/telemetry/share/colcon-core/packages/telemetry)
+[47.116s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_turbidity' with build type 'ament_python'
+[47.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_turbidity', 'ament_prefix_path')
+[47.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/ament_prefix_path.ps1'
+[47.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/ament_prefix_path.dsv'
+[47.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/ament_prefix_path.sh'
+[47.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.134s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[51.558s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_turbidity'
+[51.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[51.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[51.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_ph', 'pythonpath_develop')
+[51.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_ph/share/sensor_ph/hook/pythonpath_develop.ps1'
+[51.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_ph/share/sensor_ph/hook/pythonpath_develop.dsv'
+[51.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_ph' returned '0': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_ph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_ph/build --no-deps symlink_data
+[51.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_ph/share/sensor_ph/hook/pythonpath_develop.sh'
+[51.856s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph' for CMake module files
+[51.865s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph' for CMake config files
+[51.870s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph/lib'
+[51.883s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph/bin'
+[51.884s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph/lib/pkgconfig/sensor_ph.pc'
+[51.886s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages'
+[51.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_ph', 'pythonpath')
+[51.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/pythonpath.ps1'
+[51.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/pythonpath.dsv'
+[51.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/hook/pythonpath.sh'
+[51.932s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_ph/bin'
+[51.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_ph)
+[51.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/package.ps1'
+[51.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/package.dsv'
+[51.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/package.sh'
+[51.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/package.bash'
+[52.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph/package.zsh'
+[52.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_ph/share/colcon-core/packages/sensor_ph)
+[52.029s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_voltage' with build type 'ament_python'
+[52.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_voltage', 'ament_prefix_path')
+[52.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/ament_prefix_path.ps1'
+[52.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/ament_prefix_path.dsv'
+[52.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/ament_prefix_path.sh'
+[52.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[52.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.738s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_voltage'
+[54.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_tds': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_tds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_tds/build --no-deps symlink_data
+[55.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_turbidity': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_turbidity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_turbidity/build --no-deps symlink_data
+[58.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/sensor_voltage': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_voltage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_voltage/build --no-deps symlink_data
+[60.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_turbidity', 'pythonpath_develop')
+[60.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_turbidity/share/sensor_turbidity/hook/pythonpath_develop.ps1'
+[60.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_turbidity' returned '0': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_turbidity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_turbidity/build --no-deps symlink_data
+[60.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_turbidity/share/sensor_turbidity/hook/pythonpath_develop.dsv'
+[60.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_turbidity/share/sensor_turbidity/hook/pythonpath_develop.sh'
+[60.618s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity' for CMake module files
+[60.621s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity' for CMake config files
+[60.643s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity/lib'
+[60.644s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity/bin'
+[60.644s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity/lib/pkgconfig/sensor_turbidity.pc'
+[60.647s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages'
+[60.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_turbidity', 'pythonpath')
+[60.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/pythonpath.ps1'
+[60.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/pythonpath.dsv'
+[60.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/hook/pythonpath.sh'
+[60.685s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_turbidity/bin'
+[60.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_turbidity)
+[60.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/package.ps1'
+[60.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/package.dsv'
+[60.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/package.sh'
+[60.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/package.bash'
+[60.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_turbidity/share/sensor_turbidity/package.zsh'
+[60.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_turbidity/share/colcon-core/packages/sensor_turbidity)
+[60.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_tds', 'pythonpath_develop')
+[60.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_tds/share/sensor_tds/hook/pythonpath_develop.ps1'
+[60.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_tds' returned '0': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_tds/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_tds/build --no-deps symlink_data
+[60.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_tds/share/sensor_tds/hook/pythonpath_develop.dsv'
+[60.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_tds/share/sensor_tds/hook/pythonpath_develop.sh'
+[60.772s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds' for CMake module files
+[60.775s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds' for CMake config files
+[60.778s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds/lib'
+[60.779s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds/bin'
+[60.786s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds/lib/pkgconfig/sensor_tds.pc'
+[60.788s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages'
+[60.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_tds', 'pythonpath')
+[60.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/pythonpath.ps1'
+[60.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/pythonpath.dsv'
+[60.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/hook/pythonpath.sh'
+[60.816s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_tds/bin'
+[60.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_tds)
+[60.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/package.ps1'
+[60.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/package.dsv'
+[60.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/package.sh'
+[60.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/package.bash'
+[60.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds/package.zsh'
+[60.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_tds/share/colcon-core/packages/sensor_tds)
+[63.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_voltage', 'pythonpath_develop')
+[63.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_voltage/share/sensor_voltage/hook/pythonpath_develop.ps1'
+[63.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/sensor_voltage' returned '0': AMENT_PREFIX_PATH=/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble PYTHONPATH=/home/foka/ros2_humble2/build/sensor_voltage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/system_launcher:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/build/aggregator:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_voltage/build --no-deps symlink_data
+[63.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/build/sensor_voltage/share/sensor_voltage/hook/pythonpath_develop.dsv'
+[63.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/build/sensor_voltage/share/sensor_voltage/hook/pythonpath_develop.sh'
+[63.318s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage' for CMake module files
+[63.322s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage' for CMake config files
+[63.325s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage/lib'
+[63.327s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage/bin'
+[63.327s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage/lib/pkgconfig/sensor_voltage.pc'
+[63.329s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages'
+[63.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_voltage', 'pythonpath')
+[63.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/pythonpath.ps1'
+[63.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/pythonpath.dsv'
+[63.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/hook/pythonpath.sh'
+[63.340s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_voltage/bin'
+[63.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_voltage)
+[63.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/package.ps1'
+[63.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/package.dsv'
+[63.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/package.sh'
+[63.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/package.bash'
+[63.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage/package.zsh'
+[63.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_voltage/share/colcon-core/packages/sensor_voltage)
+[66.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake --build /home/foka/ros2_humble2/build/msg_interfaces -- -j4 -l4
+[66.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/build/msg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces
+[70.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[70.122s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake module files
+[70.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/build/msg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble /usr/bin/cmake --install /home/foka/ros2_humble2/build/msg_interfaces
+[70.127s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake config files
+[70.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[70.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[70.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[70.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[70.142s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib'
+[70.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[70.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[70.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[70.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[70.152s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[70.153s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[70.154s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/python3.10/site-packages'
+[70.155s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[70.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[70.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[70.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.sh'
+[70.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.bash'
+[70.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[70.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[70.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_interfaces)
+[70.187s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake module files
+[70.193s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces' for CMake config files
+[70.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'cmake_prefix_path')
+[70.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.ps1'
+[70.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.dsv'
+[70.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/cmake_prefix_path.sh'
+[70.211s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib'
+[70.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_interfaces', 'ld_library_path_lib')
+[70.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.ps1'
+[70.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.dsv'
+[70.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/hook/ld_library_path_lib.sh'
+[70.222s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[70.222s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/pkgconfig/msg_interfaces.pc'
+[70.224s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/lib/python3.10/site-packages'
+[70.225s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/msg_interfaces/bin'
+[70.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.ps1'
+[70.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.dsv'
+[70.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.sh'
+[70.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.bash'
+[70.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/msg_interfaces/share/msg_interfaces/package.zsh'
+[70.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/msg_interfaces/share/colcon-core/packages/msg_interfaces)
+[70.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[70.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[70.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.286s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[70.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.ps1'
+[70.293s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_ps1.py'
+[70.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.ps1'
+[70.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.sh'
+[70.316s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_sh.py'
+[70.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.sh'
+[70.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.bash'
+[70.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.bash'
+[70.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.zsh'
+[70.354s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.zsh'

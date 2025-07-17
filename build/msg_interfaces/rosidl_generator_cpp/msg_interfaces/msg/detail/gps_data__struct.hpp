@@ -42,7 +42,7 @@ struct GpsData_
       this->longitude = 0.0f;
       this->velocity = 0.0f;
       this->satelites = 0.0f;
-      this->acceleration = 0.0f;
+      this->hdop = 0.0f;
     }
   }
 
@@ -56,7 +56,7 @@ struct GpsData_
       this->longitude = 0.0f;
       this->velocity = 0.0f;
       this->satelites = 0.0f;
-      this->acceleration = 0.0f;
+      this->hdop = 0.0f;
     }
   }
 
@@ -73,9 +73,9 @@ struct GpsData_
   using _satelites_type =
     float;
   _satelites_type satelites;
-  using _acceleration_type =
+  using _hdop_type =
     float;
-  _acceleration_type acceleration;
+  _hdop_type hdop;
 
   // setters for named parameter idiom
   Type & set__latitude(
@@ -102,10 +102,10 @@ struct GpsData_
     this->satelites = _arg;
     return *this;
   }
-  Type & set__acceleration(
+  Type & set__hdop(
     const float & _arg)
   {
-    this->acceleration = _arg;
+    this->hdop = _arg;
     return *this;
   }
 
@@ -163,7 +163,7 @@ struct GpsData_
     if (this->satelites != other.satelites) {
       return false;
     }
-    if (this->acceleration != other.acceleration) {
+    if (this->hdop != other.hdop) {
       return false;
     }
     return true;

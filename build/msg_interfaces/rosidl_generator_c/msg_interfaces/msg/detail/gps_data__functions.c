@@ -21,7 +21,7 @@ msg_interfaces__msg__GpsData__init(msg_interfaces__msg__GpsData * msg)
   // longitude
   // velocity
   // satelites
-  // acceleration
+  // hdop
   return true;
 }
 
@@ -35,7 +35,7 @@ msg_interfaces__msg__GpsData__fini(msg_interfaces__msg__GpsData * msg)
   // longitude
   // velocity
   // satelites
-  // acceleration
+  // hdop
 }
 
 bool
@@ -60,8 +60,8 @@ msg_interfaces__msg__GpsData__are_equal(const msg_interfaces__msg__GpsData * lhs
   if (lhs->satelites != rhs->satelites) {
     return false;
   }
-  // acceleration
-  if (lhs->acceleration != rhs->acceleration) {
+  // hdop
+  if (lhs->hdop != rhs->hdop) {
     return false;
   }
   return true;
@@ -83,8 +83,8 @@ msg_interfaces__msg__GpsData__copy(
   output->velocity = input->velocity;
   // satelites
   output->satelites = input->satelites;
-  // acceleration
-  output->acceleration = input->acceleration;
+  // hdop
+  output->hdop = input->hdop;
   return true;
 }
 

@@ -107,14 +107,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember GpsData_messa
     nullptr  // resize(index) function pointer
   },
   {
-    "acceleration",  // name
+    "hdop",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(msg_interfaces::msg::GpsData, acceleration),  // bytes offset in struct
+    offsetof(msg_interfaces::msg::GpsData, hdop),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

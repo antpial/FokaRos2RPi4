@@ -86,13 +86,13 @@ bool msg_interfaces__msg__gps_data__convert_from_py(PyObject * _pymsg, void * _r
     ros_message->satelites = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // acceleration
-    PyObject * field = PyObject_GetAttrString(_pymsg, "acceleration");
+  {  // hdop
+    PyObject * field = PyObject_GetAttrString(_pymsg, "hdop");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->acceleration = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->hdop = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -161,11 +161,11 @@ PyObject * msg_interfaces__msg__gps_data__convert_to_py(void * raw_ros_message)
       }
     }
   }
-  {  // acceleration
+  {  // hdop
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->acceleration);
+    field = PyFloat_FromDouble(ros_message->hdop);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "acceleration", field);
+      int rc = PyObject_SetAttrString(_pymessage, "hdop", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -32,7 +32,7 @@ class sensor_gps_driver:
         self.data.latitude = random.uniform(51.0, 52.0)
         self.data.longitude = random.uniform(17.0, 18.0)
         self.data.velocity = random.uniform(0.0, 2.0)
-        self.data.acceleration = random.uniform(0.0, 1.0)
+        self.data.hdop = random.uniform(0.0, 1.0)
         self.data.satelites = float(random.randint(0, 12))
         return self.data
 
@@ -46,8 +46,8 @@ class sensor_gps_driver:
         self.data.latitude = self.x.Lat
         self.data.longitude = self.x.Lon
         self.data.velocity = self.x.SpeedMh # m/s
-        self.data.acceleration = self.x.HDOP  
-        self.data.satelites = float(self.x.Satellites)  
+        self.data.hdop = self.x.HDOP  
+        self.data.satelites = round(float(self.x.Satellites), 3)  # Round to 3 decimal places  
         return self.data
     
     # Funkcja do przeliczenia napięcia na ppm (0V = 0ppm, 2.3V = 1000ppm)

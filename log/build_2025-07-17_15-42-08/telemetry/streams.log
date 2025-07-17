@@ -1,0 +1,24 @@
+[11.838s] Invoking command in '/home/foka/ros2_humble2/build/telemetry': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build --no-deps symlink_data
+[18.365s] running develop
+[22.186s] running egg_info
+[22.189s] creating telemetry.egg-info
+[22.193s] writing telemetry.egg-info/PKG-INFO
+[22.197s] writing dependency_links to telemetry.egg-info/dependency_links.txt
+[22.198s] writing entry points to telemetry.egg-info/entry_points.txt
+[22.199s] writing requirements to telemetry.egg-info/requires.txt
+[22.203s] writing top-level names to telemetry.egg-info/top_level.txt
+[22.204s] writing manifest file 'telemetry.egg-info/SOURCES.txt'
+[22.211s] reading manifest file 'telemetry.egg-info/SOURCES.txt'
+[22.212s] writing manifest file 'telemetry.egg-info/SOURCES.txt'
+[22.241s] running build_ext
+[22.245s] Creating /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry.egg-link (link to .)
+[22.257s] Installing telemetry script to /home/foka/ros2_humble2/install/telemetry/lib/telemetry
+[22.265s] 
+[22.266s] Installed /home/foka/ros2_humble2/build/telemetry
+[22.271s] running symlink_data
+[22.276s] creating /home/foka/ros2_humble2/install/telemetry/share/ament_index
+[22.288s] creating /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index
+[22.292s] creating /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index/packages
+[22.299s] symbolically linking /home/foka/ros2_humble2/build/telemetry/resource/telemetry -> /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index/packages
+[22.311s] symbolically linking /home/foka/ros2_humble2/build/telemetry/package.xml -> /home/foka/ros2_humble2/install/telemetry/share/telemetry
+[26.610s] Invoked command in '/home/foka/ros2_humble2/build/telemetry' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build --no-deps symlink_data

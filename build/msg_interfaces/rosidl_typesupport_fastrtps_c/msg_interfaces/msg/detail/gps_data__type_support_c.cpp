@@ -69,9 +69,9 @@ static bool _GpsData__cdr_serialize(
     cdr << ros_message->satelites;
   }
 
-  // Field name: acceleration
+  // Field name: hdop
   {
-    cdr << ros_message->acceleration;
+    cdr << ros_message->hdop;
   }
 
   return true;
@@ -106,9 +106,9 @@ static bool _GpsData__cdr_deserialize(
     cdr >> ros_message->satelites;
   }
 
-  // Field name: acceleration
+  // Field name: hdop
   {
-    cdr >> ros_message->acceleration;
+    cdr >> ros_message->hdop;
   }
 
   return true;
@@ -152,9 +152,9 @@ size_t get_serialized_size_msg_interfaces__msg__GpsData(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name acceleration
+  // field.name hdop
   {
-    size_t item_size = sizeof(ros_message->acceleration);
+    size_t item_size = sizeof(ros_message->hdop);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -219,7 +219,7 @@ size_t max_serialized_size_msg_interfaces__msg__GpsData(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
-  // member: acceleration
+  // member: hdop
   {
     size_t array_size = 1;
 
@@ -236,7 +236,7 @@ size_t max_serialized_size_msg_interfaces__msg__GpsData(
     using DataType = msg_interfaces__msg__GpsData;
     is_plain =
       (
-      offsetof(DataType, acceleration) +
+      offsetof(DataType, hdop) +
       last_member_size
       ) == ret_val;
   }

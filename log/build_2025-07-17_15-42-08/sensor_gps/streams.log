@@ -1,0 +1,24 @@
+[7.594s] Invoking command in '/home/foka/ros2_humble2/build/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data
+[12.695s] running develop
+[16.305s] running egg_info
+[16.316s] creating sensor_gps.egg-info
+[16.320s] writing sensor_gps.egg-info/PKG-INFO
+[16.325s] writing dependency_links to sensor_gps.egg-info/dependency_links.txt
+[16.332s] writing entry points to sensor_gps.egg-info/entry_points.txt
+[16.335s] writing requirements to sensor_gps.egg-info/requires.txt
+[16.342s] writing top-level names to sensor_gps.egg-info/top_level.txt
+[16.370s] writing manifest file 'sensor_gps.egg-info/SOURCES.txt'
+[16.398s] reading manifest file 'sensor_gps.egg-info/SOURCES.txt'
+[16.412s] writing manifest file 'sensor_gps.egg-info/SOURCES.txt'
+[16.448s] running build_ext
+[16.449s] Creating /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor-gps.egg-link (link to .)
+[16.455s] Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+[16.458s] 
+[16.460s] Installed /home/foka/ros2_humble2/build/sensor_gps
+[16.461s] running symlink_data
+[16.462s] creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index
+[16.465s] creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index
+[16.466s] creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+[16.467s] symbolically linking /home/foka/ros2_humble2/build/sensor_gps/resource/sensor_gps -> /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+[16.468s] symbolically linking /home/foka/ros2_humble2/build/sensor_gps/package.xml -> /home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps
+[17.215s] Invoked command in '/home/foka/ros2_humble2/build/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data

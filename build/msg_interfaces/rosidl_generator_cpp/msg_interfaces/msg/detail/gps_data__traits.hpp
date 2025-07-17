@@ -53,10 +53,10 @@ inline void to_flow_style_yaml(
     out << ", ";
   }
 
-  // member: acceleration
+  // member: hdop
   {
-    out << "acceleration: ";
-    rosidl_generator_traits::value_to_yaml(msg.acceleration, out);
+    out << "hdop: ";
+    rosidl_generator_traits::value_to_yaml(msg.hdop, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -105,13 +105,13 @@ inline void to_block_style_yaml(
     out << "\n";
   }
 
-  // member: acceleration
+  // member: hdop
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "acceleration: ";
-    rosidl_generator_traits::value_to_yaml(msg.acceleration, out);
+    out << "hdop: ";
+    rosidl_generator_traits::value_to_yaml(msg.hdop, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

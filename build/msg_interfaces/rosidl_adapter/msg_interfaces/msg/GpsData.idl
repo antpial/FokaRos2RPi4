@@ -14,7 +14,7 @@ module msg_interfaces {
 
       float satelites;
 
-      float acceleration;
+      float hdop;
     };
   };
 };

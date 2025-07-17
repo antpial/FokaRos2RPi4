@@ -40,8 +40,8 @@ cdr_serialize(
   cdr << ros_message.velocity;
   // Member: satelites
   cdr << ros_message.satelites;
-  // Member: acceleration
-  cdr << ros_message.acceleration;
+  // Member: hdop
+  cdr << ros_message.hdop;
   return true;
 }
 
@@ -63,8 +63,8 @@ cdr_deserialize(
   // Member: satelites
   cdr >> ros_message.satelites;
 
-  // Member: acceleration
-  cdr >> ros_message.acceleration;
+  // Member: hdop
+  cdr >> ros_message.hdop;
 
   return true;
 }
@@ -106,9 +106,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: acceleration
+  // Member: hdop
   {
-    size_t item_size = sizeof(ros_message.acceleration);
+    size_t item_size = sizeof(ros_message.hdop);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -172,7 +172,7 @@ max_serialized_size_GpsData(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
-  // Member: acceleration
+  // Member: hdop
   {
     size_t array_size = 1;
 
@@ -189,7 +189,7 @@ max_serialized_size_GpsData(
     using DataType = msg_interfaces::msg::GpsData;
     is_plain =
       (
-      offsetof(DataType, acceleration) +
+      offsetof(DataType, hdop) +
       last_member_size
       ) == ret_val;
   }

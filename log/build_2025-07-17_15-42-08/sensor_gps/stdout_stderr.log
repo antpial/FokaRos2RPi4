@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating sensor_gps.egg-info
+writing sensor_gps.egg-info/PKG-INFO
+writing dependency_links to sensor_gps.egg-info/dependency_links.txt
+writing entry points to sensor_gps.egg-info/entry_points.txt
+writing requirements to sensor_gps.egg-info/requires.txt
+writing top-level names to sensor_gps.egg-info/top_level.txt
+writing manifest file 'sensor_gps.egg-info/SOURCES.txt'
+reading manifest file 'sensor_gps.egg-info/SOURCES.txt'
+writing manifest file 'sensor_gps.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor-gps.egg-link (link to .)
+Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+
+Installed /home/foka/ros2_humble2/build/sensor_gps
+running symlink_data
+creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index
+creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_gps/resource/sensor_gps -> /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_gps/package.xml -> /home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps

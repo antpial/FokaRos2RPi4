@@ -70,7 +70,7 @@ class AggregatorNode(Node):
                 'longitude': gps_msg.longitude,
                 'velocity': gps_msg.velocity,
                 'satelites': gps_msg.satelites,
-                'acceleration': gps_msg.acceleration
+                'hdop': gps_msg.hdop
             }
         else:
             gps_data = None

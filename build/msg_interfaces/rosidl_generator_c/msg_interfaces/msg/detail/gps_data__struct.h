@@ -24,7 +24,7 @@ typedef struct msg_interfaces__msg__GpsData
   float longitude;
   float velocity;
   float satelites;
-  float acceleration;
+  float hdop;
 } msg_interfaces__msg__GpsData;
 
 // Struct for a sequence of msg_interfaces__msg__GpsData.

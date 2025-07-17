@@ -61,7 +61,7 @@ class GpsData(metaclass=Metaclass_GpsData):
         '_longitude',
         '_velocity',
         '_satelites',
-        '_acceleration',
+        '_hdop',
     ]
 
     _fields_and_field_types = {
@@ -69,7 +69,7 @@ class GpsData(metaclass=Metaclass_GpsData):
         'longitude': 'float',
         'velocity': 'float',
         'satelites': 'float',
-        'acceleration': 'float',
+        'hdop': 'float',
     }
 
     SLOT_TYPES = (
@@ -88,7 +88,7 @@ class GpsData(metaclass=Metaclass_GpsData):
         self.longitude = kwargs.get('longitude', float())
         self.velocity = kwargs.get('velocity', float())
         self.satelites = kwargs.get('satelites', float())
-        self.acceleration = kwargs.get('acceleration', float())
+        self.hdop = kwargs.get('hdop', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -127,7 +127,7 @@ class GpsData(metaclass=Metaclass_GpsData):
             return False
         if self.satelites != other.satelites:
             return False
-        if self.acceleration != other.acceleration:
+        if self.hdop != other.hdop:
             return False
         return True
 
@@ -197,16 +197,16 @@ class GpsData(metaclass=Metaclass_GpsData):
         self._satelites = value
 
     @builtins.property
-    def acceleration(self):
-        """Message field 'acceleration'."""
-        return self._acceleration
+    def hdop(self):
+        """Message field 'hdop'."""
+        return self._hdop
 
-    @acceleration.setter
-    def acceleration(self, value):
+    @hdop.setter
+    def hdop(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'acceleration' field must be of type 'float'"
+                "The 'hdop' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'acceleration' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._acceleration = value
+                "The 'hdop' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._hdop = value

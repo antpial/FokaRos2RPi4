@@ -21,15 +21,15 @@ namespace msg
 namespace builder
 {
 
-class Init_GpsData_acceleration
+class Init_GpsData_hdop
 {
 public:
-  explicit Init_GpsData_acceleration(::msg_interfaces::msg::GpsData & msg)
+  explicit Init_GpsData_hdop(::msg_interfaces::msg::GpsData & msg)
   : msg_(msg)
   {}
-  ::msg_interfaces::msg::GpsData acceleration(::msg_interfaces::msg::GpsData::_acceleration_type arg)
+  ::msg_interfaces::msg::GpsData hdop(::msg_interfaces::msg::GpsData::_hdop_type arg)
   {
-    msg_.acceleration = std::move(arg);
+    msg_.hdop = std::move(arg);
     return std::move(msg_);
   }
 
@@ -43,10 +43,10 @@ public:
   explicit Init_GpsData_satelites(::msg_interfaces::msg::GpsData & msg)
   : msg_(msg)
   {}
-  Init_GpsData_acceleration satelites(::msg_interfaces::msg::GpsData::_satelites_type arg)
+  Init_GpsData_hdop satelites(::msg_interfaces::msg::GpsData::_satelites_type arg)
   {
     msg_.satelites = std::move(arg);
-    return Init_GpsData_acceleration(msg_);
+    return Init_GpsData_hdop(msg_);
   }
 
 private:
