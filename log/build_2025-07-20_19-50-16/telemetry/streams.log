@@ -1,0 +1,24 @@
+[3.452s] Invoking command in '/home/foka/ros2_humble2/src/telemetry': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telemetry build --build-base /home/foka/ros2_humble2/build/telemetry/build install --record /home/foka/ros2_humble2/build/telemetry/install.log --single-version-externally-managed install_data
+[4.679s] running egg_info
+[4.682s] writing ../../build/telemetry/telemetry.egg-info/PKG-INFO
+[4.683s] writing dependency_links to ../../build/telemetry/telemetry.egg-info/dependency_links.txt
+[4.684s] writing entry points to ../../build/telemetry/telemetry.egg-info/entry_points.txt
+[4.685s] writing requirements to ../../build/telemetry/telemetry.egg-info/requires.txt
+[4.686s] writing top-level names to ../../build/telemetry/telemetry.egg-info/top_level.txt
+[4.694s] reading manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+[4.698s] writing manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+[4.699s] running build
+[4.699s] running build_py
+[4.700s] copying telemetry/telemetry.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry
+[4.703s] running install
+[4.705s] running install_lib
+[4.709s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/telemetry.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry
+[4.713s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/telemetry.py to telemetry.cpython-310.pyc
+[4.716s] running install_data
+[4.717s] running install_egg_info
+[4.727s] removing '/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info' (and everything under it)
+[4.728s] Copying ../../build/telemetry/telemetry.egg-info to /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info
+[4.734s] running install_scripts
+[4.824s] Installing telemetry script to /home/foka/ros2_humble2/install/telemetry/lib/telemetry
+[4.827s] writing list of installed files to '/home/foka/ros2_humble2/build/telemetry/install.log'
+[4.945s] Invoked command in '/home/foka/ros2_humble2/src/telemetry' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telemetry build --build-base /home/foka/ros2_humble2/build/telemetry/build install --record /home/foka/ros2_humble2/build/telemetry/install.log --single-version-externally-managed install_data

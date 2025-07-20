@@ -1,13 +1,12 @@
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/loraSX1278_driver.py
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__init__.py
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/telemetry.py
-/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/__init__.py
-/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/test.py
+/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/test.py
+/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/loralib.so
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__pycache__/loraSX1278_driver.cpython-310.pyc
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__pycache__/__init__.cpython-310.pyc
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__pycache__/telemetry.cpython-310.pyc
-/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/__pycache__/__init__.cpython-310.pyc
-/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/__pycache__/test.cpython-310.pyc
+/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__pycache__/test.cpython-310.pyc
 /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index/packages/telemetry
 /home/foka/ros2_humble2/install/telemetry/share/telemetry/package.xml
 /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info/PKG-INFO

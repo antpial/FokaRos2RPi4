@@ -11,10 +11,9 @@ setup.py
 resource/telemetry
 telemetry/__init__.py
 telemetry/loraSX1278_driver.py
+telemetry/loralib.so
 telemetry/telemetry.py
-telemetry/LoRa_RaspberryPi/__init__.py
-telemetry/LoRa_RaspberryPi/loralib.so
-telemetry/LoRa_RaspberryPi/test.py
+telemetry/test.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -11,6 +11,10 @@ def generate_launch_description():
         'system_config.yaml'
     )
 
+    telemetry_cwd = os.path.join(
+        get_package_share_directory('telemetry')
+    )
+
     return LaunchDescription([
         Node(
             package='aggregator',
@@ -59,11 +63,14 @@ def generate_launch_description():
         #     name='sensor_turbidity',
         #     parameters=[config_path]
         # ),
-        Node(
-            package='telemetry',
-            executable='telemetry',
-            name='telemetry'
-        ),
+        # Node(
+        #     package='telemetry',
+        #     executable='telemetry',
+        #     name='telemetry',
+        #     parameters=[config_path],
+        #     output='screen',
+        #     cwd=telemetry_cwd,
+        # ),
     ])
 
 def main():

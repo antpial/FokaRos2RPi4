@@ -9,11 +9,11 @@ class TelemetryNode(Node):
         super().__init__('telemetry')
 
         # Parametr: co ile sekund wysyłać dane
-        self.declare_parameter('send_interval', 2.0)
+        self.declare_parameter('send_interval', 0.5)
         self.send_interval = self.get_parameter('send_interval').value
 
         # Inicjalizacja LoRa driver
-        self.lora_driver = loraSX1278_driver()
+        self.lora_driver = loraSX1278_driver(self.get_logger())
 
         self.latest_data = None
 
@@ -26,7 +26,7 @@ class TelemetryNode(Node):
         )
 
         # Timer do wysyłania
-        self.create_timer(self.send_interval, self.send_data)
+        self.create_timer(1.0 / self.send_interval, self.send_data)
 
         self.get_logger().info(f"Telemetry node started. Will 'send' data every {self.send_interval} seconds.")
 
@@ -37,17 +37,17 @@ class TelemetryNode(Node):
             self.get_logger().error("Received invalid JSON from aggregator.")
 
     def send_data(self):
-        if self.latest_data is None:
-            self.get_logger().warn("No data available yet.")
-            return
+        # if self.latest_data is None:
+        #     self.get_logger().warn("No data available yet.")
+        #     return
         # Konweruje json do stringa
         json_str = json.dumps(self.latest_data)
         try:
-            # self.lora_driver.send_data(json_str)
-            self.lora_driver.send_data_example(json_str)  # Sending data via LoRa
+            self.lora_driver.send_data(json_str)
+            # self.lora_driver.send_data_example(json_str)  # Sending data via LoRa
         except Exception as e:
             self.get_logger().error(f"Failed to send data via LoRa: {e}")
-
+        self.get_logger().info(f"Sent data: {json_str}")
         self.latest_data = None
 
 def main(args=None):
