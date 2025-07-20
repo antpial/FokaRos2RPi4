@@ -22,11 +22,11 @@ def generate_launch_description():
             name='aggregator',
             parameters=[config_path]
         ),
-        # Node(
-        #     package='saver',
-        #     executable='saver',
-        #     name='saver'
-        # ),
+        Node(
+            package='saver',
+            executable='saver',
+            name='saver'
+        ),
         # Node(
         #     package='sensor_ph',
         #     executable='sensor_ph',

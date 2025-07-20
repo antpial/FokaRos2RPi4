@@ -44,17 +44,17 @@ class SaverNode(Node):
             gps = data.get('gps') or {}
 
             self.writer.writerow({
-                'timestamp': data.get('timestamp'),
-                'latitude': gps.get('latitude'),
-                'longitude': gps.get('longitude'),
-                'satelites': gps.get('satelites'),
-                'velocity': gps.get('velocity'),
+                'timestamp': data.get('time'),
+                'latitude': gps.get('lat'),
+                'longitude': gps.get('long'),
+                'satelites': gps.get('sat'),
+                'velocity': gps.get('vel'),
                 'hdop': gps.get('hdop'),
-                'temperature': data.get('temperature'),
+                'temperature': data.get('temp'),
                 'ph': data.get('ph'),
-                'turbidity': data.get('turbidity'),
+                'turbidity': data.get('turb'),
                 'tds': data.get('tds'),
-                'voltage': data.get('voltage')
+                'voltage': data.get('vol')
             })
         except Exception as e:
             self.get_logger().error(f"Failed to parse or write data: {e}")
