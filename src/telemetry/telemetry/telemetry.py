@@ -36,14 +36,10 @@ class TelemetryNode(Node):
         if self.latest_data is None:
             self.get_logger().warn("No data available yet.")
             return
-
-        # Na razie: wysyłanie na terminal w prostym protokole tekstowym
-        # Przykład: TEMP=24.3;PH=6.9;TURB=0.55;TIME=1717509001
-        message = f"TEMP={self.latest_data.get('temperature')};" \
-                  f"PH={self.latest_data.get('ph')};" \
-                  f"TURB={self.latest_data.get('turbidity')};" \
-                  f"TIME={self.latest_data.get('timestamp')}"
-        print(f"[TELEMETRY OUT] {message}")
+        # Konweruje json do stringa
+        json_str = json.dumps(self.latest_data)
+        self.get_logger().info(f"Sending telemetry data: {json_str}")
+        # send(json_str) 
 
 def main(args=None):
     rclpy.init(args=args)

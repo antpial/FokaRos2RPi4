@@ -18,11 +18,11 @@ def generate_launch_description():
             name='aggregator',
             parameters=[config_path]
         ),
-        Node(
-            package='saver',
-            executable='saver',
-            name='saver'
-        ),
+        # Node(
+        #     package='saver',
+        #     executable='saver',
+        #     name='saver'
+        # ),
         # Node(
         #     package='sensor_ph',
         #     executable='sensor_ph',
@@ -59,12 +59,11 @@ def generate_launch_description():
         #     name='sensor_turbidity',
         #     parameters=[config_path]
         # ),
-        # Node(
-        #     package='telemetry',
-        #     executable='telemetry',
-        #     name='telemetry'
-        # ),
-        # msg_interfaces nie zawiera node'ów – tylko wiadomości
+        Node(
+            package='telemetry',
+            executable='telemetry',
+            name='telemetry'
+        ),
     ])
 
 def main():
