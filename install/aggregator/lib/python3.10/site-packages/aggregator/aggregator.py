@@ -16,6 +16,7 @@ class AggregatorNode(Node):
             'turb': None,
             'tds': None,
             'vol': None,
+            'dep': None,
         }
 
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
@@ -31,6 +32,7 @@ class AggregatorNode(Node):
         self.create_subscription(Float32, '/sensor_turbidity', self.turb_callback, 10)
         self.create_subscription(Float32, '/sensor_tds', self.tds_callback, 10)
         self.create_subscription(Float32, '/sensor_voltage', self.voltage_callback, 10)
+        self.create_subscription(Float32, '/sensor_depth', self.depth_callback, 10)
 
         # Jeden wspólny publisher
         self.publisher = self.create_publisher(String, '/aggregated/data', 10)
@@ -61,6 +63,9 @@ class AggregatorNode(Node):
     def voltage_callback(self, msg):
         self.latest_data['vol'] = msg.data
 
+    def depth_callback(self, msg):
+        self.latest_data['dep'] = msg.data
+
     def publish_aggregated_data(self):
         # Tworzymy pakiet danych z aktualnymi wartościami (None jeśli brak)
         gps_msg = self.latest_data['gps']
@@ -82,6 +87,7 @@ class AggregatorNode(Node):
             'turb': self.latest_data['turb'],
             'tds': self.latest_data['tds'],
             'vol': self.latest_data['vol'],
+            'dep': self.latest_data['dep'],
             'time': self.get_clock().now().to_msg().sec
 
         }

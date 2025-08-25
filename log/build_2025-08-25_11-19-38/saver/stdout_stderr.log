@@ -1,0 +1,32 @@
+running develop
+Removing /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver.egg-link (link to .)
+running egg_info
+writing ../../build/saver/saver.egg-info/PKG-INFO
+writing dependency_links to ../../build/saver/saver.egg-info/dependency_links.txt
+writing entry points to ../../build/saver/saver.egg-info/entry_points.txt
+writing requirements to ../../build/saver/saver.egg-info/requires.txt
+writing top-level names to ../../build/saver/saver.egg-info/top_level.txt
+reading manifest file '../../build/saver/saver.egg-info/SOURCES.txt'
+writing manifest file '../../build/saver/saver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/saver/build
+creating /home/foka/ros2_humble2/build/saver/build/lib
+creating /home/foka/ros2_humble2/build/saver/build/lib/saver
+copying saver/__init__.py -> /home/foka/ros2_humble2/build/saver/build/lib/saver
+copying saver/saver.py -> /home/foka/ros2_humble2/build/saver/build/lib/saver
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+copying /home/foka/ros2_humble2/build/saver/build/lib/saver/__init__.py -> /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+copying /home/foka/ros2_humble2/build/saver/build/lib/saver/saver.py -> /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+byte-compiling /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver/saver.py to saver.cpython-310.pyc
+running install_data
+copying resource/saver -> /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/saver/share/saver
+running install_egg_info
+Copying ../../build/saver/saver.egg-info to /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing saver script to /home/foka/ros2_humble2/install/saver/lib/saver
+writing list of installed files to '/home/foka/ros2_humble2/build/saver/install.log'

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/sensor_depth/sensor_depth.egg-info
+writing ../../build/sensor_depth/sensor_depth.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_depth/sensor_depth.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_depth/sensor_depth.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_depth/sensor_depth.egg-info/requires.txt
+writing top-level names to ../../build/sensor_depth/sensor_depth.egg-info/top_level.txt
+writing manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_depth/build
+creating /home/foka/ros2_humble2/build/sensor_depth/build/lib
+creating /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+copying sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+copying sensor_depth/__init__.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+copying sensor_depth/sensor_depth.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/__init__.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/sensor_depth.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/sensor_depth_driver.py to sensor_depth_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/sensor_depth.py to sensor_depth.cpython-310.pyc
+running install_data
+creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index
+creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+copying resource/sensor_depth -> /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_depth/share/sensor_depth
+running install_egg_info
+Copying ../../build/sensor_depth/sensor_depth.egg-info to /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_depth/install.log'

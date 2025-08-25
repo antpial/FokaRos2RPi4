@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_depth = sensor_depth.sensor_depth:main
+

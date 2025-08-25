@@ -1,0 +1,39 @@
+[3.707s] Invoking command in '/home/foka/ros2_humble2/src/sensor_depth': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_depth build --build-base /home/foka/ros2_humble2/build/sensor_depth/build install --record /home/foka/ros2_humble2/build/sensor_depth/install.log --single-version-externally-managed install_data
+[4.925s] running egg_info
+[4.927s] creating ../../build/sensor_depth/sensor_depth.egg-info
+[4.928s] writing ../../build/sensor_depth/sensor_depth.egg-info/PKG-INFO
+[4.930s] writing dependency_links to ../../build/sensor_depth/sensor_depth.egg-info/dependency_links.txt
+[4.930s] writing entry points to ../../build/sensor_depth/sensor_depth.egg-info/entry_points.txt
+[4.931s] writing requirements to ../../build/sensor_depth/sensor_depth.egg-info/requires.txt
+[4.931s] writing top-level names to ../../build/sensor_depth/sensor_depth.egg-info/top_level.txt
+[4.932s] writing manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+[4.939s] reading manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+[4.943s] writing manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'
+[4.943s] running build
+[4.944s] running build_py
+[4.944s] creating /home/foka/ros2_humble2/build/sensor_depth/build
+[4.945s] creating /home/foka/ros2_humble2/build/sensor_depth/build/lib
+[4.945s] creating /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+[4.946s] copying sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+[4.946s] copying sensor_depth/__init__.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+[4.947s] copying sensor_depth/sensor_depth.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth
+[4.948s] running install
+[4.949s] running install_lib
+[4.952s] creating /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+[4.953s] copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+[4.953s] copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/__init__.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+[4.954s] copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/sensor_depth.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth
+[4.957s] byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/sensor_depth_driver.py to sensor_depth_driver.cpython-310.pyc
+[4.960s] byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/__init__.py to __init__.cpython-310.pyc
+[4.961s] byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/sensor_depth.py to sensor_depth.cpython-310.pyc
+[4.963s] running install_data
+[4.964s] creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index
+[4.964s] creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index
+[4.965s] creating /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+[4.965s] copying resource/sensor_depth -> /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+[4.966s] copying package.xml -> /home/foka/ros2_humble2/install/sensor_depth/share/sensor_depth
+[4.966s] running install_egg_info
+[4.973s] Copying ../../build/sensor_depth/sensor_depth.egg-info to /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth-0.0.0-py3.10.egg-info
+[4.979s] running install_scripts
+[5.067s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_depth/install.log'
+[5.197s] Invoked command in '/home/foka/ros2_humble2/src/sensor_depth' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_depth build --build-base /home/foka/ros2_humble2/build/sensor_depth/build install --record /home/foka/ros2_humble2/build/sensor_depth/install.log --single-version-externally-managed install_data

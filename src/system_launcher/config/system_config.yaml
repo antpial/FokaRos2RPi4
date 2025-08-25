@@ -32,6 +32,12 @@ sensor_turbidity:
     ##################################################################
     adc_channel: 3 # 0, 1, 2 or 3 ADC 12b ADS1015
 
+sensor_depth:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+
 sensor_gps:
   ros__parameters:
     ########################### BE CAREFULL ##########################
