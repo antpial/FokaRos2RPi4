@@ -1,0 +1,35 @@
+running develop
+Removing /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor-thermometer.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_thermometer/sensor_thermometer.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_thermometer/sensor_thermometer.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_thermometer/sensor_thermometer.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_thermometer/sensor_thermometer.egg-info/requires.txt
+writing top-level names to ../../build/sensor_thermometer/sensor_thermometer.egg-info/top_level.txt
+reading manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_thermometer/build
+creating /home/foka/ros2_humble2/build/sensor_thermometer/build/lib
+creating /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+copying sensor_thermometer/__init__.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+copying sensor_thermometer/sensor_thermometer_driver.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+copying sensor_thermometer/sensor_thermometer.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/__init__.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/sensor_thermometer_driver.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/sensor_thermometer.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer
+byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/sensor_thermometer_driver.py to sensor_thermometer_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/sensor_thermometer.py to sensor_thermometer.cpython-310.pyc
+running install_data
+copying resource/sensor_thermometer -> /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer
+running install_egg_info
+Copying ../../build/sensor_thermometer/sensor_thermometer.egg-info to /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_thermometer script to /home/foka/ros2_humble2/install/sensor_thermometer/lib/sensor_thermometer
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_thermometer/install.log'
