@@ -34,8 +34,8 @@ class sensor_depth_node(Node):
     def publish_depth(self):
         msg = Float32()
         try:
-            msg = self.driver_depth.read_data_example_Float32()
-            # msg = self.driver_depth.read_data_Float32()
+            # msg = self.driver_depth.read_data_example_Float32()
+            msg = self.driver_depth.read_data_Float32()
         except Exception as e:
             self.log("sensor_depth, error w czasie odczytu danych ze sterownika: " + str(e))
             self.get_logger().error(f'Error reading data from sensor_depth driver: {e}')
