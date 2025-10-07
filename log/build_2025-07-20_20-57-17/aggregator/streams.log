@@ -1,0 +1,36 @@
+[3.231s] Invoking command in '/home/foka/ros2_humble2/build/aggregator': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build
+[4.544s] running develop
+[5.332s] Removing /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator.egg-link (link to .)
+[5.463s] Invoked command in '/home/foka/ros2_humble2/build/aggregator' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build
+[5.472s] Invoking command in '/home/foka/ros2_humble2/src/aggregator': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aggregator build --build-base /home/foka/ros2_humble2/build/aggregator/build install --record /home/foka/ros2_humble2/build/aggregator/install.log --single-version-externally-managed install_data --force
+[6.659s] running egg_info
+[6.662s] writing ../../build/aggregator/aggregator.egg-info/PKG-INFO
+[6.663s] writing dependency_links to ../../build/aggregator/aggregator.egg-info/dependency_links.txt
+[6.664s] writing entry points to ../../build/aggregator/aggregator.egg-info/entry_points.txt
+[6.665s] writing requirements to ../../build/aggregator/aggregator.egg-info/requires.txt
+[6.666s] writing top-level names to ../../build/aggregator/aggregator.egg-info/top_level.txt
+[6.673s] reading manifest file '../../build/aggregator/aggregator.egg-info/SOURCES.txt'
+[6.678s] writing manifest file '../../build/aggregator/aggregator.egg-info/SOURCES.txt'
+[6.679s] running build
+[6.679s] running build_py
+[6.680s] creating /home/foka/ros2_humble2/build/aggregator/build
+[6.680s] creating /home/foka/ros2_humble2/build/aggregator/build/lib
+[6.681s] creating /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+[6.681s] copying aggregator/__init__.py -> /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+[6.682s] copying aggregator/aggregator.py -> /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+[6.682s] running install
+[6.684s] running install_lib
+[6.687s] creating /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+[6.687s] copying /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator/__init__.py -> /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+[6.688s] copying /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator/aggregator.py -> /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+[6.692s] byte-compiling /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator/__init__.py to __init__.cpython-310.pyc
+[6.693s] byte-compiling /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator/aggregator.py to aggregator.cpython-310.pyc
+[6.696s] running install_data
+[6.697s] copying resource/aggregator -> /home/foka/ros2_humble2/install/aggregator/share/ament_index/resource_index/packages
+[6.697s] copying package.xml -> /home/foka/ros2_humble2/install/aggregator/share/aggregator
+[6.698s] running install_egg_info
+[6.706s] Copying ../../build/aggregator/aggregator.egg-info to /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator-0.0.0-py3.10.egg-info
+[6.713s] running install_scripts
+[6.802s] Installing aggregator script to /home/foka/ros2_humble2/install/aggregator/lib/aggregator
+[6.803s] writing list of installed files to '/home/foka/ros2_humble2/build/aggregator/install.log'
+[6.920s] Invoked command in '/home/foka/ros2_humble2/src/aggregator' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aggregator build --build-base /home/foka/ros2_humble2/build/aggregator/build install --record /home/foka/ros2_humble2/build/aggregator/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,19 @@
+[11.297s] Invoking command in '/home/foka/ros2_humble2/build/aggregator': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build --no-deps symlink_data --force
+[14.970s] running develop
+[16.473s] running egg_info
+[16.477s] writing aggregator.egg-info/PKG-INFO
+[16.479s] writing dependency_links to aggregator.egg-info/dependency_links.txt
+[16.485s] writing entry points to aggregator.egg-info/entry_points.txt
+[16.487s] writing requirements to aggregator.egg-info/requires.txt
+[16.488s] writing top-level names to aggregator.egg-info/top_level.txt
+[16.492s] reading manifest file 'aggregator.egg-info/SOURCES.txt'
+[16.497s] writing manifest file 'aggregator.egg-info/SOURCES.txt'
+[16.532s] running build_ext
+[16.535s] Creating /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator.egg-link (link to .)
+[16.539s] Installing aggregator script to /home/foka/ros2_humble2/install/aggregator/lib/aggregator
+[16.543s] 
+[16.544s] Installed /home/foka/ros2_humble2/build/aggregator
+[16.545s] running symlink_data
+[16.554s] symbolically linking /home/foka/ros2_humble2/build/aggregator/resource/aggregator -> /home/foka/ros2_humble2/install/aggregator/share/ament_index/resource_index/packages
+[16.566s] symbolically linking /home/foka/ros2_humble2/build/aggregator/package.xml -> /home/foka/ros2_humble2/install/aggregator/share/aggregator
+[16.907s] Invoked command in '/home/foka/ros2_humble2/build/aggregator' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/aggregator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/aggregator/build --no-deps symlink_data --force

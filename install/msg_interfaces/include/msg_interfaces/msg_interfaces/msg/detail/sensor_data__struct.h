@@ -1,0 +1,1 @@
+/home/foka/ros2_humble2/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/sensor_data__struct.h

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating saver.egg-info
+writing saver.egg-info/PKG-INFO
+writing dependency_links to saver.egg-info/dependency_links.txt
+writing entry points to saver.egg-info/entry_points.txt
+writing requirements to saver.egg-info/requires.txt
+writing top-level names to saver.egg-info/top_level.txt
+writing manifest file 'saver.egg-info/SOURCES.txt'
+reading manifest file 'saver.egg-info/SOURCES.txt'
+writing manifest file 'saver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver.egg-link (link to .)
+Installing saver script to /home/foka/ros2_humble2/install/saver/lib/saver
+
+Installed /home/foka/ros2_humble2/build/saver
+running symlink_data
+creating /home/foka/ros2_humble2/install/saver/share/ament_index
+creating /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/saver/resource/saver -> /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/saver/package.xml -> /home/foka/ros2_humble2/install/saver/share/saver

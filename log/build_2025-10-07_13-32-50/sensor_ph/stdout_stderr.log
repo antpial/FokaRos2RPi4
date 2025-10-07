@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing sensor_ph.egg-info/PKG-INFO
+writing dependency_links to sensor_ph.egg-info/dependency_links.txt
+writing entry points to sensor_ph.egg-info/entry_points.txt
+writing requirements to sensor_ph.egg-info/requires.txt
+writing top-level names to sensor_ph.egg-info/top_level.txt
+reading manifest file 'sensor_ph.egg-info/SOURCES.txt'
+writing manifest file 'sensor_ph.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor-ph.egg-link (link to .)
+Installing sensor_ph script to /home/foka/ros2_humble2/install/sensor_ph/lib/sensor_ph
+
+Installed /home/foka/ros2_humble2/build/sensor_ph
+running symlink_data

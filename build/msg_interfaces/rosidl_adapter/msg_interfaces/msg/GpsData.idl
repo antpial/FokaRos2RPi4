@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interfaces/msg/GpsData.msg
+// generated code does not contain a copyright notice
+
+
+module msg_interfaces {
+  module msg {
+    struct GpsData {
+      float latitude;
+
+      float longitude;
+
+      float velocity;
+
+      float satelites;
+
+      float hdop;
+    };
+  };
+};

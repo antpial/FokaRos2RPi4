@@ -1,0 +1,25 @@
+[9.318s] Invoking command in '/home/foka/ros2_humble2/build/thruster_driver': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build --no-deps symlink_data
+[13.247s] running develop
+[16.195s] running egg_info
+[16.198s] creating thruster_driver.egg-info
+[16.205s] writing thruster_driver.egg-info/PKG-INFO
+[16.213s] writing dependency_links to thruster_driver.egg-info/dependency_links.txt
+[16.230s] writing entry points to thruster_driver.egg-info/entry_points.txt
+[16.241s] writing requirements to thruster_driver.egg-info/requires.txt
+[16.241s] writing top-level names to thruster_driver.egg-info/top_level.txt
+[16.245s] writing manifest file 'thruster_driver.egg-info/SOURCES.txt'
+[16.281s] reading manifest file 'thruster_driver.egg-info/SOURCES.txt'
+[16.298s] writing manifest file 'thruster_driver.egg-info/SOURCES.txt'
+[16.323s] running build_ext
+[16.333s] Creating /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster-driver.egg-link (link to .)
+[16.357s] Installing keyboard_controller script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[16.362s] Installing thruster_driver script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[16.377s] 
+[16.379s] Installed /home/foka/ros2_humble2/build/thruster_driver
+[16.382s] running symlink_data
+[16.385s] creating /home/foka/ros2_humble2/install/thruster_driver/share/ament_index
+[16.397s] creating /home/foka/ros2_humble2/install/thruster_driver/share/ament_index/resource_index
+[16.404s] creating /home/foka/ros2_humble2/install/thruster_driver/share/ament_index/resource_index/packages
+[16.408s] symbolically linking /home/foka/ros2_humble2/build/thruster_driver/resource/thruster_driver -> /home/foka/ros2_humble2/install/thruster_driver/share/ament_index/resource_index/packages
+[16.412s] symbolically linking /home/foka/ros2_humble2/build/thruster_driver/package.xml -> /home/foka/ros2_humble2/install/thruster_driver/share/thruster_driver
+[18.490s] Invoked command in '/home/foka/ros2_humble2/build/thruster_driver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build --no-deps symlink_data

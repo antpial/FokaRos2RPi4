@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing aggregator.egg-info/PKG-INFO
+writing dependency_links to aggregator.egg-info/dependency_links.txt
+writing entry points to aggregator.egg-info/entry_points.txt
+writing requirements to aggregator.egg-info/requires.txt
+writing top-level names to aggregator.egg-info/top_level.txt
+reading manifest file 'aggregator.egg-info/SOURCES.txt'
+writing manifest file 'aggregator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator.egg-link (link to .)
+Installing aggregator script to /home/foka/ros2_humble2/install/aggregator/lib/aggregator
+
+Installed /home/foka/ros2_humble2/build/aggregator
+running symlink_data
+symbolically linking /home/foka/ros2_humble2/build/aggregator/resource/aggregator -> /home/foka/ros2_humble2/install/aggregator/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/aggregator/package.xml -> /home/foka/ros2_humble2/install/aggregator/share/aggregator

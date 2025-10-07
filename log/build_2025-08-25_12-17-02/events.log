@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001855] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.002474] (-) JobUnselected: {'identifier': 'msg_interfaces'}
+[0.002963] (-) JobUnselected: {'identifier': 'saver'}
+[0.003148] (-) JobUnselected: {'identifier': 'sensor_gps'}
+[0.003430] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.003594] (-) JobUnselected: {'identifier': 'sensor_tds'}
+[0.003683] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
+[0.003775] (-) JobUnselected: {'identifier': 'sensor_turbidity'}
+[0.003893] (-) JobUnselected: {'identifier': 'sensor_voltage'}
+[0.003991] (-) JobUnselected: {'identifier': 'system_launcher'}
+[0.004720] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.004914] (sensor_depth) JobQueued: {'identifier': 'sensor_depth', 'dependencies': OrderedDict()}
+[0.005203] (sensor_depth) JobStarted: {'identifier': 'sensor_depth'}
+[0.099136] (-) TimerEvent: {}
+[0.199809] (-) TimerEvent: {}
+[0.300590] (-) TimerEvent: {}
+[0.401344] (-) TimerEvent: {}
+[0.502243] (-) TimerEvent: {}
+[0.603015] (-) TimerEvent: {}
+[0.703747] (-) TimerEvent: {}
+[0.804424] (-) TimerEvent: {}
+[0.905113] (-) TimerEvent: {}
+[1.005780] (-) TimerEvent: {}
+[1.106471] (-) TimerEvent: {}
+[1.207155] (-) TimerEvent: {}
+[1.307901] (-) TimerEvent: {}
+[1.409409] (-) TimerEvent: {}
+[1.510234] (-) TimerEvent: {}
+[1.610878] (-) TimerEvent: {}
+[1.711571] (-) TimerEvent: {}
+[1.812319] (-) TimerEvent: {}
+[1.913037] (-) TimerEvent: {}
+[2.013685] (-) TimerEvent: {}
+[2.114442] (-) TimerEvent: {}
+[2.215178] (-) TimerEvent: {}
+[2.315824] (-) TimerEvent: {}
+[2.416493] (-) TimerEvent: {}
+[2.517201] (-) TimerEvent: {}
+[2.617893] (-) TimerEvent: {}
+[2.718640] (-) TimerEvent: {}
+[2.819406] (-) TimerEvent: {}
+[2.920087] (-) TimerEvent: {}
+[3.020810] (-) TimerEvent: {}
+[3.121498] (-) TimerEvent: {}
+[3.222313] (-) TimerEvent: {}
+[3.304617] (sensor_depth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_depth', 'build', '--build-base', '/home/foka/ros2_humble2/build/sensor_depth/build', 'install', '--record', '/home/foka/ros2_humble2/build/sensor_depth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/foka/ros2_humble2/src/sensor_depth', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foka', 'SSH_CLIENT': 'fe80::c83:c54f:fd6e:b55b%wlan0 58315 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/foka', 'OLDPWD': '/home/foka/ros2_humble2/src/sensor_depth/sensor_depth', 'TERM_PROGRAM_VERSION': '1.102.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e6dd9539-9e33-4cec-9494-9c2d2178c5f9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/foka/ros2_humble2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'foka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a35ee8a50b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/foka/ros2_humble2/install/sensor_depth:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/foka/ros2_humble2/build/sensor_depth', 'SSH_CONNECTION': 'fe80::c83:c54f:fd6e:b55b%wlan0 58315 fe80::da3a:ddff:fe9e:3ae6%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/foka/ros2_humble2/build/sensor_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/foka/ros2_humble2/install/msg_interfaces'}, 'shell': False}
+[3.322456] (-) TimerEvent: {}
+[3.423927] (-) TimerEvent: {}
+[3.524613] (-) TimerEvent: {}
+[3.625286] (-) TimerEvent: {}
+[3.726020] (-) TimerEvent: {}
+[3.826870] (-) TimerEvent: {}
+[3.927553] (-) TimerEvent: {}
+[4.028234] (-) TimerEvent: {}
+[4.128997] (-) TimerEvent: {}
+[4.229673] (-) TimerEvent: {}
+[4.330359] (-) TimerEvent: {}
+[4.431113] (-) TimerEvent: {}
+[4.532357] (-) TimerEvent: {}
+[4.566546] (sensor_depth) StdoutLine: {'line': b'running egg_info\n'}
+[4.569376] (sensor_depth) StdoutLine: {'line': b'writing ../../build/sensor_depth/sensor_depth.egg-info/PKG-INFO\n'}
+[4.570479] (sensor_depth) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_depth/sensor_depth.egg-info/dependency_links.txt\n'}
+[4.571502] (sensor_depth) StdoutLine: {'line': b'writing entry points to ../../build/sensor_depth/sensor_depth.egg-info/entry_points.txt\n'}
+[4.572391] (sensor_depth) StdoutLine: {'line': b'writing requirements to ../../build/sensor_depth/sensor_depth.egg-info/requires.txt\n'}
+[4.573107] (sensor_depth) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_depth/sensor_depth.egg-info/top_level.txt\n'}
+[4.581470] (sensor_depth) StdoutLine: {'line': b"reading manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'\n"}
+[4.585259] (sensor_depth) StdoutLine: {'line': b"writing manifest file '../../build/sensor_depth/sensor_depth.egg-info/SOURCES.txt'\n"}
+[4.585942] (sensor_depth) StdoutLine: {'line': b'running build\n'}
+[4.586357] (sensor_depth) StdoutLine: {'line': b'running build_py\n'}
+[4.586869] (sensor_depth) StdoutLine: {'line': b'copying sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth\n'}
+[4.588642] (sensor_depth) StdoutLine: {'line': b'running install\n'}
+[4.589907] (sensor_depth) StdoutLine: {'line': b'running install_lib\n'}
+[4.592982] (sensor_depth) StdoutLine: {'line': b'copying /home/foka/ros2_humble2/build/sensor_depth/build/lib/sensor_depth/sensor_depth_driver.py -> /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth\n'}
+[4.596795] (sensor_depth) StdoutLine: {'line': b'byte-compiling /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth/sensor_depth_driver.py to sensor_depth_driver.cpython-310.pyc\n'}
+[4.599744] (sensor_depth) StdoutLine: {'line': b'running install_data\n'}
+[4.600386] (sensor_depth) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.608028] (sensor_depth) StdoutLine: {'line': b"removing '/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.609780] (sensor_depth) StdoutLine: {'line': b'Copying ../../build/sensor_depth/sensor_depth.egg-info to /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor_depth-0.0.0-py3.10.egg-info\n'}
+[4.614915] (sensor_depth) StdoutLine: {'line': b'running install_scripts\n'}
+[4.632599] (-) TimerEvent: {}
+[4.704347] (sensor_depth) StdoutLine: {'line': b'Installing sensor_depth script to /home/foka/ros2_humble2/install/sensor_depth/lib/sensor_depth\n'}
+[4.706166] (sensor_depth) StdoutLine: {'line': b"writing list of installed files to '/home/foka/ros2_humble2/build/sensor_depth/install.log'\n"}
+[4.732953] (-) TimerEvent: {}
+[4.828179] (sensor_depth) CommandEnded: {'returncode': 0}
+[4.833141] (-) TimerEvent: {}
+[4.881032] (sensor_depth) JobEnded: {'identifier': 'sensor_depth', 'rc': 0}
+[4.883866] (-) EventReactorShutdown: {}

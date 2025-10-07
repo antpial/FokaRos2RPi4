@@ -1,0 +1,19 @@
+[14.579s] Invoking command in '/home/foka/ros2_humble2/build/sensor_thermometer': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_thermometer/build --no-deps symlink_data --force
+[17.712s] running develop
+[20.125s] running egg_info
+[20.128s] writing sensor_thermometer.egg-info/PKG-INFO
+[20.130s] writing dependency_links to sensor_thermometer.egg-info/dependency_links.txt
+[20.132s] writing entry points to sensor_thermometer.egg-info/entry_points.txt
+[20.133s] writing requirements to sensor_thermometer.egg-info/requires.txt
+[20.134s] writing top-level names to sensor_thermometer.egg-info/top_level.txt
+[20.143s] reading manifest file 'sensor_thermometer.egg-info/SOURCES.txt'
+[20.168s] writing manifest file 'sensor_thermometer.egg-info/SOURCES.txt'
+[20.192s] running build_ext
+[20.197s] Creating /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor-thermometer.egg-link (link to .)
+[20.207s] Installing sensor_thermometer script to /home/foka/ros2_humble2/install/sensor_thermometer/lib/sensor_thermometer
+[20.214s] 
+[20.216s] Installed /home/foka/ros2_humble2/build/sensor_thermometer
+[20.221s] running symlink_data
+[20.233s] symbolically linking /home/foka/ros2_humble2/build/sensor_thermometer/resource/sensor_thermometer -> /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index/packages
+[20.237s] symbolically linking /home/foka/ros2_humble2/build/sensor_thermometer/package.xml -> /home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer
+[20.640s] Invoked command in '/home/foka/ros2_humble2/build/sensor_thermometer' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_thermometer/build --no-deps symlink_data --force

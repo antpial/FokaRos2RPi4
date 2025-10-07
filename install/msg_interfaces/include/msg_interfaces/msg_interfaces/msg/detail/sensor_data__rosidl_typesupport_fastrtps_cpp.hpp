@@ -1,0 +1,1 @@
+/home/foka/ros2_humble2/build/msg_interfaces/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp

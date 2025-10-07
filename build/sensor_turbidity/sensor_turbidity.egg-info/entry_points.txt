@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_turbidity = sensor_turbidity.sensor_turbidity:main
+

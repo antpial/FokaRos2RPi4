@@ -1,0 +1,49 @@
+[3.329s] Invoking command in '/home/foka/ros2_humble2/build/telemetry': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build
+[4.638s] running develop
+[5.427s] Removing /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry.egg-link (link to .)
+[5.558s] Invoked command in '/home/foka/ros2_humble2/build/telemetry' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/telemetry/build
+[5.569s] Invoking command in '/home/foka/ros2_humble2/src/telemetry': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telemetry build --build-base /home/foka/ros2_humble2/build/telemetry/build install --record /home/foka/ros2_humble2/build/telemetry/install.log --single-version-externally-managed install_data --force
+[6.786s] running egg_info
+[6.789s] writing ../../build/telemetry/telemetry.egg-info/PKG-INFO
+[6.790s] writing dependency_links to ../../build/telemetry/telemetry.egg-info/dependency_links.txt
+[6.791s] writing entry points to ../../build/telemetry/telemetry.egg-info/entry_points.txt
+[6.792s] writing requirements to ../../build/telemetry/telemetry.egg-info/requires.txt
+[6.793s] writing top-level names to ../../build/telemetry/telemetry.egg-info/top_level.txt
+[6.801s] reading manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+[6.804s] writing manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+[6.805s] running build
+[6.805s] running build_py
+[6.806s] creating /home/foka/ros2_humble2/build/telemetry/build
+[6.807s] creating /home/foka/ros2_humble2/build/telemetry/build/lib
+[6.807s] creating /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry
+[6.807s] copying telemetry/loraSX1278_driver.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry
+[6.808s] copying telemetry/__init__.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry
+[6.808s] copying telemetry/telemetry.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry
+[6.809s] creating /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/LoRa_RaspberryPi
+[6.810s] copying telemetry/LoRa_RaspberryPi/__init__.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/LoRa_RaspberryPi
+[6.810s] copying telemetry/LoRa_RaspberryPi/test.py -> /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/LoRa_RaspberryPi
+[6.812s] running install
+[6.814s] running install_lib
+[6.816s] creating /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry
+[6.817s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/loraSX1278_driver.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry
+[6.818s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/__init__.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry
+[6.819s] creating /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi
+[6.819s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/LoRa_RaspberryPi/__init__.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi
+[6.820s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/LoRa_RaspberryPi/test.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi
+[6.821s] copying /home/foka/ros2_humble2/build/telemetry/build/lib/telemetry/telemetry.py -> /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry
+[6.824s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/loraSX1278_driver.py to loraSX1278_driver.cpython-310.pyc
+[6.827s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/__init__.py to __init__.cpython-310.pyc
+[6.828s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/__init__.py to __init__.cpython-310.pyc
+[6.829s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/LoRa_RaspberryPi/test.py to test.cpython-310.pyc
+[6.830s] byte-compiling /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry/telemetry.py to telemetry.cpython-310.pyc
+[6.833s] running install_data
+[6.833s] copying resource/telemetry -> /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index/packages
+[6.834s] copying package.xml -> /home/foka/ros2_humble2/install/telemetry/share/telemetry
+[6.835s] creating /home/foka/ros2_humble2/install/telemetry/share/telemetry/LoRa_RaspberryPi
+[6.835s] copying telemetry/LoRa_RaspberryPi/loralib.so -> /home/foka/ros2_humble2/install/telemetry/share/telemetry/LoRa_RaspberryPi
+[6.836s] running install_egg_info
+[6.844s] Copying ../../build/telemetry/telemetry.egg-info to /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info
+[6.851s] running install_scripts
+[6.941s] Installing telemetry script to /home/foka/ros2_humble2/install/telemetry/lib/telemetry
+[6.943s] writing list of installed files to '/home/foka/ros2_humble2/build/telemetry/install.log'
+[7.081s] Invoked command in '/home/foka/ros2_humble2/src/telemetry' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/telemetry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/telemetry build --build-base /home/foka/ros2_humble2/build/telemetry/build install --record /home/foka/ros2_humble2/build/telemetry/install.log --single-version-externally-managed install_data --force

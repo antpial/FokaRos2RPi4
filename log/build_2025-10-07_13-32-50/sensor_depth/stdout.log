@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing sensor_depth.egg-info/PKG-INFO
+writing dependency_links to sensor_depth.egg-info/dependency_links.txt
+writing entry points to sensor_depth.egg-info/entry_points.txt
+writing requirements to sensor_depth.egg-info/requires.txt
+writing top-level names to sensor_depth.egg-info/top_level.txt
+reading manifest file 'sensor_depth.egg-info/SOURCES.txt'
+writing manifest file 'sensor_depth.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor-depth.egg-link (link to .)
+Installing sensor_depth script to /home/foka/ros2_humble2/install/sensor_depth/lib/sensor_depth
+
+Installed /home/foka/ros2_humble2/build/sensor_depth
+running symlink_data
+symbolically linking /home/foka/ros2_humble2/build/sensor_depth/resource/sensor_depth -> /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_depth/package.xml -> /home/foka/ros2_humble2/install/sensor_depth/share/sensor_depth

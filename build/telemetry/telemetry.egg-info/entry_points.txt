@@ -1,0 +1,3 @@
+[console_scripts]
+telemetry = telemetry.telemetry:main
+

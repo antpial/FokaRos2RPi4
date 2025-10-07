@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/telemetry/telemetry.egg-info/PKG-INFO
+writing dependency_links to ../../build/telemetry/telemetry.egg-info/dependency_links.txt
+writing entry points to ../../build/telemetry/telemetry.egg-info/entry_points.txt
+writing requirements to ../../build/telemetry/telemetry.egg-info/requires.txt
+writing top-level names to ../../build/telemetry/telemetry.egg-info/top_level.txt
+reading manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+writing manifest file '../../build/telemetry/telemetry.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/telemetry/telemetry.egg-info to /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry-0.0.0-py3.10.egg-info
+running install_scripts
+Installing telemetry script to /home/foka/ros2_humble2/install/telemetry/lib/telemetry
+writing list of installed files to '/home/foka/ros2_humble2/build/telemetry/install.log'

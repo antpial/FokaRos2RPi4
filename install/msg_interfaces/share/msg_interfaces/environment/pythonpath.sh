@@ -1,0 +1,1 @@
+/home/foka/ros2_humble2/build/msg_interfaces/ament_cmake_environment_hooks/pythonpath.sh

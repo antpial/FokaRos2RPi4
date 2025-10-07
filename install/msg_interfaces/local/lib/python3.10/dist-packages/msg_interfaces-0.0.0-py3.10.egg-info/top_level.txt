@@ -1,0 +1,1 @@
+/home/foka/ros2_humble2/build/msg_interfaces/ament_cmake_python/msg_interfaces/msg_interfaces.egg-info/top_level.txt

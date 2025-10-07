@@ -1,0 +1,9 @@
+source;share/saver/hook/pythonpath.ps1
+source;share/saver/hook/pythonpath.dsv
+source;share/saver/hook/pythonpath.sh
+source;share/saver/hook/ament_prefix_path.ps1
+source;share/saver/hook/ament_prefix_path.dsv
+source;share/saver/hook/ament_prefix_path.sh
+source;../../build/saver/share/saver/hook/pythonpath_develop.ps1
+source;../../build/saver/share/saver/hook/pythonpath_develop.dsv
+source;../../build/saver/share/saver/hook/pythonpath_develop.sh

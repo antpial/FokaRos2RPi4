@@ -1,0 +1,108 @@
+[0.502s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'telemetry']
+[0.502s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['telemetry'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7ea42d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ebfcb80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ebfcb80>>)
+[1.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.512s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/foka/ros2_humble2/src/telemetry/telemetry'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.515s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['ignore', 'ignore_ament_install']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'ignore_ament_install'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['colcon_pkg']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'colcon_pkg'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['colcon_meta']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'colcon_meta'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['ros']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'ros'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['cmake', 'python']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'cmake'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'python'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extensions ['python_setup_py']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi) by extension 'python_setup_py'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'ignore'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'ignore_ament_install'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['colcon_pkg']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'colcon_pkg'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['colcon_meta']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'colcon_meta'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['ros']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'ros'
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['cmake', 'python']
+[1.591s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'cmake'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'python'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extensions ['python_setup_py']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(LoRa_RaspberryPi/__pycache__) by extension 'python_setup_py'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[1.595s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[1.596s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[1.600s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[1.601s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[1.602s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.603s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.607s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.608s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.610s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'telemetry' in --packages-select
+[1.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.776s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/foka/ros2_humble2/install
+[1.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.033s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.050s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.052s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.053s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.053s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.099s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.111s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.112s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.119s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/local_setup.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/src/telemetry/telemetry/install/_local_setup_util_ps1.py'
+[2.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/setup.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/local_setup.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/src/telemetry/telemetry/install/_local_setup_util_sh.py'
+[2.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/setup.sh'
+[2.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/local_setup.bash'
+[2.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/setup.bash'
+[2.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/local_setup.zsh'
+[2.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/src/telemetry/telemetry/install/setup.zsh'

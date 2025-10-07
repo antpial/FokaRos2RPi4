@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing sensor_thermometer.egg-info/PKG-INFO
+writing dependency_links to sensor_thermometer.egg-info/dependency_links.txt
+writing entry points to sensor_thermometer.egg-info/entry_points.txt
+writing requirements to sensor_thermometer.egg-info/requires.txt
+writing top-level names to sensor_thermometer.egg-info/top_level.txt
+reading manifest file 'sensor_thermometer.egg-info/SOURCES.txt'
+writing manifest file 'sensor_thermometer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor-thermometer.egg-link (link to .)
+Installing sensor_thermometer script to /home/foka/ros2_humble2/install/sensor_thermometer/lib/sensor_thermometer
+
+Installed /home/foka/ros2_humble2/build/sensor_thermometer
+running symlink_data
+symbolically linking /home/foka/ros2_humble2/build/sensor_thermometer/resource/sensor_thermometer -> /home/foka/ros2_humble2/install/sensor_thermometer/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/sensor_thermometer/package.xml -> /home/foka/ros2_humble2/install/sensor_thermometer/share/sensor_thermometer

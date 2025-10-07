@@ -1,0 +1,32 @@
+running develop
+Removing /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator.egg-link (link to .)
+running egg_info
+writing ../../build/aggregator/aggregator.egg-info/PKG-INFO
+writing dependency_links to ../../build/aggregator/aggregator.egg-info/dependency_links.txt
+writing entry points to ../../build/aggregator/aggregator.egg-info/entry_points.txt
+writing requirements to ../../build/aggregator/aggregator.egg-info/requires.txt
+writing top-level names to ../../build/aggregator/aggregator.egg-info/top_level.txt
+reading manifest file '../../build/aggregator/aggregator.egg-info/SOURCES.txt'
+writing manifest file '../../build/aggregator/aggregator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/aggregator/build
+creating /home/foka/ros2_humble2/build/aggregator/build/lib
+creating /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+copying aggregator/__init__.py -> /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+copying aggregator/aggregator.py -> /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+copying /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator/__init__.py -> /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+copying /home/foka/ros2_humble2/build/aggregator/build/lib/aggregator/aggregator.py -> /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator
+byte-compiling /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator/aggregator.py to aggregator.cpython-310.pyc
+running install_data
+copying resource/aggregator -> /home/foka/ros2_humble2/install/aggregator/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/aggregator/share/aggregator
+running install_egg_info
+Copying ../../build/aggregator/aggregator.egg-info to /home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages/aggregator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aggregator script to /home/foka/ros2_humble2/install/aggregator/lib/aggregator
+writing list of installed files to '/home/foka/ros2_humble2/build/aggregator/install.log'

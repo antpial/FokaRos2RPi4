@@ -1,0 +1,1 @@
+/home/foka/ros2_humble2/build/msg_interfaces/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/gps_data__rosidl_typesupport_fastrtps_c.h

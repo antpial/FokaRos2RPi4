@@ -1,0 +1,18 @@
+[3.786s] Invoking command in '/home/foka/ros2_humble2/build/thruster_driver': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build --no-deps symlink_data
+[5.146s] running develop
+[6.005s] running egg_info
+[6.005s] writing thruster_driver.egg-info/PKG-INFO
+[6.007s] writing dependency_links to thruster_driver.egg-info/dependency_links.txt
+[6.007s] writing entry points to thruster_driver.egg-info/entry_points.txt
+[6.008s] writing requirements to thruster_driver.egg-info/requires.txt
+[6.009s] writing top-level names to thruster_driver.egg-info/top_level.txt
+[6.016s] reading manifest file 'thruster_driver.egg-info/SOURCES.txt'
+[6.021s] writing manifest file 'thruster_driver.egg-info/SOURCES.txt'
+[6.029s] running build_ext
+[6.030s] Creating /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster-driver.egg-link (link to .)
+[6.035s] Installing keyboard_controller script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[6.036s] Installing thruster_driver script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[6.037s] 
+[6.040s] Installed /home/foka/ros2_humble2/build/thruster_driver
+[6.041s] running symlink_data
+[6.172s] Invoked command in '/home/foka/ros2_humble2/build/thruster_driver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build --no-deps symlink_data

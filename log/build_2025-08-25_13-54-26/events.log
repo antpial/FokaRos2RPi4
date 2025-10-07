@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001628] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.002239] (-) JobUnselected: {'identifier': 'msg_interfaces'}
+[0.002700] (-) JobUnselected: {'identifier': 'saver'}
+[0.002879] (-) JobUnselected: {'identifier': 'sensor_depth'}
+[0.003154] (-) JobUnselected: {'identifier': 'sensor_gps'}
+[0.003310] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.003409] (-) JobUnselected: {'identifier': 'sensor_tds'}
+[0.003498] (-) JobUnselected: {'identifier': 'sensor_turbidity'}
+[0.003614] (-) JobUnselected: {'identifier': 'sensor_voltage'}
+[0.003704] (-) JobUnselected: {'identifier': 'system_launcher'}
+[0.003790] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.003913] (sensor_thermometer) JobQueued: {'identifier': 'sensor_thermometer', 'dependencies': OrderedDict()}
+[0.004539] (sensor_thermometer) JobStarted: {'identifier': 'sensor_thermometer'}
+[0.098975] (-) TimerEvent: {}
+[0.199688] (-) TimerEvent: {}
+[0.300350] (-) TimerEvent: {}
+[0.401093] (-) TimerEvent: {}
+[0.501757] (-) TimerEvent: {}
+[0.602453] (-) TimerEvent: {}
+[0.703133] (-) TimerEvent: {}
+[0.803793] (-) TimerEvent: {}
+[0.904479] (-) TimerEvent: {}
+[1.005165] (-) TimerEvent: {}
+[1.105861] (-) TimerEvent: {}
+[1.206549] (-) TimerEvent: {}
+[1.307350] (-) TimerEvent: {}
+[1.408455] (-) TimerEvent: {}
+[1.509121] (-) TimerEvent: {}
+[1.609779] (-) TimerEvent: {}
+[1.710484] (-) TimerEvent: {}
+[1.811469] (-) TimerEvent: {}
+[1.912189] (-) TimerEvent: {}
+[2.012861] (-) TimerEvent: {}
+[2.113563] (-) TimerEvent: {}
+[2.214198] (-) TimerEvent: {}
+[2.314866] (-) TimerEvent: {}
+[2.415596] (-) TimerEvent: {}
+[2.516251] (-) TimerEvent: {}
+[2.616925] (-) TimerEvent: {}
+[2.717632] (-) TimerEvent: {}
+[2.818357] (-) TimerEvent: {}
+[2.919019] (-) TimerEvent: {}
+[3.019751] (-) TimerEvent: {}
+[3.120583] (-) TimerEvent: {}
+[3.221868] (-) TimerEvent: {}
+[3.239290] (sensor_thermometer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_thermometer', 'build', '--build-base', '/home/foka/ros2_humble2/build/sensor_thermometer/build', 'install', '--record', '/home/foka/ros2_humble2/build/sensor_thermometer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/foka/ros2_humble2/src/sensor_thermometer', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foka', 'SSH_CLIENT': 'fe80::c83:c54f:fd6e:b55b%wlan0 58315 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/foka', 'OLDPWD': '/sys/bus/w1/devices/28-000000b95133', 'TERM_PROGRAM_VERSION': '1.102.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e6dd9539-9e33-4cec-9494-9c2d2178c5f9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/foka/ros2_humble2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'foka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/foka/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a35ee8a50b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/foka/ros2_humble2/install/sensor_depth:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/foka/ros2_humble2/build/sensor_thermometer', 'SSH_CONNECTION': 'fe80::c83:c54f:fd6e:b55b%wlan0 58315 fe80::da3a:ddff:fe9e:3ae6%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/foka/ros2_humble2/build/sensor_thermometer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_voltage:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_tds:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/saver:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/foka/ros2_humble2/install/msg_interfaces'}, 'shell': False}
+[3.322061] (-) TimerEvent: {}
+[3.422797] (-) TimerEvent: {}
+[3.523565] (-) TimerEvent: {}
+[3.624276] (-) TimerEvent: {}
+[3.725025] (-) TimerEvent: {}
+[3.825718] (-) TimerEvent: {}
+[3.926406] (-) TimerEvent: {}
+[4.027088] (-) TimerEvent: {}
+[4.127723] (-) TimerEvent: {}
+[4.228371] (-) TimerEvent: {}
+[4.329114] (-) TimerEvent: {}
+[4.430002] (-) TimerEvent: {}
+[4.454237] (sensor_thermometer) StdoutLine: {'line': b'running egg_info\n'}
+[4.457403] (sensor_thermometer) StdoutLine: {'line': b'writing ../../build/sensor_thermometer/sensor_thermometer.egg-info/PKG-INFO\n'}
+[4.458542] (sensor_thermometer) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_thermometer/sensor_thermometer.egg-info/dependency_links.txt\n'}
+[4.459569] (sensor_thermometer) StdoutLine: {'line': b'writing entry points to ../../build/sensor_thermometer/sensor_thermometer.egg-info/entry_points.txt\n'}
+[4.460383] (sensor_thermometer) StdoutLine: {'line': b'writing requirements to ../../build/sensor_thermometer/sensor_thermometer.egg-info/requires.txt\n'}
+[4.461062] (sensor_thermometer) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_thermometer/sensor_thermometer.egg-info/top_level.txt\n'}
+[4.469223] (sensor_thermometer) StdoutLine: {'line': b"reading manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'\n"}
+[4.473621] (sensor_thermometer) StdoutLine: {'line': b"writing manifest file '../../build/sensor_thermometer/sensor_thermometer.egg-info/SOURCES.txt'\n"}
+[4.474284] (sensor_thermometer) StdoutLine: {'line': b'running build\n'}
+[4.474638] (sensor_thermometer) StdoutLine: {'line': b'running build_py\n'}
+[4.475148] (sensor_thermometer) StdoutLine: {'line': b'copying sensor_thermometer/sensor_thermometer_driver.py -> /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer\n'}
+[4.476654] (sensor_thermometer) StdoutLine: {'line': b'running install\n'}
+[4.477930] (sensor_thermometer) StdoutLine: {'line': b'running install_lib\n'}
+[4.481275] (sensor_thermometer) StdoutLine: {'line': b'copying /home/foka/ros2_humble2/build/sensor_thermometer/build/lib/sensor_thermometer/sensor_thermometer_driver.py -> /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer\n'}
+[4.485142] (sensor_thermometer) StdoutLine: {'line': b'byte-compiling /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer/sensor_thermometer_driver.py to sensor_thermometer_driver.cpython-310.pyc\n'}
+[4.487795] (sensor_thermometer) StdoutLine: {'line': b'running install_data\n'}
+[4.488609] (sensor_thermometer) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.496246] (sensor_thermometer) StdoutLine: {'line': b"removing '/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.498030] (sensor_thermometer) StdoutLine: {'line': b'Copying ../../build/sensor_thermometer/sensor_thermometer.egg-info to /home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages/sensor_thermometer-0.0.0-py3.10.egg-info\n'}
+[4.504183] (sensor_thermometer) StdoutLine: {'line': b'running install_scripts\n'}
+[4.530151] (-) TimerEvent: {}
+[4.591996] (sensor_thermometer) StdoutLine: {'line': b'Installing sensor_thermometer script to /home/foka/ros2_humble2/install/sensor_thermometer/lib/sensor_thermometer\n'}
+[4.593774] (sensor_thermometer) StdoutLine: {'line': b"writing list of installed files to '/home/foka/ros2_humble2/build/sensor_thermometer/install.log'\n"}
+[4.630501] (-) TimerEvent: {}
+[4.711725] (sensor_thermometer) CommandEnded: {'returncode': 0}
+[4.730592] (-) TimerEvent: {}
+[4.764872] (sensor_thermometer) JobEnded: {'identifier': 'sensor_thermometer', 'rc': 0}
+[4.767671] (-) EventReactorShutdown: {}

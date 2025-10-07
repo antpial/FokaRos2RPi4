@@ -1,0 +1,19 @@
+[8.067s] Invoking command in '/home/foka/ros2_humble2/build/sensor_depth': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_depth/build --no-deps symlink_data --force
+[11.634s] running develop
+[13.495s] running egg_info
+[13.496s] writing sensor_depth.egg-info/PKG-INFO
+[13.498s] writing dependency_links to sensor_depth.egg-info/dependency_links.txt
+[13.499s] writing entry points to sensor_depth.egg-info/entry_points.txt
+[13.501s] writing requirements to sensor_depth.egg-info/requires.txt
+[13.502s] writing top-level names to sensor_depth.egg-info/top_level.txt
+[13.512s] reading manifest file 'sensor_depth.egg-info/SOURCES.txt'
+[13.519s] writing manifest file 'sensor_depth.egg-info/SOURCES.txt'
+[13.529s] running build_ext
+[13.530s] Creating /home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages/sensor-depth.egg-link (link to .)
+[13.534s] Installing sensor_depth script to /home/foka/ros2_humble2/install/sensor_depth/lib/sensor_depth
+[13.536s] 
+[13.536s] Installed /home/foka/ros2_humble2/build/sensor_depth
+[13.537s] running symlink_data
+[13.538s] symbolically linking /home/foka/ros2_humble2/build/sensor_depth/resource/sensor_depth -> /home/foka/ros2_humble2/install/sensor_depth/share/ament_index/resource_index/packages
+[13.539s] symbolically linking /home/foka/ros2_humble2/build/sensor_depth/package.xml -> /home/foka/ros2_humble2/install/sensor_depth/share/sensor_depth
+[17.542s] Invoked command in '/home/foka/ros2_humble2/build/sensor_depth' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_depth/build --no-deps symlink_data --force

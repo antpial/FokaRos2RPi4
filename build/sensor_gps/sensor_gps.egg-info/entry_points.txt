@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_gps = sensor_gps.sensor_gps:main
+

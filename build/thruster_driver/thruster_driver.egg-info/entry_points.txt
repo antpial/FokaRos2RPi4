@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard_controller = thruster_driver.keyboard_controller:main
+thruster_driver = thruster_driver.thruster_driver:main
+

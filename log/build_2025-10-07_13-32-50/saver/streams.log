@@ -1,0 +1,19 @@
+[11.275s] Invoking command in '/home/foka/ros2_humble2/build/saver': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/saver/build --no-deps symlink_data --force
+[15.473s] running develop
+[17.729s] running egg_info
+[17.742s] writing saver.egg-info/PKG-INFO
+[17.755s] writing dependency_links to saver.egg-info/dependency_links.txt
+[17.756s] writing entry points to saver.egg-info/entry_points.txt
+[17.758s] writing requirements to saver.egg-info/requires.txt
+[17.758s] writing top-level names to saver.egg-info/top_level.txt
+[17.786s] reading manifest file 'saver.egg-info/SOURCES.txt'
+[17.832s] writing manifest file 'saver.egg-info/SOURCES.txt'
+[17.889s] running build_ext
+[17.916s] Creating /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver.egg-link (link to .)
+[17.950s] Installing saver script to /home/foka/ros2_humble2/install/saver/lib/saver
+[17.952s] 
+[17.952s] Installed /home/foka/ros2_humble2/build/saver
+[17.953s] running symlink_data
+[17.955s] symbolically linking /home/foka/ros2_humble2/build/saver/resource/saver -> /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index/packages
+[17.956s] symbolically linking /home/foka/ros2_humble2/build/saver/package.xml -> /home/foka/ros2_humble2/install/saver/share/saver
+[20.348s] Invoked command in '/home/foka/ros2_humble2/build/saver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/saver/build --no-deps symlink_data --force

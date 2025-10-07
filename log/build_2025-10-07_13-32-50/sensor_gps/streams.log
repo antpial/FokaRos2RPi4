@@ -1,0 +1,19 @@
+[8.640s] Invoking command in '/home/foka/ros2_humble2/build/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data --force
+[11.400s] running develop
+[13.982s] running egg_info
+[14.000s] writing sensor_gps.egg-info/PKG-INFO
+[14.028s] writing dependency_links to sensor_gps.egg-info/dependency_links.txt
+[14.054s] writing entry points to sensor_gps.egg-info/entry_points.txt
+[14.062s] writing requirements to sensor_gps.egg-info/requires.txt
+[14.070s] writing top-level names to sensor_gps.egg-info/top_level.txt
+[14.106s] reading manifest file 'sensor_gps.egg-info/SOURCES.txt'
+[14.132s] writing manifest file 'sensor_gps.egg-info/SOURCES.txt'
+[14.164s] running build_ext
+[14.173s] Creating /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor-gps.egg-link (link to .)
+[14.190s] Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+[14.199s] 
+[14.202s] Installed /home/foka/ros2_humble2/build/sensor_gps
+[14.207s] running symlink_data
+[14.214s] symbolically linking /home/foka/ros2_humble2/build/sensor_gps/resource/sensor_gps -> /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+[14.230s] symbolically linking /home/foka/ros2_humble2/build/sensor_gps/package.xml -> /home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps
+[14.603s] Invoked command in '/home/foka/ros2_humble2/build/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build --no-deps symlink_data --force

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing telemetry.egg-info/PKG-INFO
+writing dependency_links to telemetry.egg-info/dependency_links.txt
+writing entry points to telemetry.egg-info/entry_points.txt
+writing requirements to telemetry.egg-info/requires.txt
+writing top-level names to telemetry.egg-info/top_level.txt
+reading manifest file 'telemetry.egg-info/SOURCES.txt'
+writing manifest file 'telemetry.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages/telemetry.egg-link (link to .)
+Installing telemetry script to /home/foka/ros2_humble2/install/telemetry/lib/telemetry
+
+Installed /home/foka/ros2_humble2/build/telemetry
+running symlink_data
+symbolically linking /home/foka/ros2_humble2/build/telemetry/resource/telemetry -> /home/foka/ros2_humble2/install/telemetry/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/telemetry/package.xml -> /home/foka/ros2_humble2/install/telemetry/share/telemetry
+symbolically linking /home/foka/ros2_humble2/build/telemetry/package.xml -> /home/foka/ros2_humble2/install/telemetry/share/telemetry

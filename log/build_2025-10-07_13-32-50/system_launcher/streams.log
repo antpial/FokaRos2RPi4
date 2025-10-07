@@ -1,0 +1,20 @@
+[11.332s] Invoking command in '/home/foka/ros2_humble2/build/system_launcher': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/system_launcher/build --no-deps symlink_data --force
+[15.442s] running develop
+[17.881s] running egg_info
+[17.882s] writing system_launcher.egg-info/PKG-INFO
+[17.888s] writing dependency_links to system_launcher.egg-info/dependency_links.txt
+[17.889s] writing entry points to system_launcher.egg-info/entry_points.txt
+[17.890s] writing requirements to system_launcher.egg-info/requires.txt
+[17.891s] writing top-level names to system_launcher.egg-info/top_level.txt
+[17.902s] reading manifest file 'system_launcher.egg-info/SOURCES.txt'
+[17.911s] writing manifest file 'system_launcher.egg-info/SOURCES.txt'
+[17.923s] running build_ext
+[17.924s] Creating /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system-launcher.egg-link (link to .)
+[17.930s] 
+[17.930s] Installed /home/foka/ros2_humble2/build/system_launcher
+[17.931s] running symlink_data
+[17.932s] symbolically linking /home/foka/ros2_humble2/build/system_launcher/resource/system_launcher -> /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index/packages
+[17.934s] symbolically linking /home/foka/ros2_humble2/build/system_launcher/package.xml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher
+[17.935s] symbolically linking /home/foka/ros2_humble2/build/system_launcher/launch/launch_all.py -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/launch
+[17.937s] symbolically linking /home/foka/ros2_humble2/build/system_launcher/config/system_config.yaml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/config
+[20.383s] Invoked command in '/home/foka/ros2_humble2/build/system_launcher' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/system_launcher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/foka/ros2_humble2/build/system_launcher/build --no-deps symlink_data --force

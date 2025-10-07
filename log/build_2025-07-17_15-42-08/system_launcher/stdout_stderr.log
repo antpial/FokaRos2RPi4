@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating system_launcher.egg-info
+writing system_launcher.egg-info/PKG-INFO
+writing dependency_links to system_launcher.egg-info/dependency_links.txt
+writing entry points to system_launcher.egg-info/entry_points.txt
+writing requirements to system_launcher.egg-info/requires.txt
+writing top-level names to system_launcher.egg-info/top_level.txt
+writing manifest file 'system_launcher.egg-info/SOURCES.txt'
+reading manifest file 'system_launcher.egg-info/SOURCES.txt'
+writing manifest file 'system_launcher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system-launcher.egg-link (link to .)
+
+Installed /home/foka/ros2_humble2/build/system_launcher
+running symlink_data
+creating /home/foka/ros2_humble2/install/system_launcher/share/ament_index
+creating /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/system_launcher/resource/system_launcher -> /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index/packages
+symbolically linking /home/foka/ros2_humble2/build/system_launcher/package.xml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher
+creating /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/launch
+symbolically linking /home/foka/ros2_humble2/build/system_launcher/launch/launch_all.py -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/launch
+creating /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/config
+symbolically linking /home/foka/ros2_humble2/build/system_launcher/config/system_config.yaml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/config
