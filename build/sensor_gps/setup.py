@@ -1,1 +1,0 @@
-/home/foka/ros2_humble2/src/sensor_gps/setup.py

@@ -1,0 +1,36 @@
+running develop
+Removing /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor-gps.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_gps/sensor_gps.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_gps/sensor_gps.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_gps/sensor_gps.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_gps/sensor_gps.egg-info/requires.txt
+writing top-level names to ../../build/sensor_gps/sensor_gps.egg-info/top_level.txt
+reading manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_gps/sensor_gps.py -> /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/__init__.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/sensor_gps_driver.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/L76X.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/main.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/config.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/sensor_gps.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/sensor_gps_driver.py to sensor_gps_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/L76X.py to L76X.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/main.py to main.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/config.py to config.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/sensor_gps.py to sensor_gps.cpython-310.pyc
+running install_data
+copying resource/sensor_gps -> /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps
+running install_egg_info
+Copying ../../build/sensor_gps/sensor_gps.egg-info to /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_gps/install.log'

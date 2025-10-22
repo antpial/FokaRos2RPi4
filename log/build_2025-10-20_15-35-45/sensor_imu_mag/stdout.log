@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/sensor_imu_mag/sensor_imu_mag.egg-info
+writing ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/requires.txt
+writing top-level names to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/top_level.txt
+writing manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_imu_mag/build
+creating /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib
+creating /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+copying sensor_imu_mag/__init__.py -> /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+copying sensor_imu_mag/sensor_imu_mag_driver.py -> /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+copying sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+copying /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag/__init__.py -> /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+copying /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag/sensor_imu_mag_driver.py -> /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+copying /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+byte-compiling /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag/sensor_imu_mag_driver.py to sensor_imu_mag_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag/sensor_imu_mag.py to sensor_imu_mag.cpython-310.pyc
+running install_data
+creating /home/foka/ros2_humble2/install/sensor_imu_mag/share/ament_index
+creating /home/foka/ros2_humble2/install/sensor_imu_mag/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/sensor_imu_mag/share/ament_index/resource_index/packages
+copying resource/sensor_imu_mag -> /home/foka/ros2_humble2/install/sensor_imu_mag/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag
+running install_egg_info
+Copying ../../build/sensor_imu_mag/sensor_imu_mag.egg-info to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_imu_mag script to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/sensor_imu_mag
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_imu_mag/install.log'

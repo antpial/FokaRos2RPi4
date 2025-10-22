@@ -1,0 +1,40 @@
+[3.692s] Invoking command in '/home/foka/ros2_humble2/build/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build
+[5.779s] running develop
+[7.204s] Removing /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor-gps.egg-link (link to .)
+[7.366s] Invoked command in '/home/foka/ros2_humble2/build/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/sensor_gps/build
+[7.378s] Invoking command in '/home/foka/ros2_humble2/src/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_gps build --build-base /home/foka/ros2_humble2/build/sensor_gps/build install --record /home/foka/ros2_humble2/build/sensor_gps/install.log --single-version-externally-managed install_data --force
+[9.317s] running egg_info
+[9.321s] writing ../../build/sensor_gps/sensor_gps.egg-info/PKG-INFO
+[9.323s] writing dependency_links to ../../build/sensor_gps/sensor_gps.egg-info/dependency_links.txt
+[9.325s] writing entry points to ../../build/sensor_gps/sensor_gps.egg-info/entry_points.txt
+[9.329s] writing requirements to ../../build/sensor_gps/sensor_gps.egg-info/requires.txt
+[9.329s] writing top-level names to ../../build/sensor_gps/sensor_gps.egg-info/top_level.txt
+[9.337s] reading manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+[9.344s] writing manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+[9.345s] running build
+[9.345s] running build_py
+[9.349s] copying sensor_gps/sensor_gps.py -> /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps
+[9.356s] running install
+[9.359s] running install_lib
+[9.362s] creating /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.363s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/__init__.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.364s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/sensor_gps_driver.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.369s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/L76X.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.369s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/main.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.370s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/config.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.374s] copying /home/foka/ros2_humble2/build/sensor_gps/build/lib/sensor_gps/sensor_gps.py -> /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps
+[9.375s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/__init__.py to __init__.cpython-310.pyc
+[9.378s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/sensor_gps_driver.py to sensor_gps_driver.cpython-310.pyc
+[9.379s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/L76X.py to L76X.cpython-310.pyc
+[9.382s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/main.py to main.cpython-310.pyc
+[9.383s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/config.py to config.cpython-310.pyc
+[9.385s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/sensor_gps.py to sensor_gps.cpython-310.pyc
+[9.397s] running install_data
+[9.398s] copying resource/sensor_gps -> /home/foka/ros2_humble2/install/sensor_gps/share/ament_index/resource_index/packages
+[9.400s] copying package.xml -> /home/foka/ros2_humble2/install/sensor_gps/share/sensor_gps
+[9.401s] running install_egg_info
+[9.412s] Copying ../../build/sensor_gps/sensor_gps.egg-info to /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps-0.0.0-py3.10.egg-info
+[9.425s] running install_scripts
+[9.550s] Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+[9.553s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_gps/install.log'
+[9.800s] Invoked command in '/home/foka/ros2_humble2/src/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_gps build --build-base /home/foka/ros2_humble2/build/sensor_gps/build install --record /home/foka/ros2_humble2/build/sensor_gps/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,28 @@
+running develop
+Removing /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system-launcher.egg-link (link to .)
+running egg_info
+writing ../../build/system_launcher/system_launcher.egg-info/PKG-INFO
+writing dependency_links to ../../build/system_launcher/system_launcher.egg-info/dependency_links.txt
+writing entry points to ../../build/system_launcher/system_launcher.egg-info/entry_points.txt
+writing requirements to ../../build/system_launcher/system_launcher.egg-info/requires.txt
+writing top-level names to ../../build/system_launcher/system_launcher.egg-info/top_level.txt
+reading manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+writing manifest file '../../build/system_launcher/system_launcher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher
+copying /home/foka/ros2_humble2/build/system_launcher/build/lib/system_launcher/__init__.py -> /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher
+copying /home/foka/ros2_humble2/build/system_launcher/build/lib/system_launcher/log_helper.py -> /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher
+byte-compiling /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher/log_helper.py to log_helper.cpython-310.pyc
+running install_data
+copying resource/system_launcher -> /home/foka/ros2_humble2/install/system_launcher/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher
+copying launch/launch_all.py -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/launch
+copying config/system_config.yaml -> /home/foka/ros2_humble2/install/system_launcher/share/system_launcher/config
+running install_egg_info
+Copying ../../build/system_launcher/system_launcher.egg-info to /home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages/system_launcher-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/foka/ros2_humble2/build/system_launcher/install.log'

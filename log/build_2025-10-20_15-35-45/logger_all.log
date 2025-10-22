@@ -1,0 +1,286 @@
+[0.675s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'sensor_imu_mag']
+[0.675s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['sensor_imu_mag'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbdcef520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbdead390>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbdead390>>)
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.147s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/foka/ros2_humble2'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ignore_ament_install'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['colcon_pkg']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'colcon_pkg'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['colcon_meta']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'colcon_meta'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extensions ['ros']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/aggregator) by extension 'ros'
+[2.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aggregator' with type 'ros.ament_python' and name 'aggregator'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ignore_ament_install'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_pkg']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_pkg'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['colcon_meta']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'colcon_meta'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extensions ['ros']
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_interfaces) by extension 'ros'
+[2.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_interfaces' with type 'ros.ament_cmake' and name 'msg_interfaces'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['ignore', 'ignore_ament_install']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ignore'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ignore_ament_install'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['colcon_pkg']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'colcon_pkg'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['colcon_meta']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'colcon_meta'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extensions ['ros']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/saver) by extension 'ros'
+[2.293s] DEBUG:colcon.colcon_core.package_identification:Package 'src/saver' with type 'ros.ament_python' and name 'saver'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extensions ['ignore', 'ignore_ament_install']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extension 'ignore_ament_install'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extensions ['colcon_pkg']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extension 'colcon_pkg'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extensions ['colcon_meta']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extension 'colcon_meta'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extensions ['ros']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_depth) by extension 'ros'
+[2.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_depth' with type 'ros.ament_python' and name 'sensor_depth'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['ignore', 'ignore_ament_install']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ignore'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ignore_ament_install'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['colcon_pkg']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'colcon_pkg'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['colcon_meta']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'colcon_meta'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extensions ['ros']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_gps) by extension 'ros'
+[2.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_gps' with type 'ros.ament_python' and name 'sensor_gps'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extensions ['ignore', 'ignore_ament_install']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extension 'ignore'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extension 'ignore_ament_install'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extensions ['colcon_pkg']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extension 'colcon_pkg'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extensions ['colcon_meta']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extension 'colcon_meta'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extensions ['ros']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_imu_mag) by extension 'ros'
+[2.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_imu_mag' with type 'ros.ament_python' and name 'sensor_imu_mag'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['ignore', 'ignore_ament_install']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ignore'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ignore_ament_install'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['colcon_pkg']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'colcon_pkg'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['colcon_meta']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'colcon_meta'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extensions ['ros']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_ph) by extension 'ros'
+[2.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_ph' with type 'ros.ament_python' and name 'sensor_ph'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['ignore', 'ignore_ament_install']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ignore'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ignore_ament_install'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['colcon_pkg']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'colcon_pkg'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['colcon_meta']
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'colcon_meta'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extensions ['ros']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_tds) by extension 'ros'
+[2.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_tds' with type 'ros.ament_python' and name 'sensor_tds'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['ignore', 'ignore_ament_install']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ignore'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ignore_ament_install'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['colcon_pkg']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'colcon_pkg'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['colcon_meta']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'colcon_meta'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extensions ['ros']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_thermometer) by extension 'ros'
+[2.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_thermometer' with type 'ros.ament_python' and name 'sensor_thermometer'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['ignore', 'ignore_ament_install']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ignore'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ignore_ament_install'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['colcon_pkg']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'colcon_pkg'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['colcon_meta']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'colcon_meta'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extensions ['ros']
+[2.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_turbidity) by extension 'ros'
+[2.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_turbidity' with type 'ros.ament_python' and name 'sensor_turbidity'
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['ignore', 'ignore_ament_install']
+[2.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ignore'
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ignore_ament_install'
+[2.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['colcon_pkg']
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'colcon_pkg'
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['colcon_meta']
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'colcon_meta'
+[2.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extensions ['ros']
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_voltage) by extension 'ros'
+[2.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_voltage' with type 'ros.ament_python' and name 'sensor_voltage'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['ignore', 'ignore_ament_install']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ignore'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ignore_ament_install'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['colcon_pkg']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'colcon_pkg'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['colcon_meta']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'colcon_meta'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extensions ['ros']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/system_launcher) by extension 'ros'
+[2.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/system_launcher' with type 'ros.ament_python' and name 'system_launcher'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['ignore', 'ignore_ament_install']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ignore'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ignore_ament_install'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['colcon_pkg']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'colcon_pkg'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['colcon_meta']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'colcon_meta'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extensions ['ros']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/telemetry) by extension 'ros'
+[2.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/telemetry' with type 'ros.ament_python' and name 'telemetry'
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extension 'ignore'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extension 'ignore_ament_install'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extensions ['colcon_pkg']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extension 'colcon_pkg'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extensions ['colcon_meta']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extension 'colcon_meta'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extensions ['ros']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/thruster_driver) by extension 'ros'
+[2.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thruster_driver' with type 'ros.ament_python' and name 'thruster_driver'
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.564s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aggregator' in 'src/aggregator'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'msg_interfaces' in 'src/msg_interfaces'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'saver' in 'src/saver'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_depth' in 'src/sensor_depth'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_gps' in 'src/sensor_gps'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_thermometer' in 'src/sensor_thermometer'
+[2.565s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'system_launcher' in 'src/system_launcher'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'telemetry' in 'src/telemetry'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'thruster_driver' in 'src/thruster_driver'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_ph' in 'src/sensor_ph'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_tds' in 'src/sensor_tds'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_turbidity' in 'src/sensor_turbidity'
+[2.566s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_voltage' in 'src/sensor_voltage'
+[2.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.570s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.590s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/foka/ros2_humble2/install
+[2.597s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 181 installed packages in /opt/ros/humble
+[2.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_target' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_clean_cache' from command line to 'False'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_clean_first' from command line to 'False'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'cmake_force_configure' from command line to 'False'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'ament_cmake_args' from command line to 'None'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'catkin_cmake_args' from command line to 'None'
+[2.751s] Level 5:colcon.colcon_core.verb:set package 'sensor_imu_mag' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.751s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_imu_mag' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/foka/ros2_humble2/build/sensor_imu_mag', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/foka/ros2_humble2/install/sensor_imu_mag', 'merge_install': False, 'path': '/home/foka/ros2_humble2/src/sensor_imu_mag', 'symlink_install': False, 'test_result_base': None}
+[2.752s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.757s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/foka/ros2_humble2/src/sensor_imu_mag' with build type 'ament_python'
+[2.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_imu_mag', 'ament_prefix_path')
+[2.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/ament_prefix_path.ps1'
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/ament_prefix_path.dsv'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/ament_prefix_path.sh'
+[2.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.474s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/foka/ros2_humble2/src/sensor_imu_mag'
+[4.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/foka/ros2_humble2/src/sensor_imu_mag': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_imu_mag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_imu_mag build --build-base /home/foka/ros2_humble2/build/sensor_imu_mag/build install --record /home/foka/ros2_humble2/build/sensor_imu_mag/install.log --single-version-externally-managed install_data
+[9.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/foka/ros2_humble2/src/sensor_imu_mag' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_imu_mag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_imu_mag build --build-base /home/foka/ros2_humble2/build/sensor_imu_mag/build install --record /home/foka/ros2_humble2/build/sensor_imu_mag/install.log --single-version-externally-managed install_data
+[9.267s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag' for CMake module files
+[9.269s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag' for CMake config files
+[9.273s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag/lib'
+[9.274s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag/bin'
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag/lib/pkgconfig/sensor_imu_mag.pc'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages'
+[9.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_imu_mag', 'pythonpath')
+[9.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/pythonpath.ps1'
+[9.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/pythonpath.dsv'
+[9.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/hook/pythonpath.sh'
+[9.284s] Level 1:colcon.colcon_core.environment:checking '/home/foka/ros2_humble2/install/sensor_imu_mag/bin'
+[9.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_imu_mag)
+[9.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/package.ps1'
+[9.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/package.dsv'
+[9.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/package.sh'
+[9.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/package.bash'
+[9.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/foka/ros2_humble2/install/sensor_imu_mag/share/sensor_imu_mag/package.zsh'
+[9.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/foka/ros2_humble2/install/sensor_imu_mag/share/colcon-core/packages/sensor_imu_mag)
+[9.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.353s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.429s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[9.430s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.ps1'
+[9.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_ps1.py'
+[9.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.ps1'
+[9.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.sh'
+[9.463s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/foka/ros2_humble2/install/_local_setup_util_sh.py'
+[9.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.sh'
+[9.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.bash'
+[9.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.bash'
+[9.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/foka/ros2_humble2/install/local_setup.zsh'
+[9.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/foka/ros2_humble2/install/setup.zsh'

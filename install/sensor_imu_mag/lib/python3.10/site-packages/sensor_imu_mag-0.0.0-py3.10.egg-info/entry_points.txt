@@ -1,0 +1,3 @@
+[console_scripts]
+sensor_imu_mag = sensor_imu_mag.sensor_imu_mag:main
+

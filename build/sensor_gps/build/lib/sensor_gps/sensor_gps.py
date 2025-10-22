@@ -28,23 +28,49 @@ class sensor_gps_node(Node):
             self.log("sensor_gps, error w czasie inicjalizacji sterownika: " + str(e))
             self.get_logger().error(f'Error initializing sensor_gps driver: {e}')
 
-        # Utworzenie publishera na dane z czujnika pH
+        # Utworzenie publishera na dane z czujnika gps
         self.publisher = self.create_publisher(GpsData, topic_name, 10)
-        self.timer = self.create_timer(1.0 / frequency, self.publish_gps)
+        self.timer = self.create_timer(1.0 / frequency, self.publish_average_gps)
         self.get_logger().info(f'GPS node started, publishing every {1.0 / frequency:.2f} seconds.')
 
-    # Publikowanie topicu z danymi gps dla aggregatora
-    def publish_gps(self):
-        msg = GpsData()
+        #bufor na uśredniane dane z gps
+        self.gps_buffer = []
+
+        # Timer do zbierania danych co 0.1 s
+        self.read_timer = self.create_timer(0.1, self.read_gps_data)
+
+        # Odczyt danych z GPS co 0.1 s
+    def read_gps_data(self):
         try:
-            msg = self.driver_gps.read_data_example_Float32()
-            # msg = self.driver_gps.read_data_Float32()
+            data = self.driver_gps.read_data_example_Float32()
+            self.gps_buffer.append(data)
         except Exception as e:
             self.log("sensor_gps, error w czasie odczytu danych ze sterownika: " + str(e))
             self.get_logger().error(f'Error reading data from sensor_gps driver: {e}')
+
+
+
+    def publish_average_gps(self):
+        if not self.gps_buffer:
+            self.get_logger().warn('No GPS data collected to average.')
             return
-        self.publisher.publish(msg)
-        self.get_logger().info(f'Published gps: {msg}')
+
+        # Obliczenie średniej — zakładamy, że GpsData ma pola: latitude, longitude, altitude
+        avg_msg = GpsData()
+        n = len(self.gps_buffer)
+
+        avg_msg.latitude = sum([d.latitude for d in self.gps_buffer]) / n
+        avg_msg.longitude = sum([d.longitude for d in self.gps_buffer]) / n
+        avg_msg.velocity = sum([d.velocity for d in self.gps_buffer]) / n
+        avg_msg.satelites = sum([d.satelites for d in self.gps_buffer]) / n
+        avg_msg.hdop = sum([d.hdop for d in self.gps_buffer]) / n
+        # Wyczyszczenie bufora po publikacji
+        self.gps_buffer.clear()
+
+        # Publikacja
+        self.publisher.publish(avg_msg)
+        self.get_logger().info(f'Published averaged GPS ({n} samples): {avg_msg}')
+
 
 def main(args=None):
     rclpy.init(args=args)

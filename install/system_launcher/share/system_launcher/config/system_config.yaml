@@ -1,1 +1,57 @@
-/home/foka/ros2_humble2/build/system_launcher/config/system_config.yaml
+sensor_ph:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 2 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+sensor_thermometer:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################  
+
+sensor_tds:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 0 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+sensor_voltage:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 1 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+sensor_turbidity:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 3 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+sensor_depth:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+
+sensor_gps:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    
+aggregator:
+  ros__parameters:
+    ############################### BE CAREFULL ##############################
+    publish_frequency: 0.5 # in HZ; Must be at least as fast as the fastest sensor!!!
+    ##########################################################################
+
+telemetry:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    send_interval: 0.5 # in Hz; Must be at least fast as the aggregator!!!
+    ##################################################################
