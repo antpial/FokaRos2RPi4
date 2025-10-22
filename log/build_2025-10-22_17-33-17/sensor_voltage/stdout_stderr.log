@@ -1,0 +1,35 @@
+running develop
+Removing /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor-voltage.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_voltage/sensor_voltage.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_voltage/sensor_voltage.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_voltage/sensor_voltage.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_voltage/sensor_voltage.egg-info/requires.txt
+writing top-level names to ../../build/sensor_voltage/sensor_voltage.egg-info/top_level.txt
+reading manifest file '../../build/sensor_voltage/sensor_voltage.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_voltage/sensor_voltage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_voltage/build
+creating /home/foka/ros2_humble2/build/sensor_voltage/build/lib
+creating /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage
+copying sensor_voltage/sensor_voltage_driver.py -> /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage
+copying sensor_voltage/__init__.py -> /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage
+copying sensor_voltage/sensor_voltage.py -> /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage
+copying /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage/sensor_voltage_driver.py -> /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage
+copying /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage/__init__.py -> /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage
+copying /home/foka/ros2_humble2/build/sensor_voltage/build/lib/sensor_voltage/sensor_voltage.py -> /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage
+byte-compiling /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage/sensor_voltage_driver.py to sensor_voltage_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage/sensor_voltage.py to sensor_voltage.cpython-310.pyc
+running install_data
+copying resource/sensor_voltage -> /home/foka/ros2_humble2/install/sensor_voltage/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_voltage/share/sensor_voltage
+running install_egg_info
+Copying ../../build/sensor_voltage/sensor_voltage.egg-info to /home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages/sensor_voltage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_voltage script to /home/foka/ros2_humble2/install/sensor_voltage/lib/sensor_voltage
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_voltage/install.log'

@@ -1,0 +1,32 @@
+[8.808s] Invoking command in '/home/foka/ros2_humble2/build/saver': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/saver/build
+[12.375s] running develop
+[14.895s] Removing /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver.egg-link (link to .)
+[15.126s] Invoked command in '/home/foka/ros2_humble2/build/saver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/saver/build
+[15.149s] Invoking command in '/home/foka/ros2_humble2/src/saver': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/saver build --build-base /home/foka/ros2_humble2/build/saver/build install --record /home/foka/ros2_humble2/build/saver/install.log --single-version-externally-managed install_data --force
+[18.598s] running egg_info
+[18.602s] writing ../../build/saver/saver.egg-info/PKG-INFO
+[18.603s] writing dependency_links to ../../build/saver/saver.egg-info/dependency_links.txt
+[18.604s] writing entry points to ../../build/saver/saver.egg-info/entry_points.txt
+[18.605s] writing requirements to ../../build/saver/saver.egg-info/requires.txt
+[18.606s] writing top-level names to ../../build/saver/saver.egg-info/top_level.txt
+[18.613s] reading manifest file '../../build/saver/saver.egg-info/SOURCES.txt'
+[18.621s] writing manifest file '../../build/saver/saver.egg-info/SOURCES.txt'
+[18.623s] running build
+[18.624s] running build_py
+[18.625s] copying saver/saver.py -> /home/foka/ros2_humble2/build/saver/build/lib/saver
+[18.628s] running install
+[18.631s] running install_lib
+[18.639s] creating /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+[18.640s] copying /home/foka/ros2_humble2/build/saver/build/lib/saver/__init__.py -> /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+[18.642s] copying /home/foka/ros2_humble2/build/saver/build/lib/saver/saver.py -> /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver
+[18.652s] byte-compiling /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver/__init__.py to __init__.cpython-310.pyc
+[18.655s] byte-compiling /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver/saver.py to saver.cpython-310.pyc
+[18.663s] running install_data
+[18.664s] copying resource/saver -> /home/foka/ros2_humble2/install/saver/share/ament_index/resource_index/packages
+[18.665s] copying package.xml -> /home/foka/ros2_humble2/install/saver/share/saver
+[18.667s] running install_egg_info
+[18.690s] Copying ../../build/saver/saver.egg-info to /home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages/saver-0.0.0-py3.10.egg-info
+[18.706s] running install_scripts
+[18.951s] Installing saver script to /home/foka/ros2_humble2/install/saver/lib/saver
+[18.956s] writing list of installed files to '/home/foka/ros2_humble2/build/saver/install.log'
+[19.224s] Invoked command in '/home/foka/ros2_humble2/src/saver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/saver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/saver build --build-base /home/foka/ros2_humble2/build/saver/build install --record /home/foka/ros2_humble2/build/saver/install.log --single-version-externally-managed install_data --force

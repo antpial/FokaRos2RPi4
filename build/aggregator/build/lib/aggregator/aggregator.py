@@ -16,6 +16,7 @@ class AggregatorNode(Node):
             'turb': None,
             'tds': None,
             'vol': None,
+            'curr': None,
             'dep': None,
         }
 
@@ -32,6 +33,7 @@ class AggregatorNode(Node):
         self.create_subscription(Float32, '/sensor_turbidity', self.turb_callback, 10)
         self.create_subscription(Float32, '/sensor_tds', self.tds_callback, 10)
         self.create_subscription(Float32, '/sensor_voltage', self.voltage_callback, 10)
+        self.create_subscription(Float32, '/sensor_current', self.current_callback, 10)
         self.create_subscription(Float32, '/sensor_depth', self.depth_callback, 10)
 
         # Jeden wspólny publisher
@@ -63,6 +65,9 @@ class AggregatorNode(Node):
     def voltage_callback(self, msg):
         self.latest_data['vol'] = msg.data
 
+    def current_callback(self, msg):
+        self.latest_data['curr'] = msg.data
+
     def depth_callback(self, msg):
         self.latest_data['dep'] = msg.data
 
@@ -87,6 +92,7 @@ class AggregatorNode(Node):
             'turb': self.latest_data['turb'],
             'tds': self.latest_data['tds'],
             'vol': self.latest_data['vol'],
+            'curr': self.latest_data['curr'],
             'dep': self.latest_data['dep'],
             'time': self.get_clock().now().to_msg().sec
 

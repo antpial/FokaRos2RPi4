@@ -1,0 +1,21 @@
+[8.562s] Invoking command in '/home/foka/ros2_humble2/src/sensor_current': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_current/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_current build --build-base /home/foka/ros2_humble2/build/sensor_current/build install --record /home/foka/ros2_humble2/build/sensor_current/install.log --single-version-externally-managed install_data
+[12.016s] running egg_info
+[12.023s] writing ../../build/sensor_current/sensor_current.egg-info/PKG-INFO
+[12.026s] writing dependency_links to ../../build/sensor_current/sensor_current.egg-info/dependency_links.txt
+[12.028s] writing entry points to ../../build/sensor_current/sensor_current.egg-info/entry_points.txt
+[12.030s] writing requirements to ../../build/sensor_current/sensor_current.egg-info/requires.txt
+[12.035s] writing top-level names to ../../build/sensor_current/sensor_current.egg-info/top_level.txt
+[12.051s] reading manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+[12.062s] writing manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+[12.064s] running build
+[12.065s] running build_py
+[12.069s] running install
+[12.072s] running install_lib
+[12.090s] running install_data
+[12.092s] running install_egg_info
+[12.113s] removing '/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current-0.0.0-py3.10.egg-info' (and everything under it)
+[12.117s] Copying ../../build/sensor_current/sensor_current.egg-info to /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current-0.0.0-py3.10.egg-info
+[12.132s] running install_scripts
+[12.371s] Installing sensor_current script to /home/foka/ros2_humble2/install/sensor_current/lib/sensor_current
+[12.376s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_current/install.log'
+[12.591s] Invoked command in '/home/foka/ros2_humble2/src/sensor_current' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_current/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_current build --build-base /home/foka/ros2_humble2/build/sensor_current/build install --record /home/foka/ros2_humble2/build/sensor_current/install.log --single-version-externally-managed install_data

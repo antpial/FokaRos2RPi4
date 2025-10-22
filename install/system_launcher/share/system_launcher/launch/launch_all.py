@@ -45,12 +45,18 @@ def generate_launch_description():
         #     name='sensor_tds',
         #     parameters=[config_path]
         # ),
-        # Node(
-        #     package='sensor_voltage',
-        #     executable='sensor_voltage',
-        #     name='sensor_voltage',
-        #     parameters=[config_path]
-        # ),
+        Node(
+            package='sensor_voltage',
+            executable='sensor_voltage',
+            name='sensor_voltage',
+            parameters=[config_path]
+        ),
+        Node(
+            package='sensor_current',
+            executable='sensor_current',
+            name='sensor_current',
+            parameters=[config_path]
+        ),
         Node(
             package='sensor_gps',
             executable='sensor_gps',

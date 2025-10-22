@@ -1,0 +1,40 @@
+[9.085s] Invoking command in '/home/foka/ros2_humble2/src/sensor_current': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_current/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_current build --build-base /home/foka/ros2_humble2/build/sensor_current/build install --record /home/foka/ros2_humble2/build/sensor_current/install.log --single-version-externally-managed install_data
+[12.605s] running egg_info
+[12.611s] creating ../../build/sensor_current/sensor_current.egg-info
+[12.618s] writing ../../build/sensor_current/sensor_current.egg-info/PKG-INFO
+[12.624s] writing dependency_links to ../../build/sensor_current/sensor_current.egg-info/dependency_links.txt
+[12.626s] writing entry points to ../../build/sensor_current/sensor_current.egg-info/entry_points.txt
+[12.627s] writing requirements to ../../build/sensor_current/sensor_current.egg-info/requires.txt
+[12.628s] writing top-level names to ../../build/sensor_current/sensor_current.egg-info/top_level.txt
+[12.629s] writing manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+[12.641s] reading manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+[12.649s] writing manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+[12.651s] running build
+[12.654s] running build_py
+[12.658s] creating /home/foka/ros2_humble2/build/sensor_current/build
+[12.664s] creating /home/foka/ros2_humble2/build/sensor_current/build/lib
+[12.665s] creating /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+[12.674s] copying sensor_current/sensor_current.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+[12.677s] copying sensor_current/__init__.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+[12.678s] copying sensor_current/sensor_current_driver.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+[12.680s] running install
+[12.682s] running install_lib
+[12.683s] creating /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+[12.684s] copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/sensor_current.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+[12.690s] copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/__init__.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+[12.693s] copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/sensor_current_driver.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+[12.700s] byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/sensor_current.py to sensor_current.cpython-310.pyc
+[12.708s] byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/__init__.py to __init__.cpython-310.pyc
+[12.710s] byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/sensor_current_driver.py to sensor_current_driver.cpython-310.pyc
+[12.715s] running install_data
+[12.717s] creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index
+[12.718s] creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index
+[12.721s] creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index/packages
+[12.722s] copying resource/sensor_current -> /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index/packages
+[12.723s] copying package.xml -> /home/foka/ros2_humble2/install/sensor_current/share/sensor_current
+[12.725s] running install_egg_info
+[12.744s] Copying ../../build/sensor_current/sensor_current.egg-info to /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current-0.0.0-py3.10.egg-info
+[12.760s] running install_scripts
+[13.003s] Installing sensor_current script to /home/foka/ros2_humble2/install/sensor_current/lib/sensor_current
+[13.007s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_current/install.log'
+[13.225s] Invoked command in '/home/foka/ros2_humble2/src/sensor_current' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_current/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_current build --build-base /home/foka/ros2_humble2/build/sensor_current/build install --record /home/foka/ros2_humble2/build/sensor_current/install.log --single-version-externally-managed install_data

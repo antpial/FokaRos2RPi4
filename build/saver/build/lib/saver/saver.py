@@ -36,7 +36,8 @@ class SaverNode(Node):
             'turbidity', 
             'tds',
             'depth', 
-            'voltage'])
+            'voltage',
+            'current'])
         self.writer.writeheader()
 
     def listener_callback(self, msg):
@@ -57,6 +58,7 @@ class SaverNode(Node):
                 'tds': data.get('tds'),
                 'depth': data.get('dep'),
                 'voltage': data.get('vol'),
+                'current': data.get('curr')
             })
         except Exception as e:
             self.get_logger().error(f"Failed to parse or write data: {e}")

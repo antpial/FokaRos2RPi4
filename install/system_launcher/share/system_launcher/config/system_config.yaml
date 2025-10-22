@@ -25,6 +25,14 @@ sensor_voltage:
     ##################################################################
     adc_channel: 1 # 0, 1, 2 or 3 ADC 12b ADS1015
 
+sensor_current:
+  ros__parameters:
+    ########################### BE CAREFULL ##########################
+    publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
+    ##################################################################
+    adc_channel: 0 # 0, 1, 2 or 3 ADC 12b ADS1015
+
+
 sensor_turbidity:
   ros__parameters:
     ########################### BE CAREFULL ##########################

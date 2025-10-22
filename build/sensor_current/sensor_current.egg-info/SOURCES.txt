@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/sensor_current/sensor_current.egg-info/PKG-INFO
+../../build/sensor_current/sensor_current.egg-info/SOURCES.txt
+../../build/sensor_current/sensor_current.egg-info/dependency_links.txt
+../../build/sensor_current/sensor_current.egg-info/entry_points.txt
+../../build/sensor_current/sensor_current.egg-info/requires.txt
+../../build/sensor_current/sensor_current.egg-info/top_level.txt
+../../build/sensor_current/sensor_current.egg-info/zip-safe
+resource/sensor_current
+sensor_current/__init__.py
+sensor_current/sensor_current.py
+sensor_current/sensor_current_driver.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

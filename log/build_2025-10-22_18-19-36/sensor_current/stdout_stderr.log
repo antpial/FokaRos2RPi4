@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/sensor_current/sensor_current.egg-info
+writing ../../build/sensor_current/sensor_current.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_current/sensor_current.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_current/sensor_current.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_current/sensor_current.egg-info/requires.txt
+writing top-level names to ../../build/sensor_current/sensor_current.egg-info/top_level.txt
+writing manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_current/sensor_current.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_current/build
+creating /home/foka/ros2_humble2/build/sensor_current/build/lib
+creating /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+copying sensor_current/sensor_current.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+copying sensor_current/__init__.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+copying sensor_current/sensor_current_driver.py -> /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/sensor_current.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/__init__.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+copying /home/foka/ros2_humble2/build/sensor_current/build/lib/sensor_current/sensor_current_driver.py -> /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current
+byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/sensor_current.py to sensor_current.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current/sensor_current_driver.py to sensor_current_driver.cpython-310.pyc
+running install_data
+creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index
+creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index
+creating /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index/packages
+copying resource/sensor_current -> /home/foka/ros2_humble2/install/sensor_current/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_current/share/sensor_current
+running install_egg_info
+Copying ../../build/sensor_current/sensor_current.egg-info to /home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages/sensor_current-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_current script to /home/foka/ros2_humble2/install/sensor_current/lib/sensor_current
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_current/install.log'
