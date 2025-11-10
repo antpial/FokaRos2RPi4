@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/requires.txt
+writing top-level names to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/top_level.txt
+reading manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+running install
+running install_lib
+copying /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+byte-compiling /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag/sensor_imu_mag.py to sensor_imu_mag.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sensor_imu_mag/sensor_imu_mag.egg-info to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_imu_mag script to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/sensor_imu_mag
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_imu_mag/install.log'

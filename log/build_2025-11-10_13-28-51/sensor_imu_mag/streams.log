@@ -1,0 +1,24 @@
+[9.223s] Invoking command in '/home/foka/ros2_humble2/src/sensor_imu_mag': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_imu_mag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_imu_mag build --build-base /home/foka/ros2_humble2/build/sensor_imu_mag/build install --record /home/foka/ros2_humble2/build/sensor_imu_mag/install.log --single-version-externally-managed install_data
+[12.876s] running egg_info
+[12.882s] writing ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/PKG-INFO
+[12.885s] writing dependency_links to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/dependency_links.txt
+[12.887s] writing entry points to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/entry_points.txt
+[12.889s] writing requirements to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/requires.txt
+[12.891s] writing top-level names to ../../build/sensor_imu_mag/sensor_imu_mag.egg-info/top_level.txt
+[12.910s] reading manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+[12.922s] writing manifest file '../../build/sensor_imu_mag/sensor_imu_mag.egg-info/SOURCES.txt'
+[12.924s] running build
+[12.925s] running build_py
+[12.927s] copying sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag
+[12.930s] running install
+[12.933s] running install_lib
+[12.942s] copying /home/foka/ros2_humble2/build/sensor_imu_mag/build/lib/sensor_imu_mag/sensor_imu_mag.py -> /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag
+[12.952s] byte-compiling /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag/sensor_imu_mag.py to sensor_imu_mag.cpython-310.pyc
+[12.960s] running install_data
+[12.961s] running install_egg_info
+[12.981s] removing '/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag-0.0.0-py3.10.egg-info' (and everything under it)
+[12.986s] Copying ../../build/sensor_imu_mag/sensor_imu_mag.egg-info to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages/sensor_imu_mag-0.0.0-py3.10.egg-info
+[13.003s] running install_scripts
+[13.241s] Installing sensor_imu_mag script to /home/foka/ros2_humble2/install/sensor_imu_mag/lib/sensor_imu_mag
+[13.245s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_imu_mag/install.log'
+[13.465s] Invoked command in '/home/foka/ros2_humble2/src/sensor_imu_mag' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_imu_mag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_imu_mag build --build-base /home/foka/ros2_humble2/build/sensor_imu_mag/build install --record /home/foka/ros2_humble2/build/sensor_imu_mag/install.log --single-version-externally-managed install_data

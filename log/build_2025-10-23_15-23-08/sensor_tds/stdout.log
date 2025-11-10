@@ -1,0 +1,35 @@
+running develop
+Removing /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor-tds.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_tds/sensor_tds.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_tds/sensor_tds.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_tds/sensor_tds.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_tds/sensor_tds.egg-info/requires.txt
+writing top-level names to ../../build/sensor_tds/sensor_tds.egg-info/top_level.txt
+reading manifest file '../../build/sensor_tds/sensor_tds.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_tds/sensor_tds.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_tds/build
+creating /home/foka/ros2_humble2/build/sensor_tds/build/lib
+creating /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds
+copying sensor_tds/__init__.py -> /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds
+copying sensor_tds/sensor_tds_driver.py -> /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds
+copying sensor_tds/sensor_tds.py -> /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds
+copying /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds/__init__.py -> /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds
+copying /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds/sensor_tds_driver.py -> /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds
+copying /home/foka/ros2_humble2/build/sensor_tds/build/lib/sensor_tds/sensor_tds.py -> /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds
+byte-compiling /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds/sensor_tds_driver.py to sensor_tds_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds/sensor_tds.py to sensor_tds.cpython-310.pyc
+running install_data
+copying resource/sensor_tds -> /home/foka/ros2_humble2/install/sensor_tds/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_tds/share/sensor_tds
+running install_egg_info
+Copying ../../build/sensor_tds/sensor_tds.egg-info to /home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages/sensor_tds-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_tds script to /home/foka/ros2_humble2/install/sensor_tds/lib/sensor_tds
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_tds/install.log'

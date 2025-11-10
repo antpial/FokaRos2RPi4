@@ -16,7 +16,7 @@ sensor_tds:
     ########################### BE CAREFULL ##########################
     publish_frequency: 0.5 # in Hz; Must be NOT faster than the aggregator!!!
     ##################################################################
-    adc_channel: 0 # 0, 1, 2 or 3 ADC 12b ADS1015
+    adc_channel: 3 # 0, 1, 2 or 3 ADC 12b ADS1015
 
 sensor_voltage:
   ros__parameters:

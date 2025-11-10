@@ -69,12 +69,12 @@ def generate_launch_description():
         #     name='sensor_turbidity',
         #     parameters=[config_path]
         # ),
-        Node(
-            package='sensor_depth',
-            executable='sensor_depth',
-            name='sensor_depth',
-            parameters=[config_path]
-        ),
+        # Node(
+        #     package='sensor_depth',
+        #     executable='sensor_depth',
+        #     name='sensor_depth',
+        #     parameters=[config_path]
+        # ),
         # Node(
         #     package='telemetry',
         #     executable='telemetry',
