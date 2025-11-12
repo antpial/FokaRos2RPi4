@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'compass = autopilot.compass:main',
             'checkpoints = autopilot.checkpoints:main',
+            'azimuth = autopilot.azimuth:main',
         ],
     },
 )

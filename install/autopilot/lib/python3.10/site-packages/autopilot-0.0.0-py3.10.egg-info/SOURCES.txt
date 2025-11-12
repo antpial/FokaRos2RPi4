@@ -9,6 +9,8 @@ setup.py
 ../../build/autopilot/autopilot.egg-info/top_level.txt
 ../../build/autopilot/autopilot.egg-info/zip-safe
 autopilot/__init__.py
+autopilot/azimuth.py
+autopilot/checkpoints.py
 autopilot/compass.py
 resource/autopilot
 test/test_copyright.py
