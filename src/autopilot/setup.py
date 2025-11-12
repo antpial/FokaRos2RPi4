@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'compass = autopilot.compass:main',
+            'checkpoints = autopilot.checkpoints:main',
         ],
     },
 )

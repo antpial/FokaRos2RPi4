@@ -1,1 +1,0 @@
-/home/foka/ros2_humble2/src/thruster_driver/setup.py

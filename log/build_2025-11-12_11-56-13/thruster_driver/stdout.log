@@ -1,0 +1,36 @@
+running develop
+Removing /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster-driver.egg-link (link to .)
+running egg_info
+writing ../../build/thruster_driver/thruster_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/thruster_driver/thruster_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/thruster_driver/thruster_driver.egg-info/entry_points.txt
+writing requirements to ../../build/thruster_driver/thruster_driver.egg-info/requires.txt
+writing top-level names to ../../build/thruster_driver/thruster_driver.egg-info/top_level.txt
+reading manifest file '../../build/thruster_driver/thruster_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/thruster_driver/thruster_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/thruster_driver/build
+creating /home/foka/ros2_humble2/build/thruster_driver/build/lib
+creating /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+copying thruster_driver/thruster_driver.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+copying thruster_driver/__init__.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+copying thruster_driver/keyboard_controller.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/thruster_driver.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/__init__.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/keyboard_controller.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/thruster_driver.py to thruster_driver.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/keyboard_controller.py to keyboard_controller.cpython-310.pyc
+running install_data
+copying resource/thruster_driver -> /home/foka/ros2_humble2/install/thruster_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/thruster_driver/share/thruster_driver
+running install_egg_info
+Copying ../../build/thruster_driver/thruster_driver.egg-info to /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_controller script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+Installing thruster_driver script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+writing list of installed files to '/home/foka/ros2_humble2/build/thruster_driver/install.log'

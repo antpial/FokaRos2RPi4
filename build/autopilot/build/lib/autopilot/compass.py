@@ -15,6 +15,7 @@ class AzimuthCalculatorNode(Node):
         self.declare_parameter('imu_rotation', 90.0)
         self.declare_parameter('magnetic_declination', -4.0)  # degrees (4E lotnisko wroclaws)
         self.declare_parameter('magnetic_deviation', 0.0)  # degrees (4E lotnisko wroclaws)
+        # TODO: W przyszlosci daj te parametry do pliku konfiguracyjnego lub dynamicznie
 
 
         mag_topic = self.get_parameter('mag_topic').get_parameter_value().string_value

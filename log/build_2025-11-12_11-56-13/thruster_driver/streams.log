@@ -1,0 +1,40 @@
+[3.397s] Invoking command in '/home/foka/ros2_humble2/build/thruster_driver': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build
+[4.790s] running develop
+[5.668s] Removing /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster-driver.egg-link (link to .)
+[5.796s] Invoked command in '/home/foka/ros2_humble2/build/thruster_driver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/foka/ros2_humble2/build/thruster_driver/build
+[5.807s] Invoking command in '/home/foka/ros2_humble2/src/thruster_driver': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster_driver build --build-base /home/foka/ros2_humble2/build/thruster_driver/build install --record /home/foka/ros2_humble2/build/thruster_driver/install.log --single-version-externally-managed install_data --force
+[7.394s] running egg_info
+[7.399s] writing ../../build/thruster_driver/thruster_driver.egg-info/PKG-INFO
+[7.400s] writing dependency_links to ../../build/thruster_driver/thruster_driver.egg-info/dependency_links.txt
+[7.401s] writing entry points to ../../build/thruster_driver/thruster_driver.egg-info/entry_points.txt
+[7.403s] writing requirements to ../../build/thruster_driver/thruster_driver.egg-info/requires.txt
+[7.404s] writing top-level names to ../../build/thruster_driver/thruster_driver.egg-info/top_level.txt
+[7.412s] reading manifest file '../../build/thruster_driver/thruster_driver.egg-info/SOURCES.txt'
+[7.418s] writing manifest file '../../build/thruster_driver/thruster_driver.egg-info/SOURCES.txt'
+[7.419s] running build
+[7.420s] running build_py
+[7.421s] creating /home/foka/ros2_humble2/build/thruster_driver/build
+[7.422s] creating /home/foka/ros2_humble2/build/thruster_driver/build/lib
+[7.423s] creating /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+[7.424s] copying thruster_driver/thruster_driver.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+[7.425s] copying thruster_driver/__init__.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+[7.425s] copying thruster_driver/keyboard_controller.py -> /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver
+[7.426s] running install
+[7.427s] running install_lib
+[7.430s] creating /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+[7.432s] copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/thruster_driver.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+[7.432s] copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/__init__.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+[7.433s] copying /home/foka/ros2_humble2/build/thruster_driver/build/lib/thruster_driver/keyboard_controller.py -> /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver
+[7.437s] byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/thruster_driver.py to thruster_driver.cpython-310.pyc
+[7.444s] byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/__init__.py to __init__.cpython-310.pyc
+[7.445s] byte-compiling /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver/keyboard_controller.py to keyboard_controller.cpython-310.pyc
+[7.447s] running install_data
+[7.450s] copying resource/thruster_driver -> /home/foka/ros2_humble2/install/thruster_driver/share/ament_index/resource_index/packages
+[7.455s] copying package.xml -> /home/foka/ros2_humble2/install/thruster_driver/share/thruster_driver
+[7.456s] running install_egg_info
+[7.462s] Copying ../../build/thruster_driver/thruster_driver.egg-info to /home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages/thruster_driver-0.0.0-py3.10.egg-info
+[7.479s] running install_scripts
+[7.586s] Installing keyboard_controller script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[7.587s] Installing thruster_driver script to /home/foka/ros2_humble2/install/thruster_driver/lib/thruster_driver
+[7.589s] writing list of installed files to '/home/foka/ros2_humble2/build/thruster_driver/install.log'
+[7.720s] Invoked command in '/home/foka/ros2_humble2/src/thruster_driver' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/thruster_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thruster_driver build --build-base /home/foka/ros2_humble2/build/thruster_driver/build install --record /home/foka/ros2_humble2/build/thruster_driver/install.log --single-version-externally-managed install_data --force
