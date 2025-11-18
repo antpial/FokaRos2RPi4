@@ -4,6 +4,7 @@ from std_msgs.msg import Float32 # Sensor Ph bedzie podawal dane w formacie Floa
 from msg_interfaces.msg import GpsData
 from sensor_gps.sensor_gps_driver import sensor_gps_driver # Importuje moj wlasny sterownik (plik obok)
 from system_launcher.log_helper import setup_logger # Samemu stworzony logger, taki sam w kazdym module
+from sensor_msgs.msg import NavSatFix
 
 
 class sensor_gps_node(Node):
@@ -30,7 +31,10 @@ class sensor_gps_node(Node):
 
         # Utworzenie publishera na dane z czujnika gps
         self.publisher = self.create_publisher(GpsData, topic_name, 10)
+        self.publisher4autopilot = self.create_publisher(NavSatFix, '/gps/fix', 10)
+
         self.timer = self.create_timer(1.0 / frequency, self.publish_average_gps)
+
         self.get_logger().info(f'GPS node started, publishing every {1.0 / frequency:.2f} seconds.')
 
         #bufor na uśredniane dane z gps
@@ -42,7 +46,7 @@ class sensor_gps_node(Node):
         # Odczyt danych z GPS co 0.1 s
     def read_gps_data(self):
         try:
-            data = self.driver_gps.read_data_example_Float32()
+            data = self.driver_gps.read_data_Float32()
             self.gps_buffer.append(data)
         except Exception as e:
             self.log("sensor_gps, error w czasie odczytu danych ze sterownika: " + str(e))
@@ -51,6 +55,33 @@ class sensor_gps_node(Node):
 
 
     def publish_average_gps(self):
+        if not self.gps_buffer:
+            self.get_logger().warn('No GPS data collected to average.')
+            return
+
+        # Obliczenie średniej — zakładamy, że GpsData ma pola: latitude, longitude, altitude
+        avg_msg = GpsData()
+        n = len(self.gps_buffer)
+
+        avg_msg.latitude = sum([d.latitude for d in self.gps_buffer]) / n
+        avg_msg.longitude = sum([d.longitude for d in self.gps_buffer]) / n
+        avg_msg.velocity = sum([d.velocity for d in self.gps_buffer]) / n
+        avg_msg.satelites = sum([d.satelites for d in self.gps_buffer]) / n
+        avg_msg.hdop = sum([d.hdop for d in self.gps_buffer]) / n
+        # Wyczyszczenie bufora po publikacji
+        self.gps_buffer.clear()
+
+        # Publikacja
+        self.publisher.publish(avg_msg)
+        self.publisher4autopilot.publish(NavSatFix(
+            latitude=avg_msg.latitude,
+            longitude=avg_msg.longitude,
+            altitude=0.0,  # Zakładamy brak danych o wysokości
+            position_covariance_type=NavSatFix.COVARIANCE_TYPE_UNKNOWN
+        ))
+        self.get_logger().info(f'Published averaged GPS ({n} samples): {avg_msg}')
+
+    def publish_average_gps4autopilot(self):
         if not self.gps_buffer:
             self.get_logger().warn('No GPS data collected to average.')
             return

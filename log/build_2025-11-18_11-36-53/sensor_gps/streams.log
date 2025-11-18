@@ -1,0 +1,22 @@
+[8.623s] Invoking command in '/home/foka/ros2_humble2/src/sensor_gps': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_gps build --build-base /home/foka/ros2_humble2/build/sensor_gps/build install --record /home/foka/ros2_humble2/build/sensor_gps/install.log --single-version-externally-managed install_data
+[11.964s] running egg_info
+[11.972s] writing ../../build/sensor_gps/sensor_gps.egg-info/PKG-INFO
+[11.974s] writing dependency_links to ../../build/sensor_gps/sensor_gps.egg-info/dependency_links.txt
+[11.976s] writing entry points to ../../build/sensor_gps/sensor_gps.egg-info/entry_points.txt
+[11.980s] writing requirements to ../../build/sensor_gps/sensor_gps.egg-info/requires.txt
+[11.981s] writing top-level names to ../../build/sensor_gps/sensor_gps.egg-info/top_level.txt
+[12.000s] reading manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+[12.010s] writing manifest file '../../build/sensor_gps/sensor_gps.egg-info/SOURCES.txt'
+[12.012s] running build
+[12.013s] running build_py
+[12.019s] running install
+[12.022s] running install_lib
+[12.041s] byte-compiling /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps/config.py to config.cpython-310.pyc
+[12.048s] running install_data
+[12.049s] running install_egg_info
+[12.069s] removing '/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps-0.0.0-py3.10.egg-info' (and everything under it)
+[12.074s] Copying ../../build/sensor_gps/sensor_gps.egg-info to /home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages/sensor_gps-0.0.0-py3.10.egg-info
+[12.091s] running install_scripts
+[12.330s] Installing sensor_gps script to /home/foka/ros2_humble2/install/sensor_gps/lib/sensor_gps
+[12.335s] writing list of installed files to '/home/foka/ros2_humble2/build/sensor_gps/install.log'
+[12.575s] Invoked command in '/home/foka/ros2_humble2/src/sensor_gps' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/sensor_gps/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_gps build --build-base /home/foka/ros2_humble2/build/sensor_gps/build install --record /home/foka/ros2_humble2/build/sensor_gps/install.log --single-version-externally-managed install_data
