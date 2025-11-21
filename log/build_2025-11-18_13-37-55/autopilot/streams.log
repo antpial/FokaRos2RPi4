@@ -1,0 +1,26 @@
+[9.720s] Invoking command in '/home/foka/ros2_humble2/src/autopilot': PYTHONPATH=/home/foka/ros2_humble2/build/autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopilot build --build-base /home/foka/ros2_humble2/build/autopilot/build install --record /home/foka/ros2_humble2/build/autopilot/install.log --single-version-externally-managed install_data
+[13.248s] running egg_info
+[13.255s] writing ../../build/autopilot/autopilot.egg-info/PKG-INFO
+[13.258s] writing dependency_links to ../../build/autopilot/autopilot.egg-info/dependency_links.txt
+[13.260s] writing entry points to ../../build/autopilot/autopilot.egg-info/entry_points.txt
+[13.262s] writing requirements to ../../build/autopilot/autopilot.egg-info/requires.txt
+[13.264s] writing top-level names to ../../build/autopilot/autopilot.egg-info/top_level.txt
+[13.282s] reading manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'
+[13.292s] writing manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'
+[13.294s] running build
+[13.295s] running build_py
+[13.296s] copying autopilot/compass.py -> /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot
+[13.301s] running install
+[13.304s] running install_lib
+[13.313s] copying /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot/compass.py -> /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot
+[13.324s] byte-compiling /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot/compass.py to compass.cpython-310.pyc
+[13.334s] running install_data
+[13.336s] running install_egg_info
+[13.359s] removing '/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info' (and everything under it)
+[13.364s] Copying ../../build/autopilot/autopilot.egg-info to /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info
+[13.383s] running install_scripts
+[13.627s] Installing azimuth script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+[13.629s] Installing checkpoints script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+[13.631s] Installing compass script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+[13.635s] writing list of installed files to '/home/foka/ros2_humble2/build/autopilot/install.log'
+[13.848s] Invoked command in '/home/foka/ros2_humble2/src/autopilot' returned '0': PYTHONPATH=/home/foka/ros2_humble2/build/autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopilot build --build-base /home/foka/ros2_humble2/build/autopilot/build install --record /home/foka/ros2_humble2/build/autopilot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.002895] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.003439] (-) JobUnselected: {'identifier': 'msg_interfaces'}
+[0.004164] (-) JobUnselected: {'identifier': 'saver'}
+[0.004588] (-) JobUnselected: {'identifier': 'sensor_current'}
+[0.004884] (-) JobUnselected: {'identifier': 'sensor_depth'}
+[0.005148] (-) JobUnselected: {'identifier': 'sensor_gps'}
+[0.005485] (-) JobUnselected: {'identifier': 'sensor_imu_mag'}
+[0.005758] (-) JobUnselected: {'identifier': 'sensor_ph'}
+[0.006024] (-) JobUnselected: {'identifier': 'sensor_tds'}
+[0.007526] (-) JobUnselected: {'identifier': 'sensor_thermometer'}
+[0.008032] (-) JobUnselected: {'identifier': 'sensor_turbidity'}
+[0.008426] (-) JobUnselected: {'identifier': 'sensor_voltage'}
+[0.008700] (-) JobUnselected: {'identifier': 'system_launcher'}
+[0.009060] (-) JobUnselected: {'identifier': 'telemetry'}
+[0.009393] (-) JobUnselected: {'identifier': 'thruster_driver'}
+[0.010290] (autopilot) JobQueued: {'identifier': 'autopilot', 'dependencies': OrderedDict()}
+[0.010798] (autopilot) JobStarted: {'identifier': 'autopilot'}
+[0.095364] (-) TimerEvent: {}
+[0.197685] (-) TimerEvent: {}
+[0.298934] (-) TimerEvent: {}
+[0.400224] (-) TimerEvent: {}
+[0.501505] (-) TimerEvent: {}
+[0.602947] (-) TimerEvent: {}
+[0.704412] (-) TimerEvent: {}
+[0.805850] (-) TimerEvent: {}
+[0.907177] (-) TimerEvent: {}
+[1.008426] (-) TimerEvent: {}
+[1.109803] (-) TimerEvent: {}
+[1.211071] (-) TimerEvent: {}
+[1.312403] (-) TimerEvent: {}
+[1.413769] (-) TimerEvent: {}
+[1.515021] (-) TimerEvent: {}
+[1.616430] (-) TimerEvent: {}
+[1.717826] (-) TimerEvent: {}
+[1.819190] (-) TimerEvent: {}
+[1.920487] (-) TimerEvent: {}
+[2.021790] (-) TimerEvent: {}
+[2.123047] (-) TimerEvent: {}
+[2.224323] (-) TimerEvent: {}
+[2.325612] (-) TimerEvent: {}
+[2.426964] (-) TimerEvent: {}
+[2.528197] (-) TimerEvent: {}
+[2.629644] (-) TimerEvent: {}
+[2.731064] (-) TimerEvent: {}
+[2.832525] (-) TimerEvent: {}
+[2.933980] (-) TimerEvent: {}
+[3.035226] (-) TimerEvent: {}
+[3.136633] (-) TimerEvent: {}
+[3.238039] (-) TimerEvent: {}
+[3.339439] (-) TimerEvent: {}
+[3.440812] (-) TimerEvent: {}
+[3.542074] (-) TimerEvent: {}
+[3.643592] (-) TimerEvent: {}
+[3.745536] (-) TimerEvent: {}
+[3.853298] (-) TimerEvent: {}
+[3.955992] (-) TimerEvent: {}
+[4.057368] (-) TimerEvent: {}
+[4.158830] (-) TimerEvent: {}
+[4.260280] (-) TimerEvent: {}
+[4.361681] (-) TimerEvent: {}
+[4.462977] (-) TimerEvent: {}
+[4.564548] (-) TimerEvent: {}
+[4.666266] (-) TimerEvent: {}
+[4.767752] (-) TimerEvent: {}
+[4.869044] (-) TimerEvent: {}
+[4.970329] (-) TimerEvent: {}
+[5.072519] (-) TimerEvent: {}
+[5.174201] (-) TimerEvent: {}
+[5.275591] (-) TimerEvent: {}
+[5.377064] (-) TimerEvent: {}
+[5.478449] (-) TimerEvent: {}
+[5.579778] (-) TimerEvent: {}
+[5.681178] (-) TimerEvent: {}
+[5.782513] (-) TimerEvent: {}
+[5.884344] (-) TimerEvent: {}
+[5.985809] (-) TimerEvent: {}
+[6.089046] (-) TimerEvent: {}
+[6.190367] (-) TimerEvent: {}
+[6.291625] (-) TimerEvent: {}
+[6.392861] (-) TimerEvent: {}
+[6.494082] (-) TimerEvent: {}
+[6.595331] (-) TimerEvent: {}
+[6.697827] (-) TimerEvent: {}
+[6.799331] (-) TimerEvent: {}
+[6.900564] (-) TimerEvent: {}
+[7.001866] (-) TimerEvent: {}
+[7.103203] (-) TimerEvent: {}
+[7.204558] (-) TimerEvent: {}
+[7.305830] (-) TimerEvent: {}
+[7.407128] (-) TimerEvent: {}
+[7.508598] (-) TimerEvent: {}
+[7.610045] (-) TimerEvent: {}
+[7.711313] (-) TimerEvent: {}
+[7.813058] (-) TimerEvent: {}
+[7.915661] (-) TimerEvent: {}
+[8.016948] (-) TimerEvent: {}
+[8.118270] (-) TimerEvent: {}
+[8.219600] (-) TimerEvent: {}
+[8.320980] (-) TimerEvent: {}
+[8.422321] (-) TimerEvent: {}
+[8.523748] (-) TimerEvent: {}
+[8.625096] (-) TimerEvent: {}
+[8.726395] (-) TimerEvent: {}
+[8.827898] (-) TimerEvent: {}
+[8.929887] (-) TimerEvent: {}
+[9.022432] (autopilot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autopilot', 'build', '--build-base', '/home/foka/ros2_humble2/build/autopilot/build', 'install', '--record', '/home/foka/ros2_humble2/build/autopilot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/foka/ros2_humble2/src/autopilot', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'foka', 'SSH_CLIENT': '10.239.165.224 54094 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/foka/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/foka/ros2_humble2/install/msg_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/foka/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/foka', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-60135445-5c64-438c-aaf1-8b33878d49b1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/foka/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/foka/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/foka/ros2_humble2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'foka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/foka/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/home/foka/.local/bin:/opt/ros/humble/bin:/home/foka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/foka/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/foka/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-43d38d7e62f34ef9.txt', 'LANG': 'C.UTF-8', 'PYTHONSTARTUP': '/home/foka/.vscode-server/data/User/workspaceStorage/1266de8c617dfcd5a8046addee2a4320/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a4e7a265d9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/foka/ros2_humble2/install/thruster_driver:/home/foka/ros2_humble2/install/telemetry:/home/foka/ros2_humble2/install/sensor_voltage:/home/foka/ros2_humble2/install/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_tds:/home/foka/ros2_humble2/install/sensor_ph:/home/foka/ros2_humble2/install/system_launcher:/home/foka/ros2_humble2/install/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_imu_mag:/home/foka/ros2_humble2/install/sensor_gps:/home/foka/ros2_humble2/install/sensor_depth:/home/foka/ros2_humble2/install/sensor_current:/home/foka/ros2_humble2/install/saver:/home/foka/ros2_humble2/install/msg_interfaces:/home/foka/ros2_humble2/install/autopilot:/home/foka/ros2_humble2/install/aggregator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/foka/ros2_humble2/build/autopilot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.239.165.224 54094 10.239.165.173 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/foka/ros2_humble2/build/autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/thruster_driver/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/telemetry:/home/foka/ros2_humble2/install/telemetry/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_voltage/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_turbidity:/home/foka/ros2_humble2/install/sensor_turbidity/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_tds/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_ph:/home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/system_launcher/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_thermometer:/home/foka/ros2_humble2/install/sensor_thermometer/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_imu_mag/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_gps/lib/python3.10/site-packages:/home/foka/ros2_humble2/build/sensor_depth:/home/foka/ros2_humble2/install/sensor_depth/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/sensor_current/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/saver/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/msg_interfaces/local/lib/python3.10/dist-packages:/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages:/home/foka/ros2_humble2/install/aggregator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/foka/ros2_humble2/install/msg_interfaces'}, 'shell': False}
+[9.030250] (-) TimerEvent: {}
+[9.131854] (-) TimerEvent: {}
+[9.233211] (-) TimerEvent: {}
+[9.334557] (-) TimerEvent: {}
+[9.435783] (-) TimerEvent: {}
+[9.537055] (-) TimerEvent: {}
+[9.638315] (-) TimerEvent: {}
+[9.739666] (-) TimerEvent: {}
+[9.841068] (-) TimerEvent: {}
+[9.942288] (-) TimerEvent: {}
+[10.043644] (-) TimerEvent: {}
+[10.145017] (-) TimerEvent: {}
+[10.246310] (-) TimerEvent: {}
+[10.347531] (-) TimerEvent: {}
+[10.448820] (-) TimerEvent: {}
+[10.550041] (-) TimerEvent: {}
+[10.651238] (-) TimerEvent: {}
+[10.752500] (-) TimerEvent: {}
+[10.853881] (-) TimerEvent: {}
+[10.955171] (-) TimerEvent: {}
+[11.056449] (-) TimerEvent: {}
+[11.157886] (-) TimerEvent: {}
+[11.259088] (-) TimerEvent: {}
+[11.360373] (-) TimerEvent: {}
+[11.461815] (-) TimerEvent: {}
+[11.563159] (-) TimerEvent: {}
+[11.664444] (-) TimerEvent: {}
+[11.765759] (-) TimerEvent: {}
+[11.867150] (-) TimerEvent: {}
+[11.968417] (-) TimerEvent: {}
+[12.069750] (-) TimerEvent: {}
+[12.171050] (-) TimerEvent: {}
+[12.272362] (-) TimerEvent: {}
+[12.373644] (-) TimerEvent: {}
+[12.475035] (-) TimerEvent: {}
+[12.570218] (autopilot) StdoutLine: {'line': b'running egg_info\n'}
+[12.575306] (-) TimerEvent: {}
+[12.578882] (autopilot) StdoutLine: {'line': b'writing ../../build/autopilot/autopilot.egg-info/PKG-INFO\n'}
+[12.581290] (autopilot) StdoutLine: {'line': b'writing dependency_links to ../../build/autopilot/autopilot.egg-info/dependency_links.txt\n'}
+[12.584454] (autopilot) StdoutLine: {'line': b'writing entry points to ../../build/autopilot/autopilot.egg-info/entry_points.txt\n'}
+[12.586050] (autopilot) StdoutLine: {'line': b'writing requirements to ../../build/autopilot/autopilot.egg-info/requires.txt\n'}
+[12.587438] (autopilot) StdoutLine: {'line': b'writing top-level names to ../../build/autopilot/autopilot.egg-info/top_level.txt\n'}
+[12.606657] (autopilot) StdoutLine: {'line': b"reading manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'\n"}
+[12.617078] (autopilot) StdoutLine: {'line': b"writing manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'\n"}
+[12.618956] (autopilot) StdoutLine: {'line': b'running build\n'}
+[12.619944] (autopilot) StdoutLine: {'line': b'running build_py\n'}
+[12.621623] (autopilot) StdoutLine: {'line': b'copying autopilot/compass.py -> /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot\n'}
+[12.626147] (autopilot) StdoutLine: {'line': b'running install\n'}
+[12.629109] (autopilot) StdoutLine: {'line': b'running install_lib\n'}
+[12.637331] (autopilot) StdoutLine: {'line': b'copying /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot/compass.py -> /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot\n'}
+[12.648653] (autopilot) StdoutLine: {'line': b'byte-compiling /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot/compass.py to compass.cpython-310.pyc\n'}
+[12.659347] (autopilot) StdoutLine: {'line': b'running install_data\n'}
+[12.661281] (autopilot) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.675687] (-) TimerEvent: {}
+[12.682535] (autopilot) StdoutLine: {'line': b"removing '/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.687898] (autopilot) StdoutLine: {'line': b'Copying ../../build/autopilot/autopilot.egg-info to /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info\n'}
+[12.705071] (autopilot) StdoutLine: {'line': b'running install_scripts\n'}
+[12.775955] (-) TimerEvent: {}
+[12.877558] (-) TimerEvent: {}
+[12.948513] (autopilot) StdoutLine: {'line': b'Installing azimuth script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot\n'}
+[12.950589] (autopilot) StdoutLine: {'line': b'Installing checkpoints script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot\n'}
+[12.953019] (autopilot) StdoutLine: {'line': b'Installing compass script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot\n'}
+[12.957432] (autopilot) StdoutLine: {'line': b"writing list of installed files to '/home/foka/ros2_humble2/build/autopilot/install.log'\n"}
+[12.977990] (-) TimerEvent: {}
+[13.081623] (-) TimerEvent: {}
+[13.170701] (autopilot) CommandEnded: {'returncode': 0}
+[13.182341] (-) TimerEvent: {}
+[13.285811] (-) TimerEvent: {}
+[13.315633] (autopilot) JobEnded: {'identifier': 'autopilot', 'rc': 0}
+[13.325045] (-) EventReactorShutdown: {}

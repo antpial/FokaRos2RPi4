@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu, MagneticField
-from std_msgs.msg import Float32
+from std_msgs.msg import Float32, Float64
 import math
 
 class AzimuthCalculatorNode(Node):
@@ -12,7 +12,7 @@ class AzimuthCalculatorNode(Node):
         self.declare_parameter('mag_topic', '/imu/mag')
         self.declare_parameter('publish_topic', '/current_azimuth')
         self.declare_parameter('publish_frequency', 1.0)  # Hz
-        self.declare_parameter('imu_rotation', 90.0)
+        self.declare_parameter('imu_rotation', 0.0)
         self.declare_parameter('magnetic_declination', -4.0)  # degrees (4E lotnisko wroclaws)
         self.declare_parameter('magnetic_deviation', 0.0)  # degrees (4E lotnisko wroclaws)
         # TODO: W przyszlosci daj te parametry magnetyczne do pliku konfiguracyjnego lub dynamicznie
@@ -27,7 +27,7 @@ class AzimuthCalculatorNode(Node):
         self.mag_sub = self.create_subscription(MagneticField, mag_topic, self.mag_callback, 10)
 
         # Publisher azymutu
-        self.publisher = self.create_publisher(Float32, self.publish_topic, 10)
+        self.publisher = self.create_publisher(Float64, self.publish_topic, 10)
 
         # Timer publikacji azymutu
         self.timer = self.create_timer(1.0 / frequency, self.publish_azimuth)
@@ -47,10 +47,15 @@ class AzimuthCalculatorNode(Node):
         theta_rad = math.atan2(self.mag_vector.y, self.mag_vector.x)
 
         # Konwertuje z rad na stopnie
-        theta_deg = math.degrees(theta_rad)     
+        theta_deg = math.degrees(theta_rad)  
 
-        # atan2 oblicza kat od osi x, a polnoc jest na osi y (+90), wiec trzeba obrocic
-        azimuth = theta_deg + 90.0
+        azimuth = theta_deg   
+
+        # # atan2 oblicza kat od osi x, a polnoc jest na osi y (+90), wiec trzeba obrocic
+        # if azimuth >= 0:
+        #     azimuth = theta_deg - 90
+        # else:
+        #     azimuth = theta_deg + 90
         # Dodaje korekty
         azimuth += self.get_parameter('imu_rotation').get_parameter_value().double_value
         azimuth += self.get_parameter('magnetic_declination').get_parameter_value().double_value    
@@ -65,15 +70,16 @@ class AzimuthCalculatorNode(Node):
    
 
     def publish_azimuth(self):
-        azimuth = self.calculate_current_azimuth()
-        if azimuth is None:
-            self.get_logger().warning('No magnetometer data received yet.')
+        try:
+            azimuth = self.calculate_current_azimuth()
+        except Exception as e:
+            self.get_logger().error(f'Error calculating azimuth: {e}')
             return
 
-        msg = Float32()
+        msg = Float64()
         msg.data = float(azimuth)
         self.publisher.publish(msg)
-        self.get_logger().info(f'Published current azimuth: {azimuth:.2f} deg')
+        # self.get_logger().info(f'Published current azimuth: {azimuth:.2f} deg')
 
 def main(args=None):
     rclpy.init(args=args)

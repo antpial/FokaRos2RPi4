@@ -1,0 +1,35 @@
+running develop
+Removing /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor-ph.egg-link (link to .)
+running egg_info
+writing ../../build/sensor_ph/sensor_ph.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_ph/sensor_ph.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_ph/sensor_ph.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_ph/sensor_ph.egg-info/requires.txt
+writing top-level names to ../../build/sensor_ph/sensor_ph.egg-info/top_level.txt
+reading manifest file '../../build/sensor_ph/sensor_ph.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_ph/sensor_ph.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/foka/ros2_humble2/build/sensor_ph/build
+creating /home/foka/ros2_humble2/build/sensor_ph/build/lib
+creating /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph
+copying sensor_ph/__init__.py -> /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph
+copying sensor_ph/sensor_ph.py -> /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph
+copying sensor_ph/sensor_ph_driver.py -> /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph
+running install
+running install_lib
+creating /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph
+copying /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph/__init__.py -> /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph
+copying /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph/sensor_ph.py -> /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph
+copying /home/foka/ros2_humble2/build/sensor_ph/build/lib/sensor_ph/sensor_ph_driver.py -> /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph
+byte-compiling /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph/sensor_ph.py to sensor_ph.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph/sensor_ph_driver.py to sensor_ph_driver.cpython-310.pyc
+running install_data
+copying resource/sensor_ph -> /home/foka/ros2_humble2/install/sensor_ph/share/ament_index/resource_index/packages
+copying package.xml -> /home/foka/ros2_humble2/install/sensor_ph/share/sensor_ph
+running install_egg_info
+Copying ../../build/sensor_ph/sensor_ph.egg-info to /home/foka/ros2_humble2/install/sensor_ph/lib/python3.10/site-packages/sensor_ph-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor_ph script to /home/foka/ros2_humble2/install/sensor_ph/lib/sensor_ph
+writing list of installed files to '/home/foka/ros2_humble2/build/sensor_ph/install.log'

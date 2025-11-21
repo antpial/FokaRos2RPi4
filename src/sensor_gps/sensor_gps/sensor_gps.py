@@ -79,7 +79,7 @@ class sensor_gps_node(Node):
             altitude=0.0,  # Zakładamy brak danych o wysokości
             position_covariance_type=NavSatFix.COVARIANCE_TYPE_UNKNOWN
         ))
-        self.get_logger().info(f'Published averaged GPS ({n} samples): {avg_msg}')
+        # self.get_logger().info(f'Published averaged GPS ({n} samples): {avg_msg}')
 
     def publish_average_gps4autopilot(self):
         if not self.gps_buffer:

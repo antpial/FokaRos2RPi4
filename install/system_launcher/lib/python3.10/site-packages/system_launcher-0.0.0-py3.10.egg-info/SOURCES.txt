@@ -10,6 +10,7 @@ setup.py
 ../../build/system_launcher/system_launcher.egg-info/zip-safe
 config/system_config.yaml
 launch/launch_all.py
+launch/launch_autopilot.py
 resource/system_launcher
 system_launcher/__init__.py
 system_launcher/log_helper.py

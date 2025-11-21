@@ -12,7 +12,7 @@ class sensor_voltage_node(Node):
         # Deklaracja parametrow (wraz z domyslnymi gdyby nie podano w pliku konfiguracyjnym)
         self.declare_parameter('publish_frequency', 1.0)    #in Hz
         self.declare_parameter('topic_name', 'sensor_voltage')
-        self.declare_parameter('adc_channel', -1)   # -1 oznacza, ze nie podano w pliku konfiguracyjnym, wtedy wyskoczy blad
+        self.declare_parameter('adc_channel', 1)   # -1 oznacza, ze nie podano w pliku konfiguracyjnym, wtedy wyskoczy blad
         
         # Pobranie wartosci parametrow z pliku configuracyjnego
         frequency = self.get_parameter('publish_frequency').get_parameter_value().double_value

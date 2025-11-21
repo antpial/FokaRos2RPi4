@@ -66,35 +66,35 @@ class Checkpoints_node(Node):
 
         # Subskrybujem /magnetometer
         self.subscription = self.create_subscription(
-            Float32,
-            '/imu/mag',
+            Float64,
+            '/current_azimuth',
             self.mag_callback,
             10
         )
         self.get_logger().info("Magnetometer subscriber started!")
 
-        # # Subskrybuje /gps
-        # self.subscription = self.create_subscription(
-        #     NavSatFix,
-        #     '/gps/fix',
-        #     self.gps_callback,
-        #     10
-        # )
-        # self.get_logger().info("Gps subscriber started!")
+        # Subskrybuje /gps
+        self.subscription = self.create_subscription(
+            NavSatFix,
+            '/gps/fix',
+            self.gps_callback,
+            10
+        )
+        self.get_logger().info("Gps subscriber started!")
 
         # publishery na silniki
         self.left_pub = self.create_publisher(Float64, '/left_thrust', 10)
         self.right_pub = self.create_publisher(Float64, '/right_thrust', 10)
 
         # Wczytuje punkty docelowe z pliku checkpoints_list.kml
-        # self.get_checkpoints()
+        self.get_checkpoints()
 
         # timer gdzie sie dzieje cala magia
         self.timer = self.create_timer(0.1, self.control_loop)
 
     # Callbacki do subskrybcji
 
-    def mag_callback(self, msg: Float32):
+    def mag_callback(self, msg: Float64):
         self.current_azimuth = msg.data
 
 
@@ -128,26 +128,15 @@ class Checkpoints_node(Node):
 
 
     def get_checkpoints(self):
-        # Wczytuje punkty docelowe z pliku checkpoints_list.kml
-        tree = ET.parse('src/autopilot/autopilot/checkpoints_list.kml')
-        root = tree.getroot()
+        # Lista punktów wpisanych z palca: (nazwa, latitude, longitude, altitude)
+        checkpoints_list = [
+            ("Start", 51.106224, 17.060722, 0.0)
+        ]
 
-        # przestrzeń nazw KML
-        ns = {'kml': 'http://www.opengis.net/kml/2.2'}
+        # Wyczyść istniejącą listę, jeśli jest potrzebne
+        self.checkpoints.clear()
 
-        # Znajduje wszystkie Placemark
-        placemarks = root.findall('.//kml:Placemark', ns)
-
-        if not placemarks:
-            self.get_logger().error("Nie znaleziono żadnych punktów w pliku checkpoints_list.kml")
-            return
-
-        for i, placemark in enumerate(placemarks):
-            name = placemark.find('kml:name', ns).text
-            coordinates = placemark.find('.//kml:coordinates', ns).text.strip()
-            lon, lat, *alt = map(float, coordinates.split(','))
-            alt = alt[0] if alt else 0.0
-
+        for i, (name, lat, lon, alt) in enumerate(checkpoints_list):
             # Dodajemy do listy wszystkich checkpointów
             self.checkpoints.append((name, lat, lon, alt))
 
@@ -158,6 +147,7 @@ class Checkpoints_node(Node):
                 self.get_logger().info(f"Wczytano pierwszy punkt docelowy: {name} (lat: {lat}, lon: {lon})")
 
         self.get_logger().info(f"Wczytano wszystkie checkpointy: {len(self.checkpoints)} punktów.")
+
 
 
 
@@ -262,14 +252,11 @@ class Checkpoints_node(Node):
         if self.reached_all_checkpoints:
             return
         
-        # kalkuluje aktualny azymut
-        #self.current_azimuth = self.calculate_current_azimuth()
-
         # kalkuluje docelowy azymut
         self.given_azimuth = self.calculate_new_azimuth()
 
         # kalkuluje odleglosc do punktu docelowego
-        # self.distance = self.get_distance_from_lat_lon_in_km()
+        self.distance = self.get_distance_from_lat_lon_in_km()
 
         # licze blad azymutow normalizujac bo w stopniach jest modulo 360
         self.e = (self.given_azimuth - self.current_azimuth + 180.0) % 360.0 - 180.0

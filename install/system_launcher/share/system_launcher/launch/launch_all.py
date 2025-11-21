@@ -27,24 +27,24 @@ def generate_launch_description():
             executable='saver',
             name='saver'
         ),
-        # Node(
-        #     package='sensor_ph',
-        #     executable='sensor_ph',
-        #     name='sensor_ph',
-        #     parameters=[config_path]
-        # ),
+        Node(
+            package='sensor_ph',
+            executable='sensor_ph',
+            name='sensor_ph',
+            parameters=[config_path]
+        ),
         Node(
             package='sensor_thermometer',
             executable='sensor_thermometer',
             name='sensor_thermometer',
             parameters=[config_path]
         ),                  
-        # Node(
-        #     package='sensor_tds',
-        #     executable='sensor_tds',
-        #     name='sensor_tds',
-        #     parameters=[config_path]
-        # ),
+        Node(
+            package='sensor_tds',
+            executable='sensor_tds',
+            name='sensor_tds',
+            parameters=[config_path]
+        ),
         Node(
             package='sensor_voltage',
             executable='sensor_voltage',
@@ -69,12 +69,12 @@ def generate_launch_description():
         #     name='sensor_turbidity',
         #     parameters=[config_path]
         # ),
-        # Node(
-        #     package='sensor_depth',
-        #     executable='sensor_depth',
-        #     name='sensor_depth',
-        #     parameters=[config_path]
-        # ),
+        Node(
+            package='sensor_depth',
+            executable='sensor_depth',
+            name='sensor_depth',
+            parameters=[config_path]
+        ),
         # Node(
         #     package='telemetry',
         #     executable='telemetry',

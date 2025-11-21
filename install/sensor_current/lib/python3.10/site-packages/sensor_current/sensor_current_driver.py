@@ -37,5 +37,5 @@ class sensor_current_driver:
     
     # Skalowanie napięcia z ADC (0–5V) na rzeczywiste (0–25V)
     @staticmethod
-    def _scale_current(voltage_adc, scale_factor=20): # od 0 do 100A
-        return voltage_adc * scale_factor
+    def _scale_current(voltage_adc, scale_factor=40): # od 0 do 100A
+        return (voltage_adc - 2.5) * scale_factor
