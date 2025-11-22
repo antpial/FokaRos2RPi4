@@ -14,8 +14,8 @@ class Azimuth_node(Node):
     def __init__(self):
         super().__init__('Azimuth_node')
 
-        self.given_azimuth = 220.0
-        self.v = 0.2
+        self.given_azimuth = 314.0
+        self.v = 0.15
         self.d = 0.0
         self.left_thrust = 0.0
         self.right_thrust = 0.0
@@ -31,7 +31,7 @@ class Azimuth_node(Node):
 
         # Subskrybujemy topic /magnetometer
         self.subscription = self.create_subscription(
-            Float32,
+            Float64,
             '/current_azimuth',
             self.mag_callback,
             10
@@ -46,7 +46,7 @@ class Azimuth_node(Node):
         # timer gdzie sie dzieje cala magia
         self.timer = self.create_timer(0.1, self.control_loop)
 
-    def mag_callback(self, msg: Float32):
+    def mag_callback(self, msg: Float64):
         self.azimuth = msg.data
 
 

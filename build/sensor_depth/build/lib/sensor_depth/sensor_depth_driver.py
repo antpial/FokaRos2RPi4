@@ -49,7 +49,7 @@ class sensor_depth_driver:
         pulse_duration = pulse_end - pulse_start
 
         # Przelicz na cm (prędkość dźwięku 34300 cm/s)
-        self.data.data = pulse_duration * 34300 / 2
+        self.data.data = pulse_duration * 150000 / 2
         return self.data
         
     # # Funkcja do przeliczenia napięcia na ppm (0V = 0ppm, 2.3V = 1000ppm)
