@@ -14,7 +14,7 @@ class Azimuth_node(Node):
     def __init__(self):
         super().__init__('Azimuth_node')
 
-        self.given_azimuth = 314.0
+        self.given_azimuth = 180.0
         self.v = 0.15
         self.d = 0.0
         self.left_thrust = 0.0

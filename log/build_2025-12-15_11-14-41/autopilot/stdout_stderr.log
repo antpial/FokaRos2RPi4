@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/autopilot/autopilot.egg-info/PKG-INFO
+writing dependency_links to ../../build/autopilot/autopilot.egg-info/dependency_links.txt
+writing entry points to ../../build/autopilot/autopilot.egg-info/entry_points.txt
+writing requirements to ../../build/autopilot/autopilot.egg-info/requires.txt
+writing top-level names to ../../build/autopilot/autopilot.egg-info/top_level.txt
+reading manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'
+writing manifest file '../../build/autopilot/autopilot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autopilot/compass.py -> /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot
+copying autopilot/azimuth.py -> /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot
+running install
+running install_lib
+copying /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot/compass.py -> /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot
+copying /home/foka/ros2_humble2/build/autopilot/build/lib/autopilot/azimuth.py -> /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot
+byte-compiling /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot/compass.py to compass.cpython-310.pyc
+byte-compiling /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot/azimuth.py to azimuth.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/autopilot/autopilot.egg-info to /home/foka/ros2_humble2/install/autopilot/lib/python3.10/site-packages/autopilot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing azimuth script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+Installing checkpoints script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+Installing compass script to /home/foka/ros2_humble2/install/autopilot/lib/autopilot
+writing list of installed files to '/home/foka/ros2_humble2/build/autopilot/install.log'

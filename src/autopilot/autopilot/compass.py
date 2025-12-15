@@ -11,7 +11,7 @@ class AzimuthCalculatorNode(Node):
         # Parametry
         self.declare_parameter('mag_topic', '/imu/mag')
         self.declare_parameter('publish_topic', '/current_azimuth')
-        self.declare_parameter('publish_frequency', 1.0)  # Hz
+        self.declare_parameter('publish_frequency', 10.0)  # Hz
         self.declare_parameter('imu_rotation', 0.0)
         self.declare_parameter('magnetic_declination', -4.0)  # degrees (4E lotnisko wroclaws)
         self.declare_parameter('magnetic_deviation', 0.0)  # degrees (4E lotnisko wroclaws)
