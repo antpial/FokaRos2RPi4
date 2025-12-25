@@ -38,3 +38,11 @@ The system follows a centralized data aggregation pattern:
 * **`autopilot`**: A fundamental **Heading-Hold Autopilot**. This controller uses feedback from the IMU/Magnetometer to stabilize the vessel's orientation. It automatically adjusts differential thrust to maintain a constant course.
 * **`system_launcher`**: Contains launch files to initialize the entire ROS 2 stack simultaneously.
 * **`msg_interfaces`**: Custom ROS 2 message and service definitions used across the system.
+
+## 🔗 Related Repositories
+This repository contains the **onboard hardware drivers** and low-level control. For high-level trajectory tracking simulations (LOS/ILOS) and the full text of the engineering thesis (available in both Polish and English), please visit the main project repository:
+
+👉 **[Autonomous USV Navigation & Gazebo Simulation](https://github.com/antpial/thesis_USV_gazebo)**
+
+---
+*Developed and Led by: Antoni Piałucha*
