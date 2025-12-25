@@ -1,48 +1,40 @@
 # FOKA USV - Onboard Control System (ROS 2 / RPi 4) 🚤
 
-This repository contains the source code for the control system running on the onboard computer (**Raspberry Pi 4B**) of the **FOKA** autonomous boat. This project was developed as part of my Engineering Thesis: *"Steering algorithms of floating robots"*.
+This repository contains the official source code for the control system running on the onboard computer (**Raspberry Pi 4B**) of the **FOKA** autonomous boat. This project was the core of my Engineering Thesis: *"Steering algorithms of floating robots"*.
 
-![FOKA USV](foka_boat.png)
+![FOKA USV](foka_boat.jpg)
 
-*Fig 1. The FOKA robot during field tests on the Oder River.*
+*Fig 1. The FOKA robot during autonomous navigation tests on the Oder River.*
 
 ## 🌟 About Project FOKA
 
-I am the **founder and project lead** of Project FOKA. This initiative was dedicated to developing an autonomous research platform of the USV (Unmanned Surface Vehicle) class.
+I am the **founder and project lead** of Project FOKA. This initiative was dedicated to developing an autonomous research platform of the USV (Unmanned Surface Vehicle) class. 
 
-Key project achievements:
-* **Full-scale Construction:** Developed a fully functional catamaran-type robot from scratch.
-* **Funding:** Successfully secured **EU grants** and **ministerial funding** for research and development.
-* **Innovation:** Implemented original control and navigation algorithms tailored for small-scale autonomous vessels.
+Through my leadership, the project successfully secured **European Union grants** and **Ministerial funding** for research and development. This support allowed us to build a fully functional catamaran-type robot from scratch and implement custom navigation and environmental monitoring systems.
 
 ## ⚙️ System Architecture (ROS 2)
 
-The system is built on the **ROS 2** framework and consists of several specialized packages (located in the `src/` directory) that handle hardware abstraction and low-level logic:
+The system is built on the **ROS 2** framework. It uses a modular architecture consisting of the following specialized packages:
 
-* **`gps_reader`**: Interfaces with the GPS module (UART/NMEA) to provide real-time global positioning.
-* **`imu_reader`**: Manages the Inertial Measurement Unit (LSM9DS1) via I2C to provide acceleration, angular velocity, and magnetic field data.
-* **`motor_controller`**: Controls the BLDC motors using PWM signals via ESC drivers.
-* **`radio_reader`**: Interfaces with the RC receiver for manual override and safety control.
-* **`aggregator`**: Collects and synchronizes data from all sensors for logging or further fusion.
-* **`telemetry_handler`**: Manages real-time data logging to `.csv` files (stored in the `data/` folder) and handles communication with the Ground Control Station (GCS).
+### 📡 Sensors & Hardware Drivers
+* **`sensor_gps`**: Interfaces with the GNSS module for global positioning.
+* **`sensor_imu_mag`**: Handles the 9-DoF Inertial Measurement Unit and Magnetometer.
+* **`thruster_driver`**: Low-level driver for the BLDC thrusters (PWM control via ESCs).
+* **`sensor_depth`**, **`sensor_thermometer`**, **`sensor_ph`**, **`sensor_turbidity`**, **`sensor_tds`**: Drivers for environmental and bathymetric sensors.
+* **`sensor_voltage`**, **`sensor_current`**: Power system monitoring.
 
-
-
-### Hardware Specifications
-* **Main Computer:** Raspberry Pi 4B (Running Ubuntu Server 22.04)
-* **Sensors:** GPS (Waveshare L76K), IMU (LSM9DS1 9-DoF)
-* **Propulsion:** 2x BLDC Underwater Thrusters in a differential drive configuration
-* **Power:** Custom Li-Ion Battery Pack (5S8P)
+### 🧠 Core Logic & Data Flow
+The system follows a centralized data aggregation pattern:
 
 
 
-## 🚀 Getting Started
+1.  **Sensors**: Individual `sensor_*` nodes publish raw measurement data.
+2.  **`aggregator`**: The central hub that subscribes to all sensor nodes, synchronizing the data streams into a unified state.
+3.  **Outbound Flow**: The Aggregator broadcasts the processed data to:
+    * **`telemetry`**: Sends real-time data to the Ground Control Station (GCS).
+    * **`saver`**: Records all synchronized data into `.csv` files for post-mission analysis.
 
-The system is designed to be self-contained. Startup scripts are located in the root directory:
-
-```bash
-# Grant execution permissions (one-time)
-chmod +x start_ros.sh
-
-# Launch the complete ROS 2 stack
-./start_ros.sh
+### 🚢 Autopilot & Control
+* **`autopilot`**: A fundamental **Heading-Hold Autopilot**. This controller uses feedback from the IMU/Magnetometer to stabilize the vessel's orientation. It automatically adjusts differential thrust to maintain a constant course.
+* **`system_launcher`**: Contains launch files to initialize the entire ROS 2 stack simultaneously.
+* **`msg_interfaces`**: Custom ROS 2 message and service definitions used across the system.
