@@ -2,7 +2,7 @@
 
 This repository contains the official source code for the control system running on the onboard computer (**Raspberry Pi 4B**) of the **FOKA** autonomous boat. This project was the core of my Engineering Thesis: *"Steering algorithms of floating robots"*.
 
-![FOKA USV](foka_boat.jpg)
+![FOKA USV](foka_boat.png)
 
 *Fig 1. The FOKA robot during autonomous navigation tests on the Oder River.*
 
