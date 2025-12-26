@@ -40,9 +40,14 @@ The system follows a centralized data aggregation pattern:
 * **`msg_interfaces`**: Custom ROS 2 message and service definitions used across the system.
 
 ## 🔗 Related Repositories
-This repository contains the **onboard hardware drivers** and low-level control. For high-level trajectory tracking simulations (LOS/ILOS) and the full text of the engineering thesis (available in both Polish and English), please visit the main project repository:
 
-👉 **[Autonomous USV Navigation & Gazebo Simulation](https://github.com/antpial/thesis_USV_gazebo)**
+This repository contains the **onboard hardware drivers** and low-level control. The complete **FOKA Project** ecosystem consists of three main parts:
+
+1. 👉 **[Autonomous USV Navigation & Gazebo Simulation](https://github.com/antpial/thesis_USV_gazebo)**
+   * High-level trajectory tracking simulations (LOS/ILOS) and the full text of the engineering thesis (PL/EN).
+
+2. 👉 **[Ground Control Station (GUI / Qt)](https://github.com/antpial/Sensor_Data_Visualisation)**
+   * Desktop application for real-time telemetry visualization, map tracking, and data analysis.
 
 ---
 *Developed and Led by: Antoni Piałucha*
